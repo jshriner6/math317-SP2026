@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Linear Algebra 1: Fall 2025</title>
+<title>Advanced Calculus of One Variable: Spring 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -100,21 +100,21 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.17';
+eBookConfig.runestone_version = '7.11.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.3ea59cc2563cc8e9.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.29d986501a531379.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/prefix-runtime.49eb29f446982553.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.8afc9108798b9170.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body class="pretext article ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
-<h1 class="heading"><a href="syllabus.html"><span class="title">Linear Algebra 1: Fall 2025</span> <span class="subtitle">Math 369</span></a></h1>
+<h1 class="heading"><a href="syllabus.html"><span class="title">Advanced Calculus of One Variable: Spring 2026</span> <span class="subtitle">Math 369</span></a></h1>
 <p class="byline"></p>
 </div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
@@ -140,6 +140,7 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\R}{\mathbb R}
 \newcommand{\bvec}{{\mathbf b}}
+\newcommand{\cvec}{{\mathbf c}}
 \newcommand{\evec}{{\mathbf e}}
 \newcommand{\fvec}{{\mathbf f}}
 \newcommand{\nvec}{{\mathbf n}}
@@ -206,9 +207,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="#sec-policies" class="internal"><span class="title">Course and University Policies</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="article" id="syllabus"><section class="frontmatter" id="frontmatter"><h2 class="heading">
-<span class="title">Linear Algebra 1: Fall 2025</span><span class="subtitle">Math 369</span>
+<span class="title">Advanced Calculus of One Variable: Spring 2026</span><span class="subtitle">Math 369</span>
 </h2>
-<div class="date">Last Updated: November 5, 2025</div>
+<div class="date">Last Updated: December 17, 2025</div>
 <div class="autopermalink" data-description="Front Matter"><a href="#frontmatter" title="Copy heading and permalink for Front Matter" aria-label="Copy heading and permalink for Front Matter">🔗</a></div></section><section class="section" id="sec-course-details"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Course Details</span>
 </h2>
@@ -641,7 +642,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="autopermalink" data-description="Paragraphs: Academic Integrity and the Honor Code"><a href="#sec-policies-10" title="Copy heading and permalink for Paragraphs: Academic Integrity and the Honor Code" aria-label="Copy heading and permalink for Paragraphs: Academic Integrity and the Honor Code">🔗</a></div></section><section class="paragraphs" id="sec-policies-11"><h3 class="heading"><span class="title">Syllabus Disclaimer.</span></h3>
 <div class="para" id="sec-policies-11-2">Please be aware that this syllabus is a guideline and is subject to change. The instructor reserves the right to make adjustments to the course schedule, assignments, and grading policies as deemed necessary. Students will be notified of any changes in a timely manner.<div class="autopermalink" data-description="Paragraph"><a href="#sec-policies-11-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Paragraphs: Syllabus Disclaimer"><a href="#sec-policies-11" title="Copy heading and permalink for Paragraphs: Syllabus Disclaimer" aria-label="Copy heading and permalink for Paragraphs: Syllabus Disclaimer">🔗</a></div></section><div class="autopermalink" data-description="Section: Course and University Policies"><a href="#sec-policies" title="Copy heading and permalink for Section: Course and University Policies" aria-label="Copy heading and permalink for Section: Course and University Policies">🔗</a></div></section><div class="autopermalink" data-description="Article: Linear Algebra 1: Fall 2025"><a href="#syllabus" title="Copy heading and permalink for Article: Linear Algebra 1: Fall 2025" aria-label="Copy heading and permalink for Article: Linear Algebra 1: Fall 2025">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Paragraphs: Syllabus Disclaimer"><a href="#sec-policies-11" title="Copy heading and permalink for Paragraphs: Syllabus Disclaimer" aria-label="Copy heading and permalink for Paragraphs: Syllabus Disclaimer">🔗</a></div></section><div class="autopermalink" data-description="Section: Course and University Policies"><a href="#sec-policies" title="Copy heading and permalink for Section: Course and University Policies" aria-label="Copy heading and permalink for Section: Course and University Policies">🔗</a></div></section><div class="autopermalink" data-description="Article: Advanced Calculus of One Variable: Spring 2026"><a href="#syllabus" title="Copy heading and permalink for Article: Advanced Calculus of One Variable: Spring 2026" aria-label="Copy heading and permalink for Article: Advanced Calculus of One Variable: Spring 2026">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
 </div></main>
