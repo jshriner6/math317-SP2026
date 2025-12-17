@@ -6,7 +6,7 @@
 
   <article xml:id="syllabus">
     <title>Advanced Calculus of One Variable: Spring 2026</title>
-    <subtitle>Math 369</subtitle>
+    <subtitle>Math 317</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
