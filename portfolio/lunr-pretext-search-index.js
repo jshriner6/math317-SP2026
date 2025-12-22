@@ -1,13 +1,13 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "labs",
+  "id": "labs-3",
   "level": "1",
-  "url": "labs.html",
-  "type": "Article",
+  "url": "labs-3.html",
+  "type": "Section",
   "number": "",
-  "title": "Portfolio",
-  "body": " Portfolio   You are encouraged to use a typesetting application (like LaTeX or PreTeXt) for your final versions of your portfolio. Below are templates that can be copied of the questions that should be included from each chapter.          "
+  "title": "Chapter 2: Preliminaries",
+  "body": " Chapter 2: Preliminaries   \\documentclass{article} \\usepackage{amssymb} \\begin{document} \\title{Math 317: Chapter 2 Portfolio} \\author{Your name here} \\maketitle \\begin{enumerate} \\item[Problem 2.1] Problem statement here. \\item[Solution 2.1] Solution here. Signify the end with a QED. \\hfill $\\blacksquare$ \\end{enumerate} \\end{document}   "
 }
 ]
 
