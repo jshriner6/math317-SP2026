@@ -6,14 +6,25 @@
     
     <introduction>
       <p>
-        You are encouraged to use a typesetting application (like LaTeX or PreTeXt) for your final versions of your 
-        portfolio. Below are templates that can be copied of the questions that should be included from each chapter.
+        Your final portfolio entries for each chapter should be a professional-looking product that demonstrates significant 
+        effort in arriving at solutions, and thoughtfulness in how that solution is organized and presented. While collaboration
+        with your peers is allowed and encouraged, your final write-up should be done individually without consulting others. Therefore, 
+        your final solutions should not closely resemble someone else's, or a solution that is on the internet or in a book. Refer to 
+        <url href="https://jshriner6.github.io/math317-SP2026/syllabus/syllabus.html#sec-policies-10">the syllabus statement on Academic Integrity and the Honor Code</url>
+        for how we will handle cases of academic dishonesty.
+      </p>
+      <p>
+        You are encouraged (but not required) to use a typesetting application (like <url href="https://www.overleaf.com/project"><latex/></url> or <url href="https://pretextbook.org/"><pretext/></url>) for your final versions of your 
+        portfolio. If you do not use one of these applications, please hand-write your submissions. Below we provide templates that can be copied of the questions that should be included from each chapter. 
+        Questions will be added to these templates
+        as we cover them in class, so the current version of a template may not contain every question that will be assigned for a given chapter.
+        We are providing templates in <latex/>, but please reach out if you plan to use <pretext/>; we are also happy to help support that as well.
       </p>
     </introduction>
 
-    <!--
-    <xi:include href="./labs/lab1.ptx" xpointer="lab-1" />
-    <xi:include href="./labs/lab2.ptx" xpointer="lab-2" /> 
+    
+    <xi:include href="./portfolio/ch-2.ptx"/>
+   <!-- <xi:include href="./labs/lab2.ptx" xpointer="lab-2" /> 
     <xi:include href="./labs/lab3.ptx" xpointer="lab-3" /> 
     <xi:include href="./labs/lab4.ptx" xpointer="lab-4" /> 
     <xi:include href="./labs/lab5.ptx" xpointer="lab-5" /> 

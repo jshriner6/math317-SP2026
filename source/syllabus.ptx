@@ -150,14 +150,72 @@
       <paragraphs xml:id="para-objectives">
         <title>Portfolio Entries</title>
         <p>
-          
+          Deep concepts take time and iterations to fully digest. Portfolio entries will be a vital component 
+          of how you learn course content, and mimic the process of how mathematicians solve problems. They will 
+          consist of your written solutions to
+          all of the text exercises from a single chapter.
+          Your final submissions should contain accurate proofs that are well-communicated <em>in your own style</em>. They are 
+          the end product of multiple iterations of thinking about the exercises, including at minimum
+          <ul>
+            <li>
+              <p>
+                your first attempt at solutions as preparation for class,
+              </p>
+            </li>
+            <li>
+              <p>
+                your second attempt in class discussing solutions with your peers, and
+              </p>
+            </li>
+            <li>
+              <p>
+                further attempts outside of class integrating what was discussed in class.
+              </p>
+            </li>
+          </ul> 
+        </p>
+        <p>
+          You will receive grades for both your class preparation and your final submissions.
         </p>
       </paragraphs>
 
       <paragraphs>
         <title>Quizzes</title>
         <p>
-          
+          We will have five bi-weekly in-class quizzes, occurring on Friday of most even weeks. The quizzes will contain 
+          questions that are similar to or related to the exercises that you have been working on for your portfolio entries.
+          The tentative dates for in-class quizzes are
+          <ol>
+            <li>
+              <p>
+                January 30
+              </p>
+            </li>
+            <li>
+              <p>
+                February 13
+              </p>
+            </li>
+
+            <li>
+              <p>
+                March 13
+              </p>
+            </li>
+            <li>
+              <p>
+                April 3
+              </p>
+            </li>
+            <li>
+              <p>
+                May 1
+              </p>
+            </li>
+          </ol>
+        </p>
+        <p>
+            <em>Your single lowest quiz grade will be dropped. In general, makeup quizzes cannot be accommodated, unless you have a University excused absence. We will also consider requests from student case management.</em>
         </p>
       </paragraphs>
 
@@ -167,7 +225,9 @@
               The first midterm is tentatively scheduled for Friday, February 27, in class. 
               The second midterm is tentatively scheduled for Friday, April 17, in class.
       </p>
-      
+      <p>
+            <em>In general, makeup midterms will be administered during the final exam, unless you have a University excused absence. We will also consider requests from student case management.</em>
+        </p>
     
       </paragraphs>
 
@@ -180,9 +240,6 @@
               The final will be cumulative, split into three sections corresponding to content covered on the midterms and content not covered on the midterms.
               We know that it can take time to learn new concepts. Therefore, if your percentage score in each of the first two sections exceeds your score on the corresponding midterm, we will replace that midterm score with your section score from the final. 
             </p>
-            <p>
-            <em>In general, makeup midterms will be administered during the final exam, unless you have a University excused absence. We will also consider requests from student case management.</em>
-            </p>
       </paragraphs>
 
       
@@ -190,7 +247,8 @@
         <title>Grades</title>
         <p> Overall grade percentages will be calculated based on the following weighting:
           <ul>
-              <li> Portfolio Entries (<m>25\%</m>) </li>
+              <li> Class preparation (<m>5\%</m>) </li>
+              <li> Portfolio Entries (<m>20\%</m>) </li>
               <li> Quizzes (<m>25\%</m>) </li>
               <li> Midterms (<m>30\%</m>) </li>
               <li> Final Exam (<m>20\%</m>) </li>
@@ -487,7 +545,7 @@
               However, there is a difference between learning together and using someone else's work. If you are wondering if 
               you crossed the line, ask yourself "Could I start over and redo this on my own, and would it basically look 
               like this?" If not, then you are submitting someone else's work (plagiarism). Copying solutions or statements 
-              from the internet wihthout citing your source also constitutes plagiarism. We take academic integrity seriously,
+              from the internet without citing your source also constitutes plagiarism. We take academic integrity seriously,
               so all cases of plagiarized work or cheating will receive a 0 and will be submitted to the SRC.
           </p>
           <p>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        
+        
+            <section xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Chapter 2: Preliminaries</title>
+                     <program language="latex" line-numbers="yes">
+                        <code>  
+\documentclass{article}
+\usepackage{amssymb}
+
+\begin{document}
+\title{Math 317: Chapter 2 Portfolio}
+\author{Your name here}
+\maketitle
+
+\begin{enumerate}
+    \item[Problem 2.1] Problem statement here.
+    \item[Solution 2.1] Solution here. Signify the end with a QED.
+        \hfill $\blacksquare$
+
+\end{enumerate}
+
+\end{document}
+                        </code>
+                    </program>
+            </section>
+    
+        
