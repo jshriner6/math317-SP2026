@@ -7,14 +7,15 @@
     <introduction>
       <p>
         The following are guided notes assigned before class and used during class meetings.  
-        You are encouraged to print or download them to a device.
+        You are encouraged to print or download them to a device. After material has been discussed in class, there 
+        may be highlights and/or hints posted here as well.
       </p>
     </introduction>
 
-    <!--
+    
 
     <xi:include href="./notes/intro.ptx" xpointer="intro" /> 
-    <xi:include href="./notes/intro-sols.ptx" xpointer="intro-sols" />
+   <!-- <xi:include href="./notes/intro-sols.ptx" xpointer="intro-sols" />
 
     <xi:include href="./notes/sec-1-1.ptx" xpointer="sec-1-1" /> 
     <xi:include href="./notes/sec-1-1-sols.ptx" xpointer="sec-1-1-sols" />
