@@ -6,8 +6,8 @@ var ptx_lunr_docs = [
   "url": "intro.html",
   "type": "Worksheet",
   "number": "",
-  "title": "Introduction and Setting the Stage",
-  "body": " Introduction and Setting the Stage    Why?   Linear algebra provides the language and tools for:     How?  Our approach to learning linear algebra will include the following aspects:    Setting the Stage   On the grid below, you may only move vertically\/horizontally, and you must move exactly 2 spaces at a time. In groups, determine if it is possible to begin on the \"start\" square and end on the \"finish\" square.   Grid with 5 rows and 4 columns. The upper left square is labeled with \"Start\" and and bottom right square is labeled with \"Finish\".        Two more grids   Repeate the previous task for the two grids below    Grid with 5 rows and 4 columns. The upper left square is labeled with \"Start\" and and the square in row 3 column 4 is labeled with \"Finish\".    Grid with 5 rows and 5 columns. The upper left square is labeled with \"Start\" and and bottom right square is labeled with \"Finish\".       "
+  "title": "Introduction",
+  "body": " Introduction   Why?   We'll be motivated by content and communication:     How?   Our approach to learning real analysis will mimic how mathematicians discover new mathematics:    Attempt 1 (Individual)   Prove that the sum of two odd integers is even.     Attempt 2 (Small Group)   Prove that the sum of two odd integers is even.     Attempt 3 (Large Group)   Prove that the sum of two odd integers is even.      Summary: Our Process   The previous exercise illustrates our process for working through most course content:    "
 },
 {
   "id": "xr-why",
@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "Why?",
-  "body": " Why?   Linear algebra provides the language and tools for:   "
+  "body": " Why?   We'll be motivated by content and communication:   "
 },
 {
   "id": "xr-how",
@@ -25,25 +25,97 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "How?",
-  "body": " How?  Our approach to learning linear algebra will include the following aspects:  "
+  "body": " How?   Our approach to learning real analysis will mimic how mathematicians discover new mathematics:    Attempt 1 (Individual)   Prove that the sum of two odd integers is even.     Attempt 2 (Small Group)   Prove that the sum of two odd integers is even.     Attempt 3 (Large Group)   Prove that the sum of two odd integers is even.    "
 },
 {
-  "id": "xr-set-stage",
+  "id": "intro-4",
   "level": "2",
-  "url": "intro.html#xr-set-stage",
+  "url": "intro.html#intro-4",
   "type": "Worksheet Exercise",
   "number": "3",
-  "title": "Setting the Stage.",
-  "body": " Setting the Stage   On the grid below, you may only move vertically\/horizontally, and you must move exactly 2 spaces at a time. In groups, determine if it is possible to begin on the \"start\" square and end on the \"finish\" square.   Grid with 5 rows and 4 columns. The upper left square is labeled with \"Start\" and and bottom right square is labeled with \"Finish\".    "
+  "title": "Summary: Our Process.",
+  "body": " Summary: Our Process   The previous exercise illustrates our process for working through most course content:   "
 },
 {
-  "id": "xr-set-stage2",
+  "id": "proof",
+  "level": "1",
+  "url": "proof.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Elements of Style for Proof",
+  "body": " Elements of Style for Proof   Motivation: Style for Proof        There are proofs of several statements below that assume the following definitions:             A number is even if there exists an integer such that .    A number is odd if there exists an integer such that .     For each proof, identify (with explanation)   the good (is anything done well?),    the bad (is anything mathematically incorrect?),    the ugly (is anything difficult to read\/follow?).             Note       Since the last equality is known to be true, the first equality must also be true.         The sum of two even integers is even.    Let , .   , which is even.         Let . If , then .    Let and . Then clearly .         The square of an odd integer is also odd.    Let be an odd integer. Then for some integer , , which is odd.         Every constant function is a continuous function.    Let be the constant function . Then is a horizontal line at , which can be sketched without picking up your pencil. Therefore, they are continuous.        Summary: Style for Proofs       "
+},
+{
+  "id": "proof-2",
   "level": "2",
-  "url": "intro.html#xr-set-stage2",
+  "url": "proof.html#proof-2",
   "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Style for Proof.",
+  "body": " Motivation: Style for Proof      "
+},
+{
+  "id": "proof-3-2",
+  "level": "2",
+  "url": "proof.html#proof-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "good bad ugly "
+},
+{
+  "id": "proof-4",
+  "level": "2",
+  "url": "proof.html#proof-4",
+  "type": "Claim",
+  "number": "1",
+  "title": "",
+  "body": "       Note       Since the last equality is known to be true, the first equality must also be true.      "
+},
+{
+  "id": "proof-5",
+  "level": "2",
+  "url": "proof.html#proof-5",
+  "type": "Claim",
+  "number": "2",
+  "title": "",
+  "body": "  The sum of two even integers is even.    Let , .   , which is even.      "
+},
+{
+  "id": "proof-6",
+  "level": "2",
+  "url": "proof.html#proof-6",
+  "type": "Claim",
+  "number": "3",
+  "title": "",
+  "body": "  Let . If , then .    Let and . Then clearly .      "
+},
+{
+  "id": "proof-7",
+  "level": "2",
+  "url": "proof.html#proof-7",
+  "type": "Claim",
   "number": "4",
-  "title": "Two more grids.",
-  "body": " Two more grids   Repeate the previous task for the two grids below    Grid with 5 rows and 4 columns. The upper left square is labeled with \"Start\" and and the square in row 3 column 4 is labeled with \"Finish\".    Grid with 5 rows and 5 columns. The upper left square is labeled with \"Start\" and and bottom right square is labeled with \"Finish\".     "
+  "title": "",
+  "body": "  The square of an odd integer is also odd.    Let be an odd integer. Then for some integer , , which is odd.      "
+},
+{
+  "id": "proof-8",
+  "level": "2",
+  "url": "proof.html#proof-8",
+  "type": "Claim",
+  "number": "5",
+  "title": "",
+  "body": "  Every constant function is a continuous function.    Let be the constant function . Then is a horizontal line at , which can be sketched without picking up your pencil. Therefore, they are continuous.      "
+},
+{
+  "id": "proof-9",
+  "level": "2",
+  "url": "proof.html#proof-9",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Summary: Style for Proofs.",
+  "body": " Summary: Style for Proofs      "
 }
 ]
 
