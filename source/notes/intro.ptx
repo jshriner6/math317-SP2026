@@ -3,67 +3,68 @@
 <pretext>
     <article xml:id="notes">
         <worksheet margin="1in" bottom="1.25cm" xml:id="intro">
-        <title>Introduction and Setting the Stage</title>
-            <page>
+        <title>Introduction</title>
             
-                <exercise workspace="0.75in" xml:id="xr-why">
+                <exercise workspace="4in" xml:id="xr-why">
                 <title>Why?</title>
                     <statement>
                         <p>
-                             Linear algebra provides the language and tools for:
+                            We'll be motivated by content and communication:
                         </p>
                     </statement>
                 </exercise>
 
-                <exercise workspace="0.75in" xml:id="xr-how">
+                <exercise workspace="4in" xml:id="xr-how">
                 <title>How?</title>
+                    <introduction>
+                    
                     <p>
-                        Our approach to learning linear algebra will include the following aspects:
+                        Our approach to learning real analysis will mimic how mathematicians discover new mathematics:
                     </p>
+                    </introduction>
+
+                    <task workspace="2in">
+                        <title>Attempt 1 (Individual)</title>
+                        
+                        <statement>
+                            <p>
+                                Prove that the sum of two odd integers is even.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <title>Attempt 2 (Small Group)</title>
+                        
+                        <statement>
+                            <p>
+                                Prove that the sum of two odd integers is even.
+                            </p>
+                        </statement>
+                    </task>
+                    <task workspace="2in">
+                        <title>Attempt 3 (Large Group)</title>
+                        
+                        <statement>
+                            <p>
+                                Prove that the sum of two odd integers is even.
+                            </p>
+                        </statement>
+                    </task>
+                </exercise>
+
+                <exercise workspace="3in">
+                    <title>Summary: Our Process</title>
+                    
+                    <statement>
+                        <p>
+                            The previous exercise illustrates our process for working through most course content:
+                        </p>
+                    </statement>
+                    
                 </exercise>
         
 
-                <exercise workspace="0.0in" xml:id="xr-set-stage">
-                <title>Setting the Stage</title>
-                    <statement>
-                        <p>
-                        On the grid below, you may only move vertically/horizontally, and you must move exactly 2 spaces at a time.
-                        In groups, determine if it is possible to begin on the "start" square and end on the "finish" square.
-                        </p>
-                        <image source="grid-1.png" width="50%">
-                            <shortdescription>Grid with 5 rows and 4 columns. The upper left square is labeled with "Start" and
-                                and bottom right square is labeled with "Finish".
-                            </shortdescription>
-                        </image>
-                    </statement>
-                    
-                </exercise>
-            </page>
-
-            <page>
-                <exercise workspace="5in" xml:id="xr-set-stage2">
-                <title>Two more grids</title>
-                    <statement>
-                        <p>
-                        Repeate the previous task for the two grids below
-                        </p>
-                        <sidebyside>
-                            <image source="grid-2.png">
-                                <shortdescription>Grid with 5 rows and 4 columns. The upper left square is labeled with "Start" and
-                                    and the square in row 3 column 4 is labeled with "Finish".
-                                </shortdescription>
-                            </image>
-                            <image source="grid-3.png">
-                                <shortdescription>Grid with 5 rows and 5 columns. The upper left square is labeled with "Start" and
-                                    and bottom right square is labeled with "Finish".
-                                </shortdescription>
-                            </image>
-                        </sidebyside>
-                    </statement>
-
-                    
-                </exercise>
-            </page>
+                
 
         </worksheet>
     </article>

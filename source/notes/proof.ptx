@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet margin="1in" bottom="1.25cm" xml:id="proof">
+        <title>Elements of Style for Proof</title>
+        <exercise workspace="1in" >
+                <title>Motivation: Style for Proof</title>
+                    <statement>
+                        <p>
+                            
+                        </p>
+                    </statement>
+        </exercise>
+        <introduction>
+            <p>
+                There are proofs of several statements below that assume the following definitions: 
+                <ol>
+                    <li>
+                        <p>
+                            <m>\tan(x) = \frac{\sin(x)}{\cos(x)}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>\sec(x) = \frac{1}{\cos(x)}</m>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A number <m>n</m> is even if there exists an integer <m>k</m> such that <m>n=2k</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            A number <m>n</m> is odd if there exists an integer <m>k</m> such that <m>n=2k + 1</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                For each proof, identify (with explanation)
+                <ol>
+                    <li>
+                        <p>
+                            the <term>good</term> (is anything done well?),
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            the <term>bad</term> (is anything mathematically incorrect?),
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            the <term>ugly</term> (is anything difficult to read/follow?).
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </introduction>
+        <claim>
+            <statement>
+                   <p>
+                        <m>\tan^2(x) = \sec^2(x) - 1</m>
+                    </p>         
+            </statement>
+            <proof>
+                    <p>
+                      Note
+                        <md>
+                            \tan^2(x) = \sec^2(x) - 1
+                        </md>
+                        <md>
+                            \implies \frac{\sin^2(x)}{\cos^2(x)} = \frac{1}{\cos^2(x)}-1 
+                        </md>
+                        <md>
+                            \implies \frac{\sin^2(x)}{\cos^2(x)} = \frac{1- \cos^2(x)}{\cos^2(x)}
+                        </md>
+                        <md>
+                            \implies \sin^2(x) = 1- \cos^2(x)
+                        </md>
+                        <md>
+                            \implies \sin^2(x)+ \cos^2(x) = 1
+                        </md>
+                        
+                        
+                    </p>
+                    <p>
+                        Since the last equality is known to be true, the first equality must also be true. 
+                    
+                    </p> 
+                    <p>
+                       <m> \hspace{15cm} \blacksquare</m>
+                    </p> 
+                    
+            </proof>
+        </claim>
+            
+        <claim>
+            <statement>
+                   <p>
+                        The sum of two even integers is even.
+                    </p>         
+            </statement>
+            <proof>
+                    <p>
+                      Let <m>a=2m</m>, <m>b=2n</m>.
+                    </p> 
+                    <p>
+                        <m>a+b = 2m + 2n \implies 2(m+n)</m>, which is even.
+                    </p>
+                    <p>
+                       <m> \hspace{15cm} \blacksquare</m>
+                    </p> 
+                    
+            </proof>
+        </claim>
+
+        <claim>
+            <statement>
+                   <p>
+                        Let <m>x \in \mathbb{R}</m>. If <m>x^2=0</m>, then <m>x=0</m>.
+                    </p>         
+            </statement>
+            <proof>
+                    <p>
+                      Let <m>x \in \mathbb{R}</m> and <m>x^2 =0</m>. Then clearly <m>x=0</m>.
+                    </p> 
+                    <p>
+                       <m> \hspace{15cm} \blacksquare</m>
+                    </p> 
+                    
+            </proof>
+        </claim>
+
+        <claim>
+            <statement>
+                   <p>
+                        The square of an odd integer is also odd.
+                    </p>         
+            </statement>
+            <proof>
+                    <p>
+                      Let <m>n</m> be an odd integer. Then for some integer <m>k</m>,
+                      <md>
+                        n=2k+1 = 4k^2 + 4k + 1
+                      </md>,
+                      which is odd.
+                      
+                    </p> 
+                    <p>
+                       <m> \hspace{15cm} \blacksquare</m>
+                    </p> 
+                    
+            </proof>
+        </claim>
+
+        <claim>
+            <statement>
+                   <p>
+                        Every constant function is a continuous function.
+                    </p>         
+            </statement>
+            <proof>
+                    <p>
+                      Let <m>f</m> be the constant function <m>f(x) = 5</m>. Then <m>f</m> is a horizontal line at 
+                      <m>5</m>, which can be sketched without picking up your pencil. Therefore, they are continuous.
+                    </p> 
+                    <p>
+                       <m> \hspace{15cm} \blacksquare</m>
+                    </p> 
+                    
+            </proof>
+        </claim>
+
+
+        <exercise workspace="3in">
+            <title>Summary: Style for Proofs</title>
+            
+            <statement>
+                <p>
+                    
+                </p>
+            </statement>
+            
+        </exercise>
+                
+
+                
+
+        </worksheet>
+    </article>
+</pretext>
