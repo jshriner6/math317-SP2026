@@ -1,10 +1,9 @@
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-2-1-1">
-        <title><m>\S 2.1</m>: Vectors and Linear Combinations</title>
-            <page>
-                <exercise workspace=".25in">
-                    <title>Motivation: Vectors</title>
+        <title><m>\S 2.1</m>: Sets (Part 1)</title>
+                <exercise workspace="1in">
+                    <title>Motivation: Sets</title>
                     <statement>
                         <p>
                             
@@ -13,255 +12,80 @@
                     
                 </exercise>
 
-                <exercise>
-                    <title>Preview Activity: Vectors</title>
-                    <introduction>
-        <p>
-	  Suppose that
-	  <me>
-	    \vvec = \left[\begin{array}{r} 3 \\ 1 \end{array}
-	    \right],
-	    \wvec = \left[\begin{array}{r} -1 \\ 2 \end{array}
-	    \right].
-	  </me>
-        </p>
-      </introduction>
-
-      <task
-            attachment="yes">
-        <statement>
-	  <p> Find expressions for the vectors
-	  <me>
-	    \begin{array}{cccc}
-	    \vvec, \amp 2\vvec, \amp -\vvec, \amp -2\vvec, \\
-	    \wvec, \amp 2\wvec, \amp -\wvec, \amp -2\wvec\text{.} \\
-	    \end{array}
-	  </me>
-	  and sketch them using the coordinate system below.
-	  <figure xml:id="fig-activity-2-1-1">
-	    <caption>
-	      Sketch the vectors on this grid.
-	    </caption>
-	    <sidebyside width="50%">
-	      <image source="images/empty-6" width="60%">
-            <shortdescription>An empty coordinate system.</shortdescription>
-          </image>
-	    </sidebyside>
-	  </figure>
-	  </p>
-        </statement>
-    
-      </task>
-
-      <task >
-        <statement>
-          <p> What geometric effect does scalar multiplication have
-	  on a vector?  Also, describe the effect that
-	  multiplying by a negative scalar has.
-	  </p>
-        </statement>
-        
-      </task>
-      </exercise>
-    </page>
-
-    <page>
-
-      <task 
-            attachment="yes">
-        <statement>
-	  <p> Sketch the vectors
-	  <m>
-	    \vvec, \wvec, \vvec + \wvec
-	  </m>
-	  using the coordinate system below.
-	  <figure xml:id="fig-activity-2-1-2">
-	    <caption>
-	      Sketch the vectors on this grid.
-	    </caption>
-	    <sidebyside width="50%">
-	      <image source="images/empty-6" width="60%">
-            <shortdescription>An empty coordinate system.</shortdescription>
-          </image>
-	    </sidebyside>
-	  </figure>
-	  </p>
-          
-        </statement>
-        
-      </task>
-
-      <task 
-            attachment="yes">
-        <statement>
-          <p> Consider vectors that have the form <m>\vvec +
-	  c\wvec</m> where <m>c</m> is any scalar.  Sketch a few
-	  of these vectors when, say, <m>c = -2, -1, 0, 1, </m> and
-	  <m>2</m>.  Give a geometric description of this set of
-	  vectors.
-	  <figure xml:id="fig-activity-2-1-3">
-	    <caption>
-	      Sketch the vectors on this grid.
-	    </caption>
-	    <sidebyside width="50%">
-	      <image source="images/empty-6" width="60%">
-            <shortdescription>An empty coordinate system.</shortdescription>
-          </image>
-	    </sidebyside>
-	  </figure>
-	  </p>
-          
-        </statement>
-        
-      </task>
-    </page>
-    <page>
-
-      <task >
-        <statement>
-	  <p> If <m>c</m> and <m>d</m> are two scalars, then the
-	  vector
-	  <me> c \vvec + d \wvec </me>
-	  is called a <em>linear combination</em> of the vectors
-	  <m>\vvec</m>
-	  and <m>\wvec</m>.  Find the vector that is the linear
-	  combination when <m>c = -2</m> and <m>d = 1</m>.
-	  </p>
-        </statement>
-        
-      </task>
-
-      <task >
-        <statement>
-	  <p> Can the vector <m>\left[\begin{array}{r} -31 \\ 37
-	  \end{array}\right]</m> be represented as a linear combination
-	  of <m>\vvec</m> and <m>\wvec</m>?  Asked differently,
-	  can we find scalars <m>c</m> and <m>d</m>
-	  such that <m>c\vvec+d\wvec = \twovec{-31}{37}</m>.
-	</p>
-        </statement>
-       
-      </task>
-
-	  <exercise workspace="1in">
-				<title>Definition: Linear Combination</title>
-				<statement>
-					<p>
-						The <term>linear combination</term> of the vectors <m>\vvec_1, \vvec_2, \dots, \vvec_n</m> with
-						scalars <m>c_1, c_2, \dots, c_n</m> is the vector
-
-					</p>
-				</statement>
+                <exercise workspace="6in">
+                    <title>Definitions</title>
+                   
 				
-				
-			</exercise>
-
-            </page>
+				</exercise>
 
 
-        <page>
             
 
-			<exercise>
-				<title>Activity: Connection Linear Combinations to Linear Systems</title>
-				<statement>
-				<p> In this activity, we will look at linear combinations
-					of a pair of vectors,
-					<m>
-					\vvec = \left[\begin{array}{r} 2 \\ 1 \end{array}\right]
-					</m>
-					and
-					<m>
-					\wvec = \left[\begin{array}{r} 1 \\ 2 \end{array}\right]
-					</m>.
-					</p>
+			<exercise workspace="8in">
+				<title>Notation For Sets</title>
+				
+			</exercise>
 
+            <exercise>
+                <title>Problems</title>
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            Let <m>A</m> be a set. Prove that
+                            <ol>
+                                <li>
+                                    <p>
+                                        <m>A \subseteq A</m>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <m>\emptyset \subseteq A</m>
+                                    </p>
+                                </li>
+                            </ol>
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            Prove that if <m>A, B, </m> and <m>C</m> are sets such that <m>A \subseteq B</m> and
+                            <m>B \subseteq C</m>, then <m>A \subseteq C</m>.
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            Prove that if <m>A</m> and <m>B</m> are sets with <m>A \subseteq B</m>, then 
+                            <m>B^c \subseteq A^c</m>.
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            Prove that if <m>A</m> and <m>B</m> are sets, then <m>A \setminus B = A \cap B^c</m>.
+                        </p>
+                    </statement>
+                </task>
+
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                            Give an example where <m>A \neq B</m>, but <m>A \setminus B = \emptyset</m>.
+                        </p>
+                    </statement>
+                </task>
+                
+            </exercise>
+  
      
-	      <p>
-		There is an <url href="https://understandinglinearalgebra.org/sec-vectors-lin-combs.html#sec-vectors-lin-combs-4-4">interactive diagram in our textbook</url>
-		that accompanies this activity.
-	      </p>
-	  <instructions>
-	    <p>
-	      The interactive provided should be used to construct linear
-	      combinations whose weights <m>c</m> and <m>d</m> may be
-	      varied using the sliders at the top.  The vectors
-	      <m>\vvec</m> and <m>\wvec</m> are outlined while
-	      the linear combination
-	      <me>
-		c\vvec + d\wvec
-	      </me>
-	      is shaded red.
-	    </p>
-	</instructions>
-
-      <ol marker="a.">
-	<li> <p> The weight <m>d</m> is initially set to 0.  Explain
-	what happens as you vary <m>c</m> while keeping <m>d=0</m>.
-	How is 
-	this related to scalar multiplication? </p></li>
-
-	<li> <p> What is the linear combination of <m>\vvec</m> and
-	<m>\wvec</m> when <m>c = 1</m> and <m>d=-2</m>?  You may find
-	this result using the diagram, but you should also verify it
-	by computing the linear combination. </p></li>
-
-	<li> <p> Describe the vectors that arise when the
-	weight <m>d</m> is set to 1 and <m>c</m> is
-	varied.  How is this related to our investigations in the
-	preview activity? </p></li>
-
-	<li> <p> Can the vector
-	<m>\left[\begin{array}{r} 0 \\ 0 \end{array} \right]</m>
-	be expressed as a linear combination
-	of <m>\vvec</m> and <m>\wvec</m>?  If so, what are the weights
-	<m>c</m> and <m>d</m>? </p></li>
-
-	<li> <p> Can the vector
-	<m>\left[\begin{array}{r} 3 \\ 0 \end{array} \right]</m>
-	be expressed as a linear combination
-	of <m>\vvec</m> and <m>\wvec</m>?  If so, what are the weights
-	<m>c</m> and <m>d</m>? </p></li>
-
-	<li> <p> Verify the result from the previous part by
-	algebraically finding the weights <m>c</m> and <m>d</m> that
-	form the linear combination 
-	<m>\left[\begin{array}{r} 3 \\ 0 \end{array} \right]</m>.
-	</p></li>
-
-	<li> <p> Can the vector
-	<m>\left[\begin{array}{r} 1.3 \\ -1.7 \end{array} \right]</m>
-	be expressed as a linear combination of <m>\vvec</m> and
-	<m>\wvec</m>?  What about the vector
-	<m>\left[\begin{array}{r} 15.2 \\ 7.1 \end{array} \right]</m>?
-	</p></li>
-
-	<li> <p> Are there any two-dimensional vectors that cannot be
-	expressed as linear combinations of <m>\vvec</m> and
-	<m>\wvec</m>? </p></li>
-      </ol>
-      </statement>
-
-      
-
-      
-				
-			</exercise>
-        </page>
-
-		<page>
-			<exercise workspace="5in">
-				<title>Exercise: Linear Combinations and Linear Systems</title>
-				<statement>
-					<p>
-						Is <m>\bvec = \twovec{-11}{-18}</m> a linear combination of <m>\vvec = \twovec{3}{-1}</m>
-						and <m>\wvec = \twovec{4}{3}</m>?
-					</p>
-				</statement>
-				
-				
-			</exercise>
-		</page>
+		
         </worksheet>
     </article>
 </pretext>
