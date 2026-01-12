@@ -116,6 +116,51 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "Summary: Style for Proofs.",
   "body": " Summary: Style for Proofs      "
+},
+{
+  "id": "sec-2-1-1",
+  "level": "1",
+  "url": "sec-2-1-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 2.1\\text{:}\\)<\/span> Sets (Part 1)",
+  "body": " : Sets (Part 1)   Motivation: Sets        Definitions    Notation For Sets    Problems    Let be a set. Prove that                  Prove that if and are sets such that and , then .      Prove that if and are sets with , then .      Prove that if and are sets, then .      Give an example where , but .     "
+},
+{
+  "id": "sec-2-1-1-2",
+  "level": "2",
+  "url": "sec-2-1-1.html#sec-2-1-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Sets.",
+  "body": " Motivation: Sets      "
+},
+{
+  "id": "sec-2-1-1-3",
+  "level": "2",
+  "url": "sec-2-1-1.html#sec-2-1-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definitions.",
+  "body": " Definitions  "
+},
+{
+  "id": "sec-2-1-1-4",
+  "level": "2",
+  "url": "sec-2-1-1.html#sec-2-1-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Notation For Sets.",
+  "body": " Notation For Sets  "
+},
+{
+  "id": "sec-2-1-1-5",
+  "level": "2",
+  "url": "sec-2-1-1.html#sec-2-1-1-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problems.",
+  "body": " Problems    Let be a set. Prove that                  Prove that if and are sets such that and , then .      Prove that if and are sets with , then .      Prove that if and are sets, then .      Give an example where , but .    "
 }
 ]
 
