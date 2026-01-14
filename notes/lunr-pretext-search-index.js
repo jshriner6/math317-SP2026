@@ -161,6 +161,51 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "Problems.",
   "body": " Problems    Let be a set. Prove that                  Prove that if and are sets such that and , then .      Prove that if and are sets with , then .      Prove that if and are sets, then .      Give an example where , but .    "
+},
+{
+  "id": "sec-2-1-2",
+  "level": "1",
+  "url": "sec-2-1-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 2.1\\text{:}\\)<\/span> Sets (Part 2)",
+  "body": " : Sets (Part 2)   Definitions: Index Sets   An index set is a set used to     Problems    Let be the collection discussed previously. Find                  For each , let . Find                  Draw a Venn diagram of a collection of three sets that are pairwise disjoint.      Provide an example of a collection of three sets that are not pairwise disjoint, but .      Find a collection of nonempty sets indexed by such that and .      Find a collection of nonempty sets indexed by such that and .      Let be a collection of sets. Prove one of the following.                  Let be a collection of sets and let be any set. Prove one of the following.                  Definition: Cartesian Product   If and are sets, the Cartesian product of and is the set     Problems    If is a set, what is equivalent to?      Given sets and , when does ?     "
+},
+{
+  "id": "sec-2-1-2-2",
+  "level": "2",
+  "url": "sec-2-1-2.html#sec-2-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions: Index Sets.",
+  "body": " Definitions: Index Sets   An index set is a set used to   "
+},
+{
+  "id": "sec-2-1-2-3",
+  "level": "2",
+  "url": "sec-2-1-2.html#sec-2-1-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Let be the collection discussed previously. Find                  For each , let . Find                  Draw a Venn diagram of a collection of three sets that are pairwise disjoint.      Provide an example of a collection of three sets that are not pairwise disjoint, but .      Find a collection of nonempty sets indexed by such that and .      Find a collection of nonempty sets indexed by such that and .      Let be a collection of sets. Prove one of the following.                  Let be a collection of sets and let be any set. Prove one of the following.                "
+},
+{
+  "id": "sec-2-1-2-4",
+  "level": "2",
+  "url": "sec-2-1-2.html#sec-2-1-2-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definition: Cartesian Product.",
+  "body": " Definition: Cartesian Product   If and are sets, the Cartesian product of and is the set   "
+},
+{
+  "id": "sec-2-1-2-5",
+  "level": "2",
+  "url": "sec-2-1-2.html#sec-2-1-2-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problems.",
+  "body": " Problems    If is a set, what is equivalent to?      Given sets and , when does ?    "
 }
 ]
 
