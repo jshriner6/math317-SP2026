@@ -1,182 +1,179 @@
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-2-1-2">
-        <title><m>\S 2.1</m>: Linear Combinations and Linear Systems</title>
-            <page>
-                <exercise workspace="2in">
-                    <title>Motivation: Linear Combinations and Linear Systems</title>
+        <title><m>\S 2.1</m>: Sets (Part 2)</title>
+            
+                <exercise workspace="8in">
+                    <title>Definitions: Index Sets</title>
                     <statement>
                         <p>
-                            
-                        </p>
+							An <term>index set</term> is a set used to
+						</p>
                     </statement>
                     
                 </exercise>
 
-                <exercise workspace="3in">
-                    <title>Example: Notation</title>
-                    <statement>
-                        <p>
-                            Last time we found that <m>\bvec = \twovec{-11}{-18}</m> is a linear combination of <m>\vvec = \twovec{3}{-1}</m>
-						and <m>\wvec = \twovec{4}{3}</m> because
-                        </p>
-                    </statement>
+                <exercise>
+                    <title>Problems</title>
+					
+					<task workspace="2in">
+						<statement>
+							<p>
+								Let <m>\{A_{n}\}_{n=1}^{26}</m> be the collection discussed previously.
+								Find
+								<ol>
+								<li>
+									<p>
+									<m>\displaystyle \bigcup_{n=1}^{26}A_{n}</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>\displaystyle \bigcap_{n=1}^{26}A_{n}</m>
+									</p>
+								</li>
+								</ol>
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								For each <m>r \in \mathbb{Q}</m>, let <m>N_{r} = \mathbb{R}\setminus \{r\}</m>.
+								Find
+								<ol>
+								<li>
+									<p>
+									<m>\displaystyle \bigcup_{r \in \mathbb{Q}}N_{r}</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>\displaystyle \bigcap_{r \in \mathbb{Q}}N_{r}</m>
+									</p>
+								</li>
+								</ol>
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Draw a Venn diagram of a collection of three sets that are pairwise disjoint.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Provide an example of a collection of three sets <m>\{A_{1}, A_{2}, A_{3}\}</m> that are <em>not</em> pairwise disjoint, but <m>\displaystyle \bigcap_{n=1}^{3} A_{n} = \emptyset</m>.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Find a collection of nonempty sets <m>S_{i} \subseteq \mathbb{N}</m> indexed by <m>i \in \mathbb{N}</m> such that <m>S_{i+1}\subsetneq S_{i}</m> and <m>\displaystyle \bigcap_{i=1}^{\infty}S_{i} = \emptyset</m>.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Find a collection of nonempty sets <m>S_{i} \subseteq \mathbb{N}</m> indexed by <m>i \in \mathbb{N}</m> such that <m>S_{i}\subsetneq S_{i+1}</m> and <m>\displaystyle \bigcup_{i=1}^{\infty}S_{i} \neq \mathbb{N}</m>.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="4in">
+						<statement>
+							<p>
+								Let <m>\{A_{\alpha}\}_{\alpha \in \Delta}</m> be a collection of sets.
+								Prove <em>one</em> of the following.
+								<ol>
+								<li>
+									<p>
+									<m>\left[ \displaystyle \bigcup_{\alpha \in \Delta}A_{\alpha}\right]^{C} = \displaystyle \bigcap_{\alpha \in \Delta}A_{\alpha}^{C}</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>\left[ \displaystyle \bigcap_{\alpha \in \Delta}A_{\alpha}\right]^{C} = \displaystyle \bigcup_{\alpha \in \Delta}A_{\alpha}^{C}</m>
+									</p>
+								</li>
+								</ol>
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="4in">
+						<statement>
+							<p>
+								Let <m>\{A_{\alpha}\}_{\alpha \in \Delta}</m> be a collection of sets and let <m>B</m> be any set.
+								Prove <em>one</em> of the following.
+								<ol>
+								<li>
+									<p>
+									<m>B \cup \left[ \displaystyle \bigcap_{\alpha \in \Delta}A_{\alpha}\right] = \displaystyle \bigcap_{\alpha \in \Delta}(B\cup A_{\alpha})</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>B \cap \left[ \displaystyle \bigcup_{\alpha \in \Delta}A_{\alpha}\right] = \displaystyle \bigcup_{\alpha \in \Delta}(B \cap A_{\alpha})</m>
+									</p>
+								</li>
+								</ol>
+							</p>
+						</statement>
+					</task>
+                
                     
                 </exercise>
-
-                <exercise workspace="3in">
-                    <title>Fact: Linear Combinations and Linear Systems</title>
-                    <statement>
-                        <p>
-                        
-                        </p>
-                    </statement>
-                    
-                </exercise>
-            </page>
-
-            <page>
+   
+        
                 <exercise workspace="1in">
-                    <title>Notes: Vectors and Matrices in Sage</title>
+                    <title>Definition: Cartesian Product</title>
                     <statement>
                         <p>
-                            
+                            If <m>A</m> and <m>B</m> are sets, the <term>Cartesian product</term> of <m>A</m> and <m>B</m>
+							is the set
                         </p>
                     </statement>
                     
                     
                 </exercise>
-            </page>
-            <page>
+           
         
 
                 <exercise>
-                    <title>Activity: Linear Combinations and Linear Systems</title>
-            <statement>
-                <p>
-                    Sage cells are provided in the text to help with computations to answer the following questions.
-                </p>
-      <p>
-      <ol marker="a.">
-	<li><p> Given the vectors
-	<me>
-	  \vvec_1 = \left[\begin{array}{r} 4 \\ 0 \\ 2 \\ 1
-	  \end{array} \right], 
-	  \vvec_2 = \left[\begin{array}{r} 1 \\ -3 \\ 3 \\ 1
-	  \end{array} \right], 
-	  \vvec_3 = \left[\begin{array}{r} -2 \\ 1 \\ 1 \\ 0
-	  \end{array} \right], 
-	  \bvec   = \left[\begin{array}{r} 0 \\ 1 \\ 2 \\ -2
-	  \end{array} \right]
-	</me>,
-	can <m>\bvec</m> be expressed as a
-	linear combination of <m>\vvec_1</m>, <m>\vvec_2</m>, and
-	<m>\vvec_3</m>?  Rephrase this question by writing a linear
-	system for the weights 
-	<m>c_1</m>, <m>c_2</m>, and <m>c_3</m> and use Sage
-	cells to answer this question.
-	</p></li>
-	
-	<li><p> Consider the following linear system.
-	<me>
-	  \begin{alignedat}{4}
-	  3x_1 \amp {}+{} \amp 2x_2 \amp {}-{} x_3 \amp {}={} \amp 4 \\
-	  x_1 \amp \amp \amp {}+{} 2x_3 \amp {}={} \amp 0 \\
-	  -x_1 \amp {}-{} \amp x_2 \amp {}+{} 3x_3 \amp {}={} \amp 1
-	  \\
-	  \end{alignedat}
-	</me>
-	Identify vectors <m>\vvec_1</m>, <m>\vvec_2</m>,
-	<m>\vvec_3</m>, and <m>\bvec</m> such that
-	the question "Is this linear system consistent?" is equivalent to
-	the question "Can <m>\bvec</m> be expressed as a linear combination
-	of <m>\vvec_1</m>, <m>\vvec_2</m>, and <m>\vvec_3</m>?"
-	</p></li>
+                    <title>Problems</title>
+					<task workspace="1in">
+						<statement>
+							<p>
+								If <m>A</m> is a set, what is <m>A \times \emptyset</m> equivalent to?
+							</p>
+						</statement>
+					</task>
 
-	<li> <p>
-	  Consider the vectors
-	<me>
-	  \vvec_1 = \left[\begin{array}{r} 0 \\ -2 \\ 1 \\
-	  \end{array} \right], 
-	  \vvec_2 = \left[\begin{array}{r} 1 \\ 1 \\ -1 \\
-	  \end{array} \right], 
-	  \vvec_3 = \left[\begin{array}{r} 2 \\ 0 \\ -1 \\
-	  \end{array} \right], 
-	  \bvec   = \left[\begin{array}{r} -1 \\ 3 \\ -1 \\
-	  \end{array} \right]
-	</me>.
-	Can <m>\bvec</m> be expressed as a linear combination of
-	<m>\vvec_1</m>, <m>\vvec_2</m>, and <m>\vvec_3</m>?  If so,
-	can <m>\bvec</m> be written as a linear combination of these
-	vectors in more than one way?
-	 
-	</p></li>
+					<task workspace="1in">
+						<statement>
+							<p>
+							Given sets <m>A</m> and <m>B</m>, when does <m>A \times B = B \times A</m>?
+							</p>
+						</statement>
+					</task>
+            
+    			</exercise>
 
-	<li> <p> Considering the vectors <m>\vvec_1</m>,
-	<m>\vvec_2</m>, and <m>\vvec_3</m> from the previous part, can
-	we write every three-dimensional vector <m>\bvec</m> as
-	a linear combination of these vectors?  Explain how the pivot
-	positions of the matrix <m>\left[\begin{array}{rrr} \vvec_1 \amp
-	\vvec_2 \amp \vvec_3 \end{array} \right]</m> help answer this
-	question. 
-	</p></li>
-
-	<li> <p>
-	  Now consider the vectors
-	<me>
-	  \vvec_1 = \left[\begin{array}{r} 0 \\ -2 \\ 1 \\
-	  \end{array} \right], 
-	  \vvec_2 = \left[\begin{array}{r} 1 \\ 1 \\ -1 \\
-	  \end{array} \right], 
-	  \vvec_3 = \left[\begin{array}{r} 1 \\ -1 \\ -2 \\
-	  \end{array} \right], 
-	  \bvec   = \left[\begin{array}{r} 0 \\ 8 \\ -4 \\
-	  \end{array} \right]
-	</me>.
-	Can <m>\bvec</m> be expressed as a linear combination of
-	<m>\vvec_1</m>, <m>\vvec_2</m>, and <m>\vvec_3</m>?  If so,
-	can <m>\bvec</m> be written as a linear combination of these
-	vectors in more than one way?
-	</p></li>
-
-	<li> <p> Considering the vectors <m>\vvec_1</m>,
-	<m>\vvec_2</m>, and <m>\vvec_3</m> from the previous part, can
-	we write every three-dimensional vector <m>\bvec</m> as
-	a linear combination of these vectors?  Explain how the pivot
-	positions of the matrix <m>\left[\begin{array}{rrr} \vvec_1 \amp
-	\vvec_2 \amp \vvec_3 \end{array} \right]</m> help answer this
-	question. 
-	</p></li>
-
-      </ol>
-      </p>
-</statement>
-
-      
-    </exercise>
-                
-</page>
-<page>
-    <exercise workspace="5in">
-        <title>Visualizing No Solution</title>
-        <statement>
-	<p>
-	  Consider the vectors <m>\vvec=\twovec{-1}1</m> and
-	  <m>\wvec=\twovec{2}{-2}</m>, as shown in <xref
-	  ref="fig-lin-comb-ex"/>.
-	</p>
-	<figure xml:id="fig-lin-comb-ex">
-	  <caption> Vectors <m>\vvec</m> and <m>\wvec</m>. </caption>
-	  <sidebyside width="50%">
-	    <image source="images/lin-comb-ex" />
-	  </sidebyside>
-	</figure>
-
-      </statement>
-        
-        
-    </exercise>
-</page>
 
 
         </worksheet>
