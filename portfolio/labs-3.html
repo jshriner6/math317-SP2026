@@ -203,9 +203,9 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chapter 2: Preliminaries</span>
 </h2>
 <div class="code-box"><pre class="program clipboardable line-numbers"><code class="language-latex">\documentclass{article}
-\usepackage{amssymb}
+\usepackage{amssymb, amsmath}
 \begin{document}
-  \title{Math 317: Chapter 2 Portfolio}
+  \title{Math 317: Chapter Portfolios}
   \author{Your name here}
   \maketitle
   \begin{enumerate}
@@ -276,6 +276,47 @@ eBookConfig.enable_chatcodes =  false;
       \item[Problem 2.17] Given sets $A$ and $B$, when does $A \times B = B \times A$?
       \item[Solution 2.17]
 
+      \item[Problem 2.19] Let $P(1), P(2), P(3), \dots$ be a sequence of statements. Assume
+          \begin{enumerate}
+              \item $P(1)$ is true, and
+              \item if $P(k)$ is true, then $P(k+1)$ is true.
+          \end{enumerate}
+      Show that $P(n)$ is true for all $n \in \mathbb{N}$.
+      \item[Solution 2.19]
+
+      \item[Problem 2.20] Let $P(1), P(2), P(3), \dots$ be a sequence of statements. Assume
+          \begin{enumerate}
+              \item $P(1)$ is true, and
+              \item for all $k \in \mathbb{N}$, if $P(j)$ is true for all $j \in \mathbb{N}$ such that $j \leq k$, then $P(k+1)$ is true.
+          \end{enumerate}
+      Show that $P(n)$ is true for all $n \in \mathbb{N}$.
+      \item[Solution 2.20]
+
+      \item[Problem 2.22] Prove that if $A \subseteq \mathbb{R}$ such that the maximum (respectively, minimum) of $A$ exists, then the maximum (respectively, minimum) of $A$ is unique.
+      \item[Solution 2.22]
+
+      \item[Problem 2.23] Find $\text{max}(A)$ and $\text{min}(A)$ for each set $A$ below, when they exist.
+          \begin{enumerate}
+              \item $\{5,11,17,42,103\}$
+              \item $\mathbb{N}$
+              \item $\mathbb{Z}$
+              \item $(0,1]$
+              \item $(0,1] \cap \mathbb{Q}$
+              \item $(0,\infty)$
+              \item $\{42\}$
+              \item $\{\frac{1}{n} \mid n \in \mathbb{N}\}$
+              \item $\{\frac{1}{n} \mid n \in \mathbb{N}\} \cup \{0\}$
+              \item $\emptyset$
+          \end{enumerate}
+      \item[Solution 2.23]
+
+      \item[Problem 2.24] Prove that every nonempty subset of the natural numbers has a minimum element.
+      \item[Solution 2.24]
+
+      \item[Problem 2.25] Prove that if $A$ is a nonempty subset of the integers and there exists $b \in A^C$ such that $b \geq a$ for all $a\in A$, then $A$ contains a maximum element.
+      \item[Solution 2.25]
+ 
+      
   \end{enumerate}
 \end{document}
 </code></pre></div>

@@ -206,6 +206,51 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "Problems.",
   "body": " Problems    If is a set, what is equivalent to?      Given sets and , when does ?    "
+},
+{
+  "id": "sec-2-2",
+  "level": "1",
+  "url": "sec-2-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 2.2\\text{:}\\)<\/span> Induction and the Well-Ordering Principle",
+  "body": " : Induction and the Well-Ordering Principle   Axiom: Induction   Let such that    , and    if , then .   Then     Problems (sketches)    Let be a sequence of statements. Assume    is true, and    if is true, then is true.   Show that is true for all .      Let be a sequence of statements. Assume    is true, and    for all , if is true for all such that , then is true.   Show that is true for all .      Definition: Maximum and Minimum Elements   Let and . Then     Problems (sketches)    Prove that if such that the maximum (respectively, minimum) of exists, then the maximum (respectively, minimum) of is unique.      Find and for each set below, when they exist.                                                          Prove that every nonempty subset of the natural numbers has a minimum element.      Prove that if is a nonempty subset of the integers and there exists such that for all , then contains a maximum element.     "
+},
+{
+  "id": "sec-2-2-2",
+  "level": "2",
+  "url": "sec-2-2.html#sec-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Axiom: Induction.",
+  "body": " Axiom: Induction   Let such that    , and    if , then .   Then   "
+},
+{
+  "id": "sec-2-2-3",
+  "level": "2",
+  "url": "sec-2-2.html#sec-2-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems (sketches).",
+  "body": " Problems (sketches)    Let be a sequence of statements. Assume    is true, and    if is true, then is true.   Show that is true for all .      Let be a sequence of statements. Assume    is true, and    for all , if is true for all such that , then is true.   Show that is true for all .    "
+},
+{
+  "id": "sec-2-2-4",
+  "level": "2",
+  "url": "sec-2-2.html#sec-2-2-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definition: Maximum and Minimum Elements.",
+  "body": " Definition: Maximum and Minimum Elements   Let and . Then   "
+},
+{
+  "id": "sec-2-2-5",
+  "level": "2",
+  "url": "sec-2-2.html#sec-2-2-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problems (sketches).",
+  "body": " Problems (sketches)    Prove that if such that the maximum (respectively, minimum) of exists, then the maximum (respectively, minimum) of is unique.      Find and for each set below, when they exist.                                                          Prove that every nonempty subset of the natural numbers has a minimum element.      Prove that if is a nonempty subset of the integers and there exists such that for all , then contains a maximum element.    "
 }
 ]
 
