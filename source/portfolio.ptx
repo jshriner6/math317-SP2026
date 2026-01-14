@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="./docinfo.ptx" />
-  <article xml:id="labs" >
+  <article xml:id="portfolio" >
     <title>Portfolio</title>
     
     <introduction>
