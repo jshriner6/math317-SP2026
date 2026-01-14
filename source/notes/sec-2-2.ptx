@@ -1,0 +1,191 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-2-2">
+        <title><m>\S 2.2</m>: Induction and the Well-Ordering Principle</title>
+                <exercise workspace="2in">
+                    <title>Axiom: Induction</title>
+                    <statement>
+                        <p>
+                            Let <m>S \subseteq \N</m> such that
+							<ol>
+								<li>
+									<p>
+										<m>1 \in S</m>, and
+									</p>
+								</li>
+								<li>
+									<p>
+										if <m>k \in S</m>, then <m>k+1 \in S</m>.
+									</p>
+								</li>
+							</ol>
+							Then
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise>
+                    <title>Problems (sketches)</title>
+					<task workspace="3in">
+						<statement>
+							<p>
+								Let <m>P(1), P(2), P(3), \dots</m> be a sequence of statements.
+								Assume
+								<ol>
+								<li>
+									<p>
+									<m>P(1)</m> is true, and
+									</p>
+								</li>
+
+								<li>
+									<p>
+									if <m>P(k)</m> is true, then <m>P(k+1)</m> is true.
+									</p>
+								</li>
+								</ol>
+								Show that <m>P(n)</m> is true for all <m>n \in \mathbb{N}</m>.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="3in">
+						<statement>
+							<p>
+								Let <m>P(1), P(2), P(3), \dots</m> be a sequence of statements.
+								Assume
+								<ol>
+								<li>
+									<p>
+									<m>P(1)</m> is true, and
+									</p>
+								</li>
+
+								<li>
+									<p>
+									for all <m>k \in \mathbb{N}</m>, if <m>P(j)</m> is true for all <m>j \in \mathbb{N}</m> such that <m>j \leq k</m>, then <m>P(k+1)</m> is true.
+									</p>
+								</li>
+								</ol>
+								Show that <m>P(n)</m> is true for all <m>n \in \mathbb{N}</m>.
+							</p>
+						</statement>
+					</task>
+                    
+                </exercise>
+
+
+
+
+                <exercise workspace="2in">
+                    <title>Definition: Maximum and Minimum Elements</title>
+                    <statement>
+                        <p>
+                            Let <m>A \subseteq \R</m> and <m>m \in A</m>. Then
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise>
+                    <title>Problems (sketches)</title>
+                    <task workspace="3in">
+						<statement>
+							<p>
+								Prove that if <m>A \subseteq \mathbb{R}</m> such that the maximum (respectively, minimum) of <m>A</m> exists, then the maximum (respectively, minimum) of <m>A</m> is unique.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Find <m>\text{max}(A)</m> and <m>\text{min}(A)</m> for each set <m>A</m> below, when they exist.
+								<ol>
+								<li>
+									<p>
+									<m>\{5,11,17,42,103\}</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>\mathbb{N}</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>\mathbb{Z}</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>(0,1]</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>(0,1] \cap \mathbb{Q}</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>(0,\infty)</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>\{42\}</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>\left\{\frac{1}{n}\mid n \in \mathbb{N}\right\}</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>\left\{\frac{1}{n}\mid n \in \mathbb{N}\right\} \cup \{0\}</m>
+									</p>
+								</li>
+
+								<li>
+									<p>
+									<m>\emptyset</m>
+									</p>
+								</li>
+								</ol>
+							</p>
+						</statement>
+					</task>
+					
+					<task workspace="3in">
+						<statement>
+							<p>
+								Prove that every nonempty subset of the natural numbers has a minimum element.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="3in">
+						<statement>
+							<p>
+								Prove that if <m>A</m> is a nonempty subset of the integers and there exists <m>b \in A^{C}</m> such that <m>b \geq a</m> for all <m>a\in A</m>, then <m>A</m> contains a maximum element.
+							</p>
+						</statement>
+					</task>
+                    
+                    
+                </exercise>
+           
+        </worksheet>
+    </article>
+</pretext>

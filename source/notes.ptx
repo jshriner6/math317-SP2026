@@ -23,11 +23,11 @@
      <!--  <xi:include href="./notes/sec-1-2-1-sols.ptx" xpointer="sec-1-2-1-sols" /> -->
 
     <xi:include href="./notes/sec-2-1-2.ptx" xpointer="sec-2-1-2" /> 
-  <!--  <xi:include href="./notes/sec-1-2-2-sols.ptx" xpointer="sec-1-2-2-sols" /> 
+  <!--  <xi:include href="./notes/sec-1-2-2-sols.ptx" xpointer="sec-1-2-2-sols" /> -->
 
-    <xi:include href="./notes/sec-1-3.ptx" xpointer="sec-1-3" />
+    <xi:include href="./notes/sec-2-2.ptx" xpointer="sec-2-2" />
 
-    <xi:include href="./notes/sec-2-1-1.ptx" xpointer="sec-2-1-1" /> 
+  <!--   <xi:include href="./notes/sec-2-1-1.ptx" xpointer="sec-2-1-1" /> 
     <xi:include href="./notes/sec-2-1-1-sols.ptx" xpointer="sec-2-1-1-sols" /> 
 
     <xi:include href="./notes/sec-2-1-2.ptx" xpointer="sec-2-1-2" /> 
