@@ -1,0 +1,302 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-2-3-3">
+        <title><m>\S 2.3</m>: Functions (Part 3)</title>
+
+                <exercise workspace="8in">
+                    <title>Definitions</title>
+                    <statement>
+                        <p>
+                           <term>Function Composition</term>:
+                           <image source="images/function-comp.jpeg">
+                            <shortdescription>A digraph representation of function composition.</shortdescription>
+                           </image>
+                        </p>
+					
+                    </statement>
+                    
+                </exercise>
+				
+            
+
+                <exercise>
+                    <title>Problems</title>
+					<task workspace="2in">
+						<statement>
+							<p>
+								Define <m>f:\mathbb{R}\to \mathbb{R}</m> by <m>f(x)=x^{2}</m> and <m>g: \mathbb{R}\to \mathbb{R}</m> by <m>g(x) = 3x-5</m>.
+Determine formulas for the composite functions <m>f \circ g</m> and <m>g \circ f</m>.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Prove that if <m>f: X \to Y</m>, <m>g: Y \to Z</m>, and <m>h: Z \to W</m>, then <m>(h\circ g) \circ f = h \circ (g \circ f)</m>.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								In each case, give examples of finite sets <m>X</m>, <m>Y</m>, and <m>Z</m>, and functions <m>f: X \to Y</m> and <m>g: Y \to Z</m> that satisfy the given conditions.
+Drawing a function diagram is sufficient.
+<ol>
+  <li>
+    <p>
+      <m>f</m> is surjective, but <m>g \circ f</m> is not surjective.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>g</m> is surjective, but <m>g \circ f</m> is not surjective.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f</m> is injective, but <m>g \circ f</m> is not injective.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>g</m> is injective, but <m>g \circ f</m> is not injective.
+    </p>
+  </li>
+</ol>
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Prove that if <m>f:X \to Y</m> and <m>g: Y \to Z</m> are both surjective, then <m>g \circ f</m> is also surjective.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Prove that if <m>f:X \to Y</m> and <m>g: Y \to Z</m> are both injective, then <m>g \circ f</m> is also injective.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Prove that if <m>f:X \to Y</m> and <m>g: Y \to Z</m> are both bijective, then <m>g \circ f</m> is also bijective.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Let <m>f: X \to Y</m> and <m>g: Y \to Z</m> be functions.
+Determine whether each of the following statements is true or false.
+If true, prove it.
+Otherwise, provide a counterexample.
+<ol>
+  <li>
+    <p>
+      If <m>g \circ f</m> is injective, then <m>f</m> is injective.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>g \circ f</m> is injective, then <m>g</m> is injective.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>g \circ f</m> is surjective, then <m>f</m> is surjective.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>g \circ f</m> is surjective, then <m>g</m> is surjective.
+    </p>
+  </li>
+</ol>
+							</p>
+						</statement>
+					</task>
+
+					
+                </exercise>
+
+                <exercise workspace="4in">
+                    <title>Notation: Image and Preimage</title>
+                    <statement>
+                        <p>
+                            We can use function notation to identify how <m>f</m> acts on <em>sets</em> (not just elements).
+                            Let <m>f: X \to Y</m> be a function, with <m>S \subseteq X</m> and <m>T \subseteq Y</m>.
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                <exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                               Define <m>f: \mathbb{Z}\to \mathbb{Z}</m> by <m>f(x) = x^{2}</m>.
+List elements in each of the following sets.
+<ol>
+  <li>
+    <p>
+      <m>f(\{0,1,2\})</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f^{-1}(\{0,1,4\})</m>
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Find functions <m>f</m> and <m>g</m> and sets <m>S</m> and <m>T</m> such that <m>f(f^{-1}(T)) \neq T</m> and <m>g^{-1}(g(S)) \neq S</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Suppose <m>f: X \to Y</m> is injective and <m>A</m> and <m>B</m> are disjoint subsets of <m>X</m>.
+Are <m>f(A)</m> and <m>f(B)</m> necessarily disjoint subsets of <m>Y</m>? If so, prove it.
+Otherwise, provide a counterexample.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                        Let <m>f:X \to Y</m> be a function and suppose <m>A,B \subseteq X</m> and <m>C,D \subseteq Y</m>.
+Determine whether each of the following statements is true or false.
+If a statement is true, prove it.
+Otherwise, provide a counterexample.
+<ol>
+  <li>
+    <p>
+      If <m>A \subseteq B</m>, then <m>f(A) \subseteq f(B)</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>C \subseteq D</m>, then <m>f^{-1}(C) \subseteq f^{-1}(D)</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f(A \cup B) \subseteq f(A) \cup f(B)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f(A \cup B) \supseteq f(A) \cup f(B)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f(A \cap B) \subseteq f(A) \cap f(B)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f(A \cap B) \supseteq f(A) \cap f(B)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f^{-1}(C \cup D) \subseteq f^{-1}(C) \cup f^{-1}(D)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f^{-1}(C \cup D) \supseteq f^{-1}(C) \cup f^{-1}(D)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f^{-1}(C \cap D) \subseteq f^{-1}(C) \cap f^{-1}(D)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f^{-1}(C \cap D) \supseteq f^{-1}(C) \cap f^{-1}(D)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>A \subseteq f^{-1}(f(A))</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>A \supseteq f^{-1}(f(A))</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f(f^{-1}(C)) \subseteq C</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f(f^{-1}(C)) \supseteq C</m>
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                You are not required to prove Problems 2.54 and 2.55, but please read and be 
+                                familiar with the results.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                    
+                </exercise>
+
+        </worksheet>
+    </article>
+</pretext>

@@ -9,7 +9,7 @@
   \documentclass{article}
   \usepackage{amssymb, amsmath}
   \begin{document}
-    \title{Math 317: Chapter Portfolios}
+    \title{Math 317: Chapter 2 Portfolio}
     \author{Your name here}
     \maketitle
     \begin{enumerate}
@@ -108,7 +108,7 @@
                 \item $(0,1] \cap \mathbb{Q}$
                 \item $(0,\infty)$
                 \item $\{42\}$
-               \item $\left\{\frac{1}{n} \mid n \in \mathbb{N}\right\}$
+                \item $\left\{\frac{1}{n} \mid n \in \mathbb{N}\right\}$
                 \item $\left\{\frac{1}{n} \mid n \in \mathbb{N}\right\} \cup \{0\}$
                 \item $\emptyset$
             \end{enumerate}
@@ -119,8 +119,172 @@
 
         \item[Problem 2.25] Prove that if $A$ is a nonempty subset of the integers and there exists $b \in A^C$ such that $b \geq a$ for all $a\in A$, then $A$ contains a maximum element.
         \item[Solution 2.25]
+
+        \item[Problem 2.27] What properties does the digraph for a relation $X$ to $Y$ need to have in order for it to represent a function?
+        \item[Solution 2.27]
+
+        \item[Problem 2.28] In high school you likely were told that a graph represents a function if it passes the \textbf{vertical line test}. Carefully state what the vertical line test says and then explain why it works.
+        \item[Solution 2.28]
+
+        \item[Problem 2.31] Provide an example of each of the following. You may draw a function digram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.
+            \begin{enumerate}
+                \item A function $f$ from a set with $4$ elements to a set with $3$ elements such that $\mathrm{Rng}(f) = \mathrm{Codom(f)}$.
+                \item A function $g$ from a set with $4$ elements to a set with $3$ elements such that $\mathrm{Rng}(g)$ is strictly smaller than $\mathrm{Codom(g)}$.
+            \end{enumerate}
+        \item[Solution 2.31]
+
+        \item[Problem 2.33] For each of the following, explain why the given description does not define a function.
+            \begin{enumerate}
+                \item $f:\{1,2,3\} \to \{1,2,3\}$, $f(a) = a-1$.
+                \item $g: \mathbb{N} \to \mathbb{Q}$, $g(n) = \frac{n}{n-1}$.
+                \item Let $A_1 = \{1,2,3\}$ and $A_2 = \{3,4,5\}$. Define $h: A_1 \cup A_2 \to \{1,2\}$ by 
+                    \[
+                    h(x) = \begin{cases}
+                            1, &amp; \text{if } x \in A_1 \\
+                            2, &amp; \text{if } x \in A_2
+                            \end{cases}
+                    \]
+                \item $s: \mathbb{Q} \to \mathbb{Z}$, $s(a/b) = a + b$.
+            \end{enumerate}
+        \item[Solution 2.33]
+
+        \item[Problem 2.34] Assume that $X$ and $Y$ are finite sets. Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.
+            \begin{enumerate}
+                \item $f: X \to Y$ that is injective but not surjective.
+                \item $f: X \to Y$ that is surjective but not injective.
+                \item $f: X \to Y$ that is bijective.
+                \item $f: X \to Y$ that is neither injective nor surjective.
+            \end{enumerate}
+        \item[Solution 2.34]
+
+        \item[Problem 2.35] Provide an example of each of the following. You may either draw a graph or write down a formula. Make sure you have the correct domain.
+            \begin{enumerate}
+                \item $f: \mathbb{R} \to \mathbb{R}$ that is injective but not surjective.
+                \item $f: \mathbb{R} \to \mathbb{R}$ that is surjective but not injective.
+                \item $f: \mathbb{R} \to \mathbb{R}$ that is bijective.
+                \item $f: \mathbb{R} \to \mathbb{R}$ that is neither injective nor surjective.
+                \item $f: \mathbb{N} \times \mathbb{N} \to \mathbb{N}$ that is injective.
+            \end{enumerate}
+        \item[Solution 2.35]
+
+        \item[Problem 2.36] Suppose $X \subseteq \mathbb{R}$ and $f: X \to \mathbb{R}$. Fill in the blank:
+            \begin{quote}
+                The function $f: X \to \mathbb{R}$ is \underline{\hspace{3cm}} if and only if every horizontal line hits the graph of $f$ \textit{at most once}.
+            \end{quote}
+            This statement is often called the \textbf{horizontal line test}. Explain why this statement is true.
+        \item[Solution 2.36]
+
+        \item[Problem 2.37] Suppose $X \subseteq \mathbb{R}$ and $f: X \to \mathbb{R}$. Fill in the blank:
+            \begin{quote}
+                The function $f: X \to \mathbb{R}$ is \underline{\hspace{3cm}} if and only if every horizontal line hits the graph of $f$ \textit{at least once}.
+            \end{quote}
+             Explain why this statement is true.
+        \item[Solution 2.37]
+
+        \item[Problem 2.38] Suppose $X \subseteq \mathbb{R}$ and $f: X \to \mathbb{R}$. Fill in the blank:
+            \begin{quote}
+                The function $f: X \to \mathbb{R}$ is \underline{\hspace{3cm}} if and only if every horizontal line hits the graph of $f$ \textit{exactly once}.
+            \end{quote}
+             Explain why this statement is true.
+        \item[Solution 2.38]
+
+        \item[Problem 2.39] Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate. The exception is Part (d): you may reference a graph to justify surjectivity.
+            \begin{enumerate}
+                \item $f: \mathbb{R} \to \mathbb{R}$, $f(x) = x^2$
+                \item $g: \mathbb{R} \to [0,\infty]$, $g(x) = x^2$
+                \item $h: \mathbb{R} \to \mathbb{R}$, $h(x) = x^3$
+                \item $k: \mathbb{R} \to \mathbb{R}$, $k(x) = x^3 -x $
+                \item $c: \mathbb{R} \times \mathbb{R} \to \mathbb{R}$, $c(x,y) = x^2 + y^2$
+                \item $f: \mathbb{N} \to \mathbb{N} \times \mathbb{N}$, $f(n) = (n,n)$
+                \item $g: \mathbb{Z} \to \mathbb{Z}$, 
+                    \[
+                    g(n) = \begin{cases}
+                            \frac{n}{2}, &amp; \text{if } n \text{ is even} \\
+                            \frac{n+1}{2}, &amp; \text{if } n \text{ is odd}
+                            \end{cases}
+                    \]
+                \item $\ell: \mathbb{Z} \to \mathbb{N}$, 
+                    \[
+                    \ell(n) = \begin{cases}
+                            2n+1, &amp; \text{if } n \geq 0 \\
+                            -2n, &amp; \text{if } n &lt; 0
+                            \end{cases}
+                    \]
+            \end{enumerate}
+        \item[Solution 2.39]
+
+        \item[Problem 2.40] Prove that the inclusion map $\iota: X \to Y$ for $X \subseteq Y$ is an injection.
+        \item[Solution 2.40]
+
+        \item[Problem 2.41] Prove that the identity map $i_X: X \to X$ is a bijection.
+        \item[Solution 2.41]
+
+        \item[Problem 2.43] Define $f:\mathbb{R} \to \mathbb{R}$ by $f(x)=x^2$ and $g: \mathbb{R} \to \mathbb{R}$ by $g(x) = 3x-5$. Determine formulas for the composite functions $f \circ g$ and $g \circ f$.
+        \item[Solution 2.43]
+
+        \item[Problem 2.44] Prove that if $f: X \to Y$, $g: Y \to Z$, and $h: Z \to W$, then $(h\circ g) \circ f = h \circ (g \circ f)$.
+        \item[Solution 2.44]
+
+        \item[Problem 2.45] In each case, give examples of finite sets $X$, $Y$, and $Z$, and functions $f: X \to Y$ and $g: Y \to Z$ that satisfy the given conditions. Drawing a function diagram is sufficient.
+            \begin{enumerate}
+                \item $f$ is surjective, but $g \circ f$ is not surjective.
+                \item $g$ is surjective, but $g \circ f$ is not surjective.
+                \item $f$ is injective, but $g \circ f$ is not injective.
+                \item $g$ is injective, but $g \circ f$ is not injective.
+            \end{enumerate}
+        \item[Solution 2.45]
+
+        \item[Problem 2.46] Prove that if $f:X \to Y$ and $g: Y \to Z$ are both surjective, then $g \circ f$ is also surjective.
+        \item[Solution 2.46]
+
+        \item[Problem 2.47] Prove that if $f:X \to Y$ and $g: Y \to Z$ are both injective, then $g \circ f$ is also injective.
+        \item[Solution 2.47]
+
+        \item[Problem 2.48] Prove that if $f:X \to Y$ and $g: Y \to Z$ are both bijective, then $g \circ f$ is also bijective.
+        \item[Solution 2.48]
    
-        
+        \item[Problem 2.49] Let $f: X \to Y$ and $g: Y \to Z$ be functions. Determine whether each of the following statements is true or false. If true, prove it. Otherwise, provide a counterexample.
+            \begin{enumerate}
+                \item If $g \circ f$ is injective, then $f$ is injective. 
+                \item If $g \circ f$ is injective, then $g$ is injective. 
+                \item If $g \circ f$ is surjective, then $f$ is surjective.
+                \item If $g \circ f$ is surjective, then $g$ is surjective.
+            \end{enumerate}
+        \item[Solution 2.49]
+
+        \item[Problem 2.50] Define $f: \mathbb{Z} \to \mathbb{Z}$ by $f(x) = x^2$. List elements in each of the following sets.
+            \begin{enumerate}
+                \item $f(\{0,1,2\})$
+                \item $f^{-1}(\{0,1,4\})$
+            \end{enumerate}
+        \item[Solution 2.50]
+
+        \item[Problem 2.51] Find functions $f$ and $g$ and sets $S$ and $T$ such that $f(f^{-1}(T)) \neq T$ and $g^{-1}(g(S)) \neq S$.
+        \item[Solution 2.51]
+
+        \item[Problem 2.52] Suppose $f: X \to Y$ is injective and $A$ and $B$ are disjoint subsets of $X$. Are $f(A)$ and $f(B)$ necessarily disjoint subsets of $Y$? If so, prove it. Otherwise, provide a counterexample.
+        \item[Solution 2.52]
+
+        \item[Problem 2.53] Let $f:X \to Y$ be a function and suppose $A,B \subseteq X$ and $C,D \subseteq Y$. Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.
+            \begin{enumerate}
+                \item If $A \subseteq B$, then $f(A) \subseteq f(B)$.
+                \item If $C \subseteq D$, then $f^{-1}(C) \subseteq f^{-1}(D)$.
+                \item $f(A \cup B) \subseteq f(A) \cup f(B)$
+                \item $f(A \cup B) \supseteq f(A) \cup f(B)$
+                \item $f(A \cap B) \subseteq f(A) \cap f(B)$
+                \item $f(A \cap B) \supseteq f(A) \cap f(B)$
+                \item $f^{-1}(C \cup D) \subseteq f^{-1}(C) \cup f^{-1}(D)$
+                \item $f^{-1}(C \cup D) \supseteq f^{-1}(C) \cup f^{-1}(D)$
+                \item $f^{-1}(C \cap D) \subseteq f^{-1}(C) \cap f^{-1}(D)$
+                \item $f^{-1}(C \cap D) \supseteq f^{-1}(C) \cap f^{-1}(D)$
+                \item $A \subseteq f^{-1}(f(A))$
+                \item $A \supseteq f^{-1}(f(A))$
+                \item $f(f^{-1}(C)) \subseteq C$
+                \item $f(f^{-1}(C)) \supseteq C$
+            \end{enumerate}
+        \item[Solution 2.53]
+
+        \textit{You are not required to prove Problem 2.54 and Problem 2.55, but please read and understand them. This is the end of Chapter 2 problems.}
     \end{enumerate}
   \end{document}
                         </code>

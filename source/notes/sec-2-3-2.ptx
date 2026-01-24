@@ -1,226 +1,228 @@
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-2-3-2">
-        <title><m>\S 2.3</m>: Span and Pivots</title>
-            <page>
-                <exercise workspace="2in">
-                    <title>Motivation: Span and Pivots</title>
+        <title><m>\S 2.3</m>: Functions (Part 2)</title>
+
+                <exercise workspace="8in">
+                    <title>Definitions</title>
                     <statement>
                         <p>
-                            
+                           
                         </p>
+					
                     </statement>
                     
                 </exercise>
+				
+            
 
-                <exercise workspace="5in">
-                    <title>Review: Span</title>
-                    <statement>
-                        <p>
-                            <m>\vvec = \twovec{2}{0}, \wvec = \twovec{-1}{1}</m> vs. <m>\vvec = \twovec{-1}{1}, \wvec = \twovec{2}{-2}</m>
-                        </p>
-                        <sidebyside>
-                            <image source="span1.jpeg">
-                                <shortdescription>Vectors v and w in the coordinate plane.</shortdescription>
-                            </image>
-                            <image source="span2.jpeg">
-                                <shortdescription>Vectors v and w in the coordinate plane.</shortdescription>
-                            </image>
-                        </sidebyside>
-                    </statement>
-                    
-                    
-                </exercise>
-            </page>
-
-            <page>
-                <exercise >
-                    <title>Activity: Pivots and Span in <m>\R^3</m></title>
-                    <statement>
-	<p> In this activity, we will look at the span of sets of
-	vectors in <m>\real^3</m>.
-	<ol marker="a.">
-	  <li> <p> Suppose <m>\vvec=\threevec{1}{2}{1}</m>.  Give a
-	  geometric 
-	  description of 
-	  <m>\laspan{\vvec}</m> and a rough sketch of <m>\vvec</m> and
-	  its span in <xref ref="fig-3d-span-1"/>.
-	  </p>
-	  <figure xml:id="fig-3d-span-1">
-	    <caption>
-	      A three-dimensional coordinate system for sketching
-	      <m>\vvec</m> and its span.
-	    </caption>
-	    <sidebyside width="50%">
-	      <image source ="images/coordinates-3d">
-            <shortdescription>
-                Three dimensional coordinate plane.
-            </shortdescription>
-            </image>
-	    </sidebyside>
-	  </figure>
-	  </li>
-
-	  <li> <p> Now consider the two vectors
-	  <me>
-	    \evec_1 = \threevec{1}{0}{0},~~~
-	    \evec_2 = \threevec{0}{1}{0}
-	  </me>.
-	  Sketch the vectors below.  Then give a geometric description of
-	  <m>\laspan{\evec_1,\evec_2}</m> and a rough sketch of  the
-	  span in <xref ref = "fig-3d-span-2"/>.
-	</p>
-	<figure xml:id="fig-3d-span-2">
-	  <caption>
-	    A coordinate system for sketching <m>\evec_1</m>,
-	    <m>\evec_2</m>, and <m>\laspan{\evec_1,\evec_2}</m>.
-	  </caption>
-	  <sidebyside width="50%">
-	    <image source ="images/coordinates-3d" />
-	  </sidebyside>
-	</figure>
-	</li>
-</ol>
-</p>
-</statement>
-</exercise>
-</page>
-<page>
-    
-<exercise>
-    <title>Activity (continued)</title>
-    <statement>
+                <exercise>
+                    <title>Problems</title>
+					<task workspace="2in">
+						<statement>
+							<p>
+								Assume that <m>X</m> and <m>Y</m> are finite sets.
+Provide an example of each of the following.
+You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.
+<ol>
+  <li>
     <p>
-    <ol>
-	<li><p> Let's now look at this situation algebraically by
-	writing write <m>\bvec = \threevec{b_1}{b_2}{b_3}</m>.
-	Determine the conditions on <m>b_1</m>, <m>b_2</m>, and
-	<m>b_3</m> so that <m>\bvec</m> is in
-	<m>\laspan{\evec_1,\evec_2}</m> by considering the linear
-	system
-	<me>
-	  \left[\begin{array}{rr}
-	  \evec_1 \amp \evec_2 \\
-	  \end{array}\right]
-	  ~\xvec =
-	  \bvec
-	</me>
-	or
-	<me>
-	  \left[\begin{array}{rr}
-	  1 \amp 0 \\
-	  0 \amp 1 \\
-	  0 \amp 0 \\
-	  \end{array}\right]
-	  \xvec =
-	  \threevec{b_1}{b_2}{b_3}
-	</me>.
-	Explain how this relates to your sketch of
-	<m>\laspan{\evec_1,\evec_2}</m>. 
-	  
-	</p></li>
+      <m>f: X \to Y</m> that is injective but not surjective.
+    </p>
+  </li>
 
-	<li> <p> Consider the vectors
-	<me>
-	  \vvec_1 = \threevec{1}{1}{-1},~~
-	  \vvec_2 = \threevec{0}{2}{1}.
-	</me>
-	  <ol marker="1.">
-	    <li> <p> Is the vector <m>\bvec=\threevec{1}{-2}{4}</m> in
-	    <m>\laspan{\vvec_1,\vvec_2}</m>?
+  <li>
+    <p>
+      <m>f: X \to Y</m> that is surjective but not injective.
+    </p>
+  </li>
 
-	    <sage>
-	      <input>
-	      </input>
-	    </sage>
-	    </p></li>
+  <li>
+    <p>
+      <m>f: X \to Y</m> that is bijective.
+    </p>
+  </li>
 
-	    <li> <p> Is the vector <m>\bvec=\threevec{-2}{0}{3}</m> in
-	    <m>\laspan{\vvec_1,\vvec_2}</m>?
-	    <sage>
-	      <input>
-	      </input>
-	    </sage>
-	    </p></li>
+  <li>
+    <p>
+      <m>f: X \to Y</m> that is neither injective nor surjective.
+    </p>
+  </li>
+</ol>
+							</p>
+						</statement>
+					</task>
 
-	    <li><p> Give a geometric description of 
-	    <m>\laspan{\vvec_1,\vvec_2}</m>.
-	    </p></li>
+					<task workspace="2in">
+						<statement>
+							<p>
+								Provide an example of each of the following.
+You may either draw a graph or write down a formula.
+Make sure you have the correct domain.
+<ol>
+  <li>
+    <p>
+      <m>f: \mathbb{R}\to \mathbb{R}</m> that is injective but not surjective.
+    </p>
+  </li>
 
-	  </ol></p>
-	  </li>
-    </ol>
-</p>
-</statement>
-</exercise>
-</page>
-<page>
-    <exercise>
-        <title>Activity (continued)</title>
-        <statement>
-        <p>
-            <ol>
+  <li>
+    <p>
+      <m>f: \mathbb{R}\to \mathbb{R}</m> that is surjective but not injective.
+    </p>
+  </li>
 
-	  <li><p> Consider the vectors
-	  <me>
-	    \vvec_1 = \threevec{1}{1}{-1},
-	    \vvec_2 = \threevec{0}{2}{1},
-	    \vvec_3 = \threevec{1}{-2}{4}
-	  </me>.
-	  Form the matrix <m>\left[\begin{array}{rrrr} \vvec_1 \amp \vvec_2
-	  \amp \vvec_3 \end{array}\right]</m> and find its reduced row
-	  echelon form.
-	    <sage>
-	      <input>
-	      </input>
-	    </sage>
-	    What does this tell you about
-	    <m>\laspan{\vvec_1,\vvec_2,\vvec_3}</m>? 
-	  </p></li>
+  <li>
+    <p>
+      <m>f: \mathbb{R}\to \mathbb{R}</m> that is bijective.
+    </p>
+  </li>
 
-	  <li> <p> If the span of a set of vectors
-	  <m>\vvec_1,\vvec_2,\ldots,\vvec_n</m> is <m>\real^3</m>,
-	  what can you say about the pivot positions of the matrix
-	  <m>\left[\begin{array}{rrrr}
-	  \vvec_1\amp\vvec_2\amp\ldots\amp\vvec_n
-	  \end{array}\right]</m>?
-	  </p></li>
+  <li>
+    <p>
+      <m>f: \mathbb{R}\to \mathbb{R}</m> that is neither injective nor surjective.
+    </p>
+  </li>
 
-	  <li><p> What is the smallest number of vectors such that
-	  <m>\laspan{\vvec_1,\vvec_2,\ldots,\vvec_n} = \real^3</m>?
-	  </p></li>	  
-	</ol></p>
-      </statement>
+  <li>
+    <p>
+      <m>f: \mathbb{N}\times \mathbb{N}\to \mathbb{N}</m> that is injective.
+    </p>
+  </li>
+</ol>
+							</p>
+						</statement>
+					</task>
 
-      
-                    
-                    
+					<task workspace="2in">
+						<statement>
+							<p>
+								Suppose <m>X \subseteq \mathbb{R}</m> and <m>f: X \to \mathbb{R}</m>.
+Fill in the blank:
+<blockquote>
+	<p>
+  The function <m>f: X \to \mathbb{R}</m> is <fillin characters="15" /> if and only if every horizontal line hits the graph of <m>f</m> <em>at most once</em>.
+	</p>
+</blockquote>
+This statement is often called the <alert>horizontal line test</alert>.
+Explain why this statement is true.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Suppose <m>X \subseteq \mathbb{R}</m> and <m>f: X \to \mathbb{R}</m>.
+Fill in the blank:
+<blockquote>
+	<p>
+  The function <m>f: X \to \mathbb{R}</m> is <fillin characters="15" /> if and only if every horizontal line hits the graph of <m>f</m> <em>at least once</em>.
+	</p>
+</blockquote>
+Explain why this statement is true.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Suppose <m>X \subseteq \mathbb{R}</m> and <m>f: X \to \mathbb{R}</m>.
+Fill in the blank:
+<blockquote>
+	<p>
+  The function <m>f: X \to \mathbb{R}</m> is <fillin characters="15" /> if and only if every horizontal line hits the graph of <m>f</m> <em>exactly once</em>.
+	</p>
+</blockquote>
+Explain why this statement is true.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Determine whether each of the following functions is injective, surjective, both, or neither.
+In each case, you should provide a proof or a counterexample as appropriate.
+The exception is Part (d): you may reference a graph to justify surjectivity.
+<ol>
+  <li>
+    <p>
+      <m>f: \mathbb{R}\to \mathbb{R}</m>, <m>f(x) = x^{2}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>g: \mathbb{R}\to [0,\infty]</m>, <m>g(x) = x^{2}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>h: \mathbb{R}\to \mathbb{R}</m>, <m>h(x) = x^{3}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>k: \mathbb{R}\to \mathbb{R}</m>, <m>k(x) = x^{3} -x</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>c: \mathbb{R}\times \mathbb{R}\to \mathbb{R}</m>, <m>c(x,y) = x^{2} + y^{2}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f: \mathbb{N}\to \mathbb{N}\times \mathbb{N}</m>, <m>f(n) = (n,n)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>g: \mathbb{Z}\to \mathbb{Z}</m>,
+      <me>
+        g(n) = \begin{cases}\frac{n}{2}, &#x26; \text{if } n \text{ is even} \\ \frac{n+1}{2}, &#x26; \text{if } n \text{ is odd}\end{cases}
+      </me>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\ell: \mathbb{Z}\to \mathbb{N}</m>,
+      <me>
+        \ell(n) = \begin{cases}2n+1,&#x26;\text{if }n \geq 0 \\ -2n,&#x26;\text{if }n &#x3C; 0\end{cases}
+      </me>
+    </p>
+  </li>
+</ol>
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Prove that the inclusion map <m>\iota: X \to Y</m> for <m>X \subseteq Y</m> is an injection.
+							</p>
+						</statement>
+					</task>
+
+					<task workspace="2in">
+						<statement>
+							<p>
+								Prove that the identity map <m>i_{X}: X \to X</m> is a bijection.
+							</p>
+						</statement>
+					</task>
+
+					
                 </exercise>
-
-               
-            </page>
-            <page>
-                 <exercise workspace="3in">
-                    <title>Summary (<m>\R^3</m>)</title>
-                    <statement>
-                        <p>
-                            
-                        </p>
-                    </statement>
-                    
-                </exercise>
-                <exercise workspace="3in">
-                    <title>Facts: Span and Pivots</title>
-                    <statement>
-                        <p>
-                            Let <m>\vvec_1, \vvec_2, \dots \vvec_n \in \R^m</m>. Then
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-            </page>
-
 
         </worksheet>
     </article>

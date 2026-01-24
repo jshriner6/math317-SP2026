@@ -27,25 +27,15 @@
 
     <xi:include href="./notes/sec-2-2.ptx" xpointer="sec-2-2" />
 
-  <!--   <xi:include href="./notes/sec-2-1-1.ptx" xpointer="sec-2-1-1" /> 
-    <xi:include href="./notes/sec-2-1-1-sols.ptx" xpointer="sec-2-1-1-sols" /> 
-
-    <xi:include href="./notes/sec-2-1-2.ptx" xpointer="sec-2-1-2" /> 
-    <xi:include href="./notes/sec-2-1-2-sols.ptx" xpointer="sec-2-1-2-sols" /> 
-
-    <xi:include href="./notes/sec-2-2-1.ptx" xpointer="sec-2-2-1" /> 
-    <xi:include href="./notes/sec-2-2-1-sols.ptx" xpointer="sec-2-2-1-sols" /> 
-
-    <xi:include href="./notes/sec-2-2-2.ptx" xpointer="sec-2-2-2" />
-    <xi:include href="./notes/sec-2-2-2-sols.ptx" xpointer="sec-2-2-2-sols" /> 
-
     <xi:include href="./notes/sec-2-3-1.ptx" xpointer="sec-2-3-1" /> 
-     <xi:include href="./notes/sec-2-3-1-sols.ptx" xpointer="sec-2-3-1-sols" /> 
+ <!--    <xi:include href="./notes/sec-2-3-1-sols.ptx" xpointer="sec-2-3-1-sols" /> -->
 
     <xi:include href="./notes/sec-2-3-2.ptx" xpointer="sec-2-3-2" /> 
-     <xi:include href="./notes/sec-2-3-2-sols.ptx" xpointer="sec-2-3-2-sols" /> 
+  <!--    <xi:include href="./notes/sec-2-3-2-sols.ptx" xpointer="sec-2-3-2-sols" /> -->
 
-    <xi:include href="./notes/sec-2-4-1.ptx" xpointer="sec-2-4-1" /> 
+  <xi:include href="./notes/sec-2-3-3.ptx" xpointer="sec-2-3-3" /> 
+
+  <!--  <xi:include href="./notes/sec-2-4-1.ptx" xpointer="sec-2-4-1" /> 
     <xi:include href="./notes/sec-2-4-1-sols.ptx" xpointer="sec-2-4-1-sols" /> 
 
     <xi:include href="./notes/sec-2-4-2.ptx" xpointer="sec-2-4-2" /> 

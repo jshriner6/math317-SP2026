@@ -1,247 +1,142 @@
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-2-3-1">
-        <title><m>\S 2.3</m>: The Span of Vectors</title>
-            <page>
-                <exercise workspace="2in">
-                    <title>Motivation: Span</title>
+        <title><m>\S 2.3</m>: Functions (Part 1)</title>
+
+                <exercise workspace="1in">
+                    <title>Definitions</title>
                     <statement>
                         <p>
-                            
+                            A <term>relation R from A to B</term> is
                         </p>
+					
                     </statement>
                     
                 </exercise>
+				<p>
+					A <term>function</term> is a special relation:
+					<image source="images/function-dgm.png">
+						<shortdescription>A digraph representing function f.</shortdescription>
+					</image>
+				</p>
             
 
                 <exercise>
-                    <title>Preview 2.3.1</title>
-                    <task >
-        <statement>
-	  <p> If the equation <m>A\xvec = \bvec</m> is
-	  inconsistent, what can we say about the pivot positions of the
-	  augmented matrix
-	  <m>\left[\begin{array}{r|r} A \amp \bvec
-	  \end{array}\right]</m>?
-	  </p>
-        </statement>
-       
-        
-        
-      </task>
-
-      <task >
-        <statement>
-	  <p>
-	    Consider the matrix <m>A</m>
-	    <me>
-	      A = \left[
-	      \begin{array}{rrr}
-	      1 \amp 0 \amp -2 \\
-	      -2 \amp 2 \amp 2 \\
-	      1 \amp 1 \amp -3
-	      \end{array}\right]
-	    </me>.
-	    If <m>\bvec=\threevec{2}{2}{5}</m>, is the equation
-	    <m>A\xvec = \bvec</m> consistent?  If so, find a solution.
-	    <sage>
-	      <input>
-	      </input>
-	    </sage>
-	  </p>
-        </statement>
-        
-        
-      </task>
-
-      <task >
-        <statement>
-	  <p> If <m>\bvec=\threevec{2}{2}{6}</m>, is the equation
-	  <m>A\xvec = \bvec</m> consistent?  If so, find a solution.
-	  <sage>
-	    <input>
-	    </input>
-	  </sage>
-	  </p>
-        </statement>
-        
-        
-        
-      </task>
-
-      <task >
-        <statement>
-	  <p> Identify the pivot positions of <m>A</m>. </p>
-        </statement>
-        
-        
-        
-      </task>
-
-      <task >
-        <statement>
-	  <p> For our two choices of the vector <m>\bvec</m>, one
-	  equation <m>A\xvec = \bvec</m> has a solution and the other
-	  does not.  What feature of the pivot positions of the
-	  matrix <m>A</m> tells us to expect this? </p>
-        </statement>
-        
-        
-        
-      </task>
-
-                    
-                </exercise>
-            </page>
-
-            <page>
-                <exercise workspace="2in">
-                    <title>Definition: Span</title>
-                    <statement>
-                        <p>
-                            The <term>span</term> of a set of vectors <m>\vvec_1, \dots, \vvec_n</m> is
-                        </p>
-                    </statement>
-                    
-                    
+                    <title>Problems</title>
+					<task workspace="4in">
+						<statement>
+							<p>
+								What properties does the digraph for a relation <m>X</m> to <m>Y</m> need to have in order for it to represent a function?
+							</p>
+						</statement>
+					</task>
+					<task workspace="4in">
+						<statement>
+							<p>
+								In high school you likely were told that a graph represents a function if it passes the <alert>vertical line test</alert>.
+Carefully state what the vertical line test says and then explain why it works.
+							</p>
+						</statement>
+					</task>
                 </exercise>
 
-                <exercise workspace="4in">
-                    <title>Example: Span</title>
-                    <statement>
-                        <p>
-                            Let <m>\vvec =\twovec{-2}{1}</m> and <m>\wvec =\twovec{8}{-4}</m>.
-                        </p>
-                    </statement>
-                    
-                    
+				<exercise workspace="3in">
+					<title>More on Domain</title>
+					<statement>
+						<p>
+							<md>
+								f: \mathbb{R} \to \mathbb{R}, f(x) = x^2 + 1
+							</md>
+
+							versus
+
+							<md>
+								f: \mathbb{N} \to \mathbb{R}, f(x) = x^2 + 1
+							</md>
+							
+							
+						</p>
+					</statement>
+					
+				</exercise>
+
+
+				<exercise>
+                    <title>Problems</title>
+					<task workspace="4in">
+						<statement>
+							<p>
+								Provide an example of each of the following.
+You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.
+<ol>
+  <li>
+    <p>
+      A function <m>f</m> from a set with <m>4</m> elements to a set with <m>3</m> elements such that <m>\mathrm{Rng}(f) = \mathrm{Codom(f)}</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      A function <m>g</m> from a set with <m>4</m> elements to a set with <m>3</m> elements such that <m>\mathrm{Rng}(g)</m> is strictly smaller than <m>\mathrm{Codom(g)}</m>.
+    </p>
+  </li>
+</ol>
+							</p>
+						</statement>
+					</task>
+				
                 </exercise>
-            </page>
-            <page>
-                <exercise>
-                    <title>Activity: Span</title>
-                    <statement>
-      <p>  Let's look at two examples to develop some intuition for
-      the concept of span.
-      </p>
-	<p> First, we will consider the set of vectors
-	<me>
-	  \vvec = \twovec{1}{2}, ~~~\wvec = \twovec{-2}{-4}
-	</me>.
-      </p>
 
-      <p>
-		There is an <url href="https://understandinglinearalgebra.org/sec-span.html#activity-intro-span-1-1-1-1">interactive diagram in our textbook</url>
-		that accompanies this activity.
-	</p>
+				<exercise workspace="4in">
+					<title>Special Functions</title>
+					<statement>
+						<p>
+							
+						</p>
+					</statement>
+					
+					
+				</exercise>
 
-      <p> <ol marker="1.">
-	<li><p> What vector is the linear combination of <m>\vvec</m>
-	and <m>\wvec</m> with weights:
-	<ul>
-	  <li> <p> <m> c = 2</m> and <m>d=0</m>? </p></li>
-	  <li> <p> <m> c = 1</m> and <m>d=1</m>? </p></li>
-	  <li> <p> <m> c = 0</m> and <m>d=-1</m>? </p></li>
-	</ul>
-	</p> </li>
+				<exercise workspace="4in">
+                    <title>Problems</title>
+						<statement>
+							<p>
+								For each of the following, explain why the given description does not define a function.
+<ol>
+  <li>
+    <p>
+      <m>f:\{1,2,3\} \to \{1,2,3\}</m>, <m>f(a) = a-1</m>.
+    </p>
+  </li>
 
-	<li> <p>
-	  Can the vector <m> \twovec{2}{4}</m> be expressed as a
-	  linear combination of <m>\vvec</m> and <m>\wvec</m>?  Is the
-	  vector <m> \twovec{2}{4}</m> in the span of <m>\vvec</m> and
-	  <m>\wvec</m>?  
-	</p></li>
+  <li>
+    <p>
+      <m>g: \mathbb{N}\to \mathbb{Q}</m>, <m>g(n) = \frac{n}{n-1}</m>.
+    </p>
+  </li>
 
-	<li> <p>
-	  Can the vector <m> \twovec{3}{0}</m> be expressed as a
-	  linear combination of <m>\vvec</m> and <m>\wvec</m>?  Is the
-	  vector <m> \twovec{3}{0}</m> in the span of <m>\vvec</m> and
-	  <m>\wvec</m>?  
-	</p></li>
+  <li>
+    <p>
+      Let <m>A_{1} = \{1,2,3\}</m> and <m>A_{2} = \{3,4,5\}</m>.
+      Define <m>h: A_{1} \cup A_{2} \to \{1,2\}</m> by
+      <me>
+        h(x) = \begin{cases}1,&#x26;\text{if }x \in A_{1} \\ 2,&#x26;\text{if }x \in A_{2}\end{cases}
+      </me>
+    </p>
+  </li>
 
-	<li> <p>
-	  Describe the set of vectors in the span of <m>\vvec</m> and
-	  <m>\wvec</m>.
-	</p></li>
+  <li>
+    <p>
+      <m>s: \mathbb{Q}\to \mathbb{Z}</m>, <m>s(a/b) = a + b</m>.
+    </p>
+  </li>
+</ol>
+							</p>
+						</statement>
 
-	<li> <p> For what vectors <m>\bvec</m> does the equation
-	<me>
-	  \left[\begin{array}{rr} 1 \amp -2 \\ 2 \amp -4
-	  \end{array}\right] \xvec = \bvec
-	</me>
-	have a solution?
-	</p></li>
-      </ol> </p>
-  
-
-      
-
-   
-      </statement>
-
-      
-                    
+				
                 </exercise>
-            </page>
-            <page>
-                <exercise>
-                    <title>Activity (continued)</title>
-                    <statement>
-                        <p>
-                  
-	We will now look at an example where
-	<me>
-	  \vvec = \twovec{2}{1}, ~~~\wvec = \twovec{1}{2}
-	</me>.
-      </p>
-  <p>
-		There is an <url href="https://understandinglinearalgebra.org/sec-span.html#activity-intro-span-1-1-1-2">interactive diagram in our textbook</url>
-		that accompanies this activity.
-	</p>
-      
-      <p> <ol marker="1.">
-	<li><p> What vector is the linear combination of <m>\vvec</m>
-	and <m>\wvec</m> with weights:
-	<ul>
-	  <li> <p> <m> c = 2</m> and <m>d=0</m>? </p></li>
-	  <li> <p> <m> c = 1</m> and <m>d=1</m>? </p></li>
-	  <li> <p> <m> c = 0</m> and <m>d=-1</m>? </p></li>
-	</ul>
-	</p> </li>
-
-	<li> <p>
-	  Can the vector <m> \twovec{-2}{2}</m> be expressed as a
-	  linear combination of <m>\vvec</m> and <m>\wvec</m>?  Is the
-	  vector <m> \twovec{-2}{2}</m> in the span of <m>\vvec</m> and
-	  <m>\wvec</m>?  
-	</p></li>
-
-	<li> <p>
-	  Can the vector <m> \twovec{3}{0}</m> be expressed as a
-	  linear combination of <m>\vvec</m> and <m>\wvec</m>?  Is the
-	  vector <m> \twovec{3}{0}</m> in the span of <m>\vvec</m> and
-	  <m>\wvec</m>?  
-	</p></li>
-
-	<li> <p>
-	  Describe the set of vectors in the span of <m>\vvec</m> and
-	  <m>\wvec</m>.
-	</p></li>
-
-	<li> <p> For what vectors <m>\bvec</m> does the equation
-	<me>
-	  \left[\begin{array}{rr} 2 \amp 1 \\ 1 \amp 2
-	  \end{array}\right] \xvec = \bvec
-	</me>
-	have a solution?
-	</p></li>
-      </ol> </p>
-    
-      
-                    </statement>
-                    
-                </exercise>
-            </page>
 
         </worksheet>
     </article>
