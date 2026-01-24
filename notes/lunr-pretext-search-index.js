@@ -251,6 +251,150 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "Problems (sketches).",
   "body": " Problems (sketches)    Prove that if such that the maximum (respectively, minimum) of exists, then the maximum (respectively, minimum) of is unique.      Find and for each set below, when they exist.                                                          Prove that every nonempty subset of the natural numbers has a minimum element.      Prove that if is a nonempty subset of the integers and there exists such that for all , then contains a maximum element.    "
+},
+{
+  "id": "sec-2-3-1",
+  "level": "1",
+  "url": "sec-2-3-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 2.3\\text{:}\\)<\/span> Functions (Part 1)",
+  "body": " : Functions (Part 1)   Definitions   A relation R from A to B is    A function is a special relation:  A digraph representing function f.     Problems    What properties does the digraph for a relation to need to have in order for it to represent a function?      In high school you likely were told that a graph represents a function if it passes the vertical line test . Carefully state what the vertical line test says and then explain why it works.      More on Domain    versus      Problems    Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.   A function from a set with elements to a set with elements such that .    A function from a set with elements to a set with elements such that is strictly smaller than .         Special Functions        Problems   For each of the following, explain why the given description does not define a function.    , .     , .    Let and . Define by      , .       "
+},
+{
+  "id": "sec-2-3-1-2",
+  "level": "2",
+  "url": "sec-2-3-1.html#sec-2-3-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions   A relation R from A to B is   "
+},
+{
+  "id": "sec-2-3-1-3",
+  "level": "2",
+  "url": "sec-2-3-1.html#sec-2-3-1-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "function "
+},
+{
+  "id": "sec-2-3-1-4",
+  "level": "2",
+  "url": "sec-2-3-1.html#sec-2-3-1-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    What properties does the digraph for a relation to need to have in order for it to represent a function?      In high school you likely were told that a graph represents a function if it passes the vertical line test . Carefully state what the vertical line test says and then explain why it works.    "
+},
+{
+  "id": "sec-2-3-1-5",
+  "level": "2",
+  "url": "sec-2-3-1.html#sec-2-3-1-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "More on Domain.",
+  "body": " More on Domain    versus    "
+},
+{
+  "id": "sec-2-3-1-6",
+  "level": "2",
+  "url": "sec-2-3-1.html#sec-2-3-1-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problems.",
+  "body": " Problems    Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.   A function from a set with elements to a set with elements such that .    A function from a set with elements to a set with elements such that is strictly smaller than .       "
+},
+{
+  "id": "sec-2-3-1-7",
+  "level": "2",
+  "url": "sec-2-3-1.html#sec-2-3-1-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Special Functions.",
+  "body": " Special Functions      "
+},
+{
+  "id": "sec-2-3-1-8",
+  "level": "2",
+  "url": "sec-2-3-1.html#sec-2-3-1-8",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Problems.",
+  "body": " Problems   For each of the following, explain why the given description does not define a function.    , .     , .    Let and . Define by      , .      "
+},
+{
+  "id": "sec-2-3-2",
+  "level": "1",
+  "url": "sec-2-3-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 2.3\\text{:}\\)<\/span> Functions (Part 2)",
+  "body": " : Functions (Part 2)   Definitions        Problems    Assume that and are finite sets. Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.    that is injective but not surjective.     that is surjective but not injective.     that is bijective.     that is neither injective nor surjective.         Provide an example of each of the following. You may either draw a graph or write down a formula. Make sure you have the correct domain.    that is injective but not surjective.     that is surjective but not injective.     that is bijective.     that is neither injective nor surjective.     that is injective.         Suppose and . Fill in the blank:  The function is if and only if every horizontal line hits the graph of  at most once .  This statement is often called the horizontal line test . Explain why this statement is true.      Suppose and . Fill in the blank:  The function is if and only if every horizontal line hits the graph of  at least once .  Explain why this statement is true.      Suppose and . Fill in the blank:  The function is if and only if every horizontal line hits the graph of  exactly once .  Explain why this statement is true.      Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate. The exception is Part (d): you may reference a graph to justify surjectivity.    ,      ,      ,      ,      ,      ,      ,      ,          Prove that the inclusion map for is an injection.      Prove that the identity map is a bijection.     "
+},
+{
+  "id": "sec-2-3-2-2",
+  "level": "2",
+  "url": "sec-2-3-2.html#sec-2-3-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions      "
+},
+{
+  "id": "sec-2-3-2-3",
+  "level": "2",
+  "url": "sec-2-3-2.html#sec-2-3-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Assume that and are finite sets. Provide an example of each of the following. You may draw a function diagram, write down a list of ordered pairs, or write a formula as long as the domain and codomain are clear.    that is injective but not surjective.     that is surjective but not injective.     that is bijective.     that is neither injective nor surjective.         Provide an example of each of the following. You may either draw a graph or write down a formula. Make sure you have the correct domain.    that is injective but not surjective.     that is surjective but not injective.     that is bijective.     that is neither injective nor surjective.     that is injective.         Suppose and . Fill in the blank:  The function is if and only if every horizontal line hits the graph of  at most once .  This statement is often called the horizontal line test . Explain why this statement is true.      Suppose and . Fill in the blank:  The function is if and only if every horizontal line hits the graph of  at least once .  Explain why this statement is true.      Suppose and . Fill in the blank:  The function is if and only if every horizontal line hits the graph of  exactly once .  Explain why this statement is true.      Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate. The exception is Part (d): you may reference a graph to justify surjectivity.    ,      ,      ,      ,      ,      ,      ,      ,          Prove that the inclusion map for is an injection.      Prove that the identity map is a bijection.    "
+},
+{
+  "id": "sec-2-3-3",
+  "level": "1",
+  "url": "sec-2-3-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 2.3\\text{:}\\)<\/span> Functions (Part 3)",
+  "body": " : Functions (Part 3)   Definitions    Function Composition :  A digraph representation of function composition.       Problems    Define by and by . Determine formulas for the composite functions and .      Prove that if , , and , then .      In each case, give examples of finite sets , , and , and functions and that satisfy the given conditions. Drawing a function diagram is sufficient.    is surjective, but is not surjective.     is surjective, but is not surjective.     is injective, but is not injective.     is injective, but is not injective.         Prove that if and are both surjective, then is also surjective.      Prove that if and are both injective, then is also injective.      Prove that if and are both bijective, then is also bijective.      Let and be functions. Determine whether each of the following statements is true or false. If true, prove it. Otherwise, provide a counterexample.   If is injective, then is injective.    If is injective, then is injective.    If is surjective, then is surjective.    If is surjective, then is surjective.         Notation: Image and Preimage   We can use function notation to identify how acts on sets (not just elements). Let be a function, with and .     Problems    Define by . List elements in each of the following sets.                  Find functions and and sets and such that and .      Suppose is injective and and are disjoint subsets of . Are and necessarily disjoint subsets of ? If so, prove it. Otherwise, provide a counterexample.      Let be a function and suppose and . Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If , then .    If , then .                                                                     You are not required to prove Problems 2.54 and 2.55, but please read and be familiar with the results.     "
+},
+{
+  "id": "sec-2-3-3-2",
+  "level": "2",
+  "url": "sec-2-3-3.html#sec-2-3-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions    Function Composition :  A digraph representation of function composition.     "
+},
+{
+  "id": "sec-2-3-3-3",
+  "level": "2",
+  "url": "sec-2-3-3.html#sec-2-3-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Define by and by . Determine formulas for the composite functions and .      Prove that if , , and , then .      In each case, give examples of finite sets , , and , and functions and that satisfy the given conditions. Drawing a function diagram is sufficient.    is surjective, but is not surjective.     is surjective, but is not surjective.     is injective, but is not injective.     is injective, but is not injective.         Prove that if and are both surjective, then is also surjective.      Prove that if and are both injective, then is also injective.      Prove that if and are both bijective, then is also bijective.      Let and be functions. Determine whether each of the following statements is true or false. If true, prove it. Otherwise, provide a counterexample.   If is injective, then is injective.    If is injective, then is injective.    If is surjective, then is surjective.    If is surjective, then is surjective.       "
+},
+{
+  "id": "sec-2-3-3-4",
+  "level": "2",
+  "url": "sec-2-3-3.html#sec-2-3-3-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Notation: Image and Preimage.",
+  "body": " Notation: Image and Preimage   We can use function notation to identify how acts on sets (not just elements). Let be a function, with and .   "
+},
+{
+  "id": "sec-2-3-3-5",
+  "level": "2",
+  "url": "sec-2-3-3.html#sec-2-3-3-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problems.",
+  "body": " Problems    Define by . List elements in each of the following sets.                  Find functions and and sets and such that and .      Suppose is injective and and are disjoint subsets of . Are and necessarily disjoint subsets of ? If so, prove it. Otherwise, provide a counterexample.      Let be a function and suppose and . Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If , then .    If , then .                                                                     You are not required to prove Problems 2.54 and 2.55, but please read and be familiar with the results.    "
 }
 ]
 
