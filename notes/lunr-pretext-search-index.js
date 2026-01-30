@@ -395,6 +395,114 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "Problems.",
   "body": " Problems    Define by . List elements in each of the following sets.                  Find functions and and sets and such that and .      Suppose is injective and and are disjoint subsets of . Are and necessarily disjoint subsets of ? If so, prove it. Otherwise, provide a counterexample.      Let be a function and suppose and . Determine whether each of the following statements is true or false. If a statement is true, prove it. Otherwise, provide a counterexample.   If , then .    If , then .                                                                     You are not required to prove Problems 2.54 and 2.55, but please read and be familiar with the results.    "
+},
+{
+  "id": "sec-3-1",
+  "level": "1",
+  "url": "sec-3-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 3.1\\text{:}\\)<\/span> The Field Axioms",
+  "body": " : The Field Axioms   Motivation: Real Number Axioms         List of field axioms from textbook section 3.1.     Problems    Prove that there exists a unique additive identity of .      Prove that there exists a unique multiplicative identity of .      Prove that every real number has a unique additive inverse.      Prove that every nonzero real number has a unique multiplicative inverse.      Definitions and Notation   Let , .     Problems    Prove that for all , we have the following:    if and only if ;     ;     ;     ;     ;    If , then ;    If and , then .    If , then either or .         Carefully prove that for all , we have . Explicitly cite where you are utilizing the Field Axioms and Problem 3.8.     "
+},
+{
+  "id": "sec-3-1-2",
+  "level": "2",
+  "url": "sec-3-1.html#sec-3-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Real Number Axioms.",
+  "body": " Motivation: Real Number Axioms      "
+},
+{
+  "id": "sec-3-1-4",
+  "level": "2",
+  "url": "sec-3-1.html#sec-3-1-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Prove that there exists a unique additive identity of .      Prove that there exists a unique multiplicative identity of .      Prove that every real number has a unique additive inverse.      Prove that every nonzero real number has a unique multiplicative inverse.    "
+},
+{
+  "id": "sec-3-1-5",
+  "level": "2",
+  "url": "sec-3-1.html#sec-3-1-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definitions and Notation.",
+  "body": " Definitions and Notation   Let , .   "
+},
+{
+  "id": "sec-3-1-6",
+  "level": "2",
+  "url": "sec-3-1.html#sec-3-1-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problems.",
+  "body": " Problems    Prove that for all , we have the following:    if and only if ;     ;     ;     ;     ;    If , then ;    If and , then .    If , then either or .         Carefully prove that for all , we have . Explicitly cite where you are utilizing the Field Axioms and Problem 3.8.    "
+},
+{
+  "id": "sec-3-2",
+  "level": "1",
+  "url": "sec-3-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 3.2\\text{:}\\)<\/span> The Order Axioms",
+  "body": " : The Order Axioms   The Order Axioms     List of order axioms from textbook section 3.2.       Definitions        Problems    Prove that for all , if , then ; and if , then .      Prove that for all , if and , then .      Prove that for all , if and only if .      Prove that if , and are all positive real numbers such that and , then .      Prove that for all , we have the following:    if and only if either or ;     if and only if or .         Prove that for all positive real numbers and , if and only if .      Prove that for all , we have .      Prove that .      Prove that for all , if , then , and if , then .      Prove that for all , if , then .      Prove that if and are both positive or both negative with , then .      Prove that for all , if and , then .     "
+},
+{
+  "id": "sec-3-2-2",
+  "level": "2",
+  "url": "sec-3-2.html#sec-3-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "The Order Axioms.",
+  "body": " The Order Axioms     List of order axioms from textbook section 3.2.     "
+},
+{
+  "id": "sec-3-2-3",
+  "level": "2",
+  "url": "sec-3-2.html#sec-3-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definitions.",
+  "body": " Definitions      "
+},
+{
+  "id": "sec-3-2-4",
+  "level": "2",
+  "url": "sec-3-2.html#sec-3-2-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Problems.",
+  "body": " Problems    Prove that for all , if , then ; and if , then .      Prove that for all , if and , then .      Prove that for all , if and only if .      Prove that if , and are all positive real numbers such that and , then .      Prove that for all , we have the following:    if and only if either or ;     if and only if or .         Prove that for all positive real numbers and , if and only if .      Prove that for all , we have .      Prove that .      Prove that for all , if , then , and if , then .      Prove that for all , if , then .      Prove that if and are both positive or both negative with , then .      Prove that for all , if and , then .    "
+},
+{
+  "id": "sec-3-3",
+  "level": "1",
+  "url": "sec-3-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 3.3\\text{:}\\)<\/span> Absolute Value and the Triangle Inequality",
+  "body": " : Absolute Value and the Triangle Inequality   Definitions   For ,     Problems    Prove that for all , with equality only if .      Prove that for all , we have .      Prove that for all , .      Prove that for all , if , then .      Prove that for all , .      Prove that for all , .      Prove that for all with nonnegative, if and only if .      Prove that for all with nonnegative, if and only if .      Prove that for all , .      Under what conditions do we have equality for the Triangle Inequality?      Prove that for all , .     "
+},
+{
+  "id": "sec-3-3-2",
+  "level": "2",
+  "url": "sec-3-3.html#sec-3-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions   For ,   "
+},
+{
+  "id": "sec-3-3-3",
+  "level": "2",
+  "url": "sec-3-3.html#sec-3-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Prove that for all , with equality only if .      Prove that for all , we have .      Prove that for all , .      Prove that for all , if , then .      Prove that for all , .      Prove that for all , .      Prove that for all with nonnegative, if and only if .      Prove that for all with nonnegative, if and only if .      Prove that for all , .      Under what conditions do we have equality for the Triangle Inequality?      Prove that for all , .    "
 }
 ]
 
