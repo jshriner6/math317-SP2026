@@ -1,0 +1,145 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-3-1">
+        <title><m>\S 3.1</m>: The Field Axioms</title>
+
+                <exercise workspace="4in">
+                    <title>Motivation: Real Number Axioms</title>
+                    <statement>
+                        <p>
+                           
+                        </p>
+					
+                    </statement>
+                    
+                </exercise>
+
+                <p>
+                    <image source="images/field-axioms.png">
+                        <shortdescription>List of field axioms from textbook section 3.1.</shortdescription>
+                    </image>
+                </p>
+				
+            
+
+                <exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that there exists a unique additive identity of <m>\mathbb{R}</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that there exists a unique multiplicative identity of <m>\mathbb{R}</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that every real number has a unique additive inverse.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that every nonzero real number has a unique multiplicative inverse.
+                            </p>
+                        </statement>
+                    </task>
+					
+                </exercise>
+
+                <exercise workspace="8in">
+                    <title>Definitions and Notation</title>
+                    <statement>
+                        <p>
+                            Let <m>a,b \in \mathbb{R}</m>, <m>n \in \mathbb{Z}</m>.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                           Prove that for all <m>a,b,c \in \mathbb{R}</m>, we have the following:
+<ol>
+  <li>
+    <p>
+      <m>a=b</m> if and only if <m>a+c = b+c</m>;
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>0a=0</m>;
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>-a = (-1)a</m>;
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>(-1)^{2} = 1</m>;
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>-(-a) = a</m>;
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>a \neq 0</m>, then <m>(a^{-1})^{-1}=a</m>;
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>a \neq 0</m> and <m>ab=ac</m>, then <m>b=c</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>ab=0</m>, then either <m>a=0</m> or <m>b=0</m>.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+                    
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Carefully prove that for all <m>a,b \in \mathbb{R}</m>, we have <m>(a+b)(a-b) = a^{2} - b^{2}</m>.
+Explicitly cite where you are utilizing the Field Axioms and Problem 3.8.
+                            </p>
+                        </statement>
+                    </task>
+
+                </exercise>
+
+                
+
+        </worksheet>
+    </article>
+</pretext>

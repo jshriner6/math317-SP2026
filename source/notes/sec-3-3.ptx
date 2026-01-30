@@ -1,0 +1,118 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-3-3">
+        <title><m>\S 3.3</m>: Absolute Value and the Triangle Inequality</title>
+
+                <exercise workspace="4in">
+                    <title>Definitions</title>
+                    <statement>
+                        <p>
+                           For <m>a \in \mathbb{R}</m>,
+                        </p>
+                    </statement>
+                    
+                </exercise>
+				
+            
+
+                <exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that for all <m>a \in \mathbb{R}</m>, <m>|a| \geq 0</m> with equality only if <m>a=0</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that for all <m>a,b \in \mathbb{R}</m>, we have <m>|a-b| = |b-a|</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that for all <m>a,b \in \mathbb{R}</m>, <m>|ab| = |a||b|</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that for all <m>a,b \in \mathbb{R}</m>, if <m>\pm ab \leq b</m>, then <m>|a| \leq b</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that for all <m>a \in \mathbb{R}</m>, <m>|a|^{2} = a^{2}</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that for all <m>a \in \mathbb{R}</m>, <m>\pm a \leq |a|</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that for all <m>a,r \in \mathbb{R}</m> with <m>r</m> nonnegative, <m>|a|\leq r</m> if and only if <m>-r \leq a \leq r</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that for all <m>a,b,r \in \mathbb{R}</m> with <m>r</m> nonnegative, <m>|a-b| \leq r</m> if and only if <m>b-r \leq a \leq b+r</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that for all <m>a,b \in \mathbb{R}</m>, <m>|a+b| \leq |a| +|b|</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Under what conditions do we have equality for the Triangle Inequality?
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                                Prove that for all <m>a,b \in \mathbb{R}</m>, <m>|a-b| \geq ||a| -|b||</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    
+					
+                </exercise>
+
+                
+
+                
+
+        </worksheet>
+    </article>
+</pretext>

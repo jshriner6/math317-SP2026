@@ -24,6 +24,7 @@
 
     
     <xi:include href="./portfolio/ch-2.ptx"/>
+    <xi:include href="./portfolio/ch-3.ptx"/>
    <!-- <xi:include href="./labs/lab2.ptx" xpointer="lab-2" /> 
     <xi:include href="./labs/lab3.ptx" xpointer="lab-3" /> 
     <xi:include href="./labs/lab4.ptx" xpointer="lab-4" /> 
