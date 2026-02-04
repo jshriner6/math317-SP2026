@@ -155,7 +155,7 @@ The exception is Part (d): you may reference a graph to justify surjectivity.
 
   <li>
     <p>
-      <m>g: \mathbb{R}\to [0,\infty]</m>, <m>g(x) = x^{2}</m>
+      <m>g: \mathbb{R}\to [0,\infty)</m>, <m>g(x) = x^{2}</m>
     </p>
   </li>
 

@@ -191,7 +191,7 @@
         \item[Problem 2.39] Determine whether each of the following functions is injective, surjective, both, or neither. In each case, you should provide a proof or a counterexample as appropriate. The exception is Part (d): you may reference a graph to justify surjectivity.
             \begin{enumerate}
                 \item $f: \mathbb{R} \to \mathbb{R}$, $f(x) = x^2$
-                \item $g: \mathbb{R} \to [0,\infty]$, $g(x) = x^2$
+                \item $g: \mathbb{R} \to [0,\infty)$, $g(x) = x^2$
                 \item $h: \mathbb{R} \to \mathbb{R}$, $h(x) = x^3$
                 \item $k: \mathbb{R} \to \mathbb{R}$, $k(x) = x^3 -x $
                 \item $c: \mathbb{R} \times \mathbb{R} \to \mathbb{R}$, $c(x,y) = x^2 + y^2$
