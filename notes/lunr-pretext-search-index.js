@@ -503,6 +503,105 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "Problems.",
   "body": " Problems    Prove that for all , with equality only if .      Prove that for all , we have .      Prove that for all , .      Prove that for all , if , then .      Prove that for all , .      Prove that for all , .      Prove that for all with nonnegative, if and only if .      Prove that for all with nonnegative, if and only if .      Prove that for all , .      Under what conditions do we have equality for the Triangle Inequality?      Prove that for all , .    "
+},
+{
+  "id": "sec-3-4-1",
+  "level": "1",
+  "url": "sec-3-4-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 3.4\\text{:}\\)<\/span> Suprema and Infima",
+  "body": " : Suprema and Infima   Definitions   Let . A point is     Problems    The notion of lower bound and the property of a set being bounded below are defined similarly. Define them here.      Find all upper bounds and all lower bounds for each of the following sets when they exist.                                                          Definitions        Problems    Prove that if such that a supremum (respectively, infimum) of exists, then the supremum (respectively, infimum) of is unique.      Find the supremum and the infimum of each of the sets in Problem 3.38 when they exist.     "
+},
+{
+  "id": "sec-3-4-1-2",
+  "level": "2",
+  "url": "sec-3-4-1.html#sec-3-4-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions   Let . A point is   "
+},
+{
+  "id": "sec-3-4-1-3",
+  "level": "2",
+  "url": "sec-3-4-1.html#sec-3-4-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    The notion of lower bound and the property of a set being bounded below are defined similarly. Define them here.      Find all upper bounds and all lower bounds for each of the following sets when they exist.                                                        "
+},
+{
+  "id": "sec-3-4-1-4",
+  "level": "2",
+  "url": "sec-3-4-1.html#sec-3-4-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definitions.",
+  "body": " Definitions      "
+},
+{
+  "id": "sec-3-4-1-5",
+  "level": "2",
+  "url": "sec-3-4-1.html#sec-3-4-1-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problems.",
+  "body": " Problems    Prove that if such that a supremum (respectively, infimum) of exists, then the supremum (respectively, infimum) of is unique.      Find the supremum and the infimum of each of the sets in Problem 3.38 when they exist.    "
+},
+{
+  "id": "sec-3-4-2",
+  "level": "1",
+  "url": "sec-3-4-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 3.4\\text{:}\\)<\/span> Completeness Axiom",
+  "body": " : Completeness Axiom   Problems    Let . Prove that has a maximum if and only if has a supremum and , in which case .      Let such that is bounded above and let be an upper bound of . Prove that is the supremum of if and only if for every , there exists such that .      State and prove the analogous result to Problem 3.44 involving infimum.      The Completeness Axiom   If is nonempty and bounded above, then     Problems    Prove that if is a nonempty subset of that is bounded below, then exists.      Prove that the Completeness Axiom is not true if one replaces with , and requires that the supremum be a rational number.      If and are nonempty and each bounded above, characterize the supremum of each of the following sets.            What are the analogous results involving infimum?      Prove each of the following.   If and are each nonempty and bounded above, then .    If and are each nonempty and bounded below, then          Let be a nonempty set and . Prove each of the following.   If and is bounded above, then .    If and is bounded below, then .   What other properties are there relating inf, sup, and ?     "
+},
+{
+  "id": "sec-3-4-2-2",
+  "level": "2",
+  "url": "sec-3-4-2.html#sec-3-4-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Let . Prove that has a maximum if and only if has a supremum and , in which case .      Let such that is bounded above and let be an upper bound of . Prove that is the supremum of if and only if for every , there exists such that .      State and prove the analogous result to Problem 3.44 involving infimum.    "
+},
+{
+  "id": "sec-3-4-2-3",
+  "level": "2",
+  "url": "sec-3-4-2.html#sec-3-4-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "The Completeness Axiom.",
+  "body": " The Completeness Axiom   If is nonempty and bounded above, then   "
+},
+{
+  "id": "sec-3-4-2-4",
+  "level": "2",
+  "url": "sec-3-4-2.html#sec-3-4-2-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Problems.",
+  "body": " Problems    Prove that if is a nonempty subset of that is bounded below, then exists.      Prove that the Completeness Axiom is not true if one replaces with , and requires that the supremum be a rational number.      If and are nonempty and each bounded above, characterize the supremum of each of the following sets.            What are the analogous results involving infimum?      Prove each of the following.   If and are each nonempty and bounded above, then .    If and are each nonempty and bounded below, then          Let be a nonempty set and . Prove each of the following.   If and is bounded above, then .    If and is bounded below, then .   What other properties are there relating inf, sup, and ?    "
+},
+{
+  "id": "sec-3-5",
+  "level": "1",
+  "url": "sec-3-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 3.5\\text{:}\\)<\/span> The Archimedean Property",
+  "body": " : The Archimedean Property   Problems    Prove that for every , there exists such that .      Prove that for every , there exists such that .      Prove that for any positive real number , there exists such that .      Prove that for every , there exists such that .      Prove that if is an open interval, then there exists a rational number such that .      Prove that if , then there exists disjoint open intervals and such that and .      Prove that if is an open interval, then there exists an irrational number such that .     "
+},
+{
+  "id": "sec-3-5-2",
+  "level": "2",
+  "url": "sec-3-5.html#sec-3-5-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Prove that for every , there exists such that .      Prove that for every , there exists such that .      Prove that for any positive real number , there exists such that .      Prove that for every , there exists such that .      Prove that if is an open interval, then there exists a rational number such that .      Prove that if , then there exists disjoint open intervals and such that and .      Prove that if is an open interval, then there exists an irrational number such that .    "
 }
 ]
 
