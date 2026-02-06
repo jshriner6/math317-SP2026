@@ -1,234 +1,134 @@
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-3-4-2">
-        <title><m>\S 3.4</m>: Determinants and Invertibility</title>
-            <page>
-                <exercise workspace="1in">
-                    <title>Motivation: Determinants and Invertibility</title>
-                    <statement>
-                        <p>
-                            
-                        </p>
-                    </statement>
-                </exercise>
-                <exercise workspace="2in">
-                    <title>Determinants and Row Reduction</title>
-                    <statement>
-                        <p>
-                            Recall, determinants behave nicely with multiplication:
-                            <me>
-                                \text{det}(AB) = \text{det}(A) \cdot \text{det}(B)
-                            </me>.
-                            This suggests
-                            
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-                <exercise workspace="6in">
-                    <title>Example: Determinants and Row Reduction</title>
-                    
-                    <statement>
-                        <p>
-                            Let <m>A = \begin{bmatrix} 2 \amp 2 \\ 1 \amp 3 \end{bmatrix}</m>.
-                        </p>
-                    </statement>
-                    
-                </exercise>
+        <title><m>\S 3.4</m>: Completeness Axiom</title>
 
-            </page>
-            <page>
-                <exercise workspace="3in">
-                    <title>Observations: Determinants and Elementary Matrices</title>
-                    <statement>
-                        <p>
-                            
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-            </page>
-            <page>
                 <exercise>
-                    <title>Activity: Determinants and Invertibility</title>
-                    <statement>
-      <p> We will investigate the connection between the determinant
-      of a matrix and its invertibility using Gaussian elimination.
-      <ol marker="a.">
-	<li><p> Consider the two upper triangular matrices
-	<me>
-	  U_1 =
-	  \left[\begin{array}{rrr}
-	  1 \amp -1 \amp 2 \\
-	  0 \amp 2 \amp 4 \\
-	  0 \amp 0 \amp -2 \\
-	  \end{array}\right],~~~
-	  U_2 =
-	  \left[\begin{array}{rrr}
-	  1 \amp -1 \amp 2 \\
-	  0 \amp 2 \amp 4 \\
-	  0 \amp 0 \amp 0 \\
-	  \end{array}\right].
-	</me>
-	Which of the matrices <m>U_1</m> and <m>U_2</m> are
-	invertible?  What are the determinants <m>\det(U_1)</m> and
-	<m>\det(U_2)</m>? 
-	</p></li>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Let <m>A \subseteq \mathbb{R}</m>.
+Prove that <m>A</m> has a maximum if and only if <m>A</m> has a supremum and <m>\mathrm{sup}(A) \in A</m>, in which case <m>\mathrm{max}(A) = \sup(A)</m>.
+                            </p>
+                        </statement>
+                    </task>
 
-	<li><p> Explain why an upper triangular matrix is invertible
-	if and only if its determinant is not zero.
-	</p></li>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Let <m>A \subseteq \mathbb{R}</m> such that <m>A</m> is bounded above and let <m>b</m> be an upper bound of <m>A</m>.
+Prove that <m>b</m> is the supremum of <m>A</m> if and only if for every <m>\epsilon \gt 0</m>, there exists <m>a \in A</m> such that <m>b - \epsilon \lt a</m>.
+                            </p>
+                        </statement>
+                    </task>
 
-	<li><p> 
-	  Let's now consider the matrix
-	  <me>
-	    A = 
-	    \left[\begin{array}{rrr}
-	    1 \amp -1 \amp 2 \\
-	    -2 \amp 2 \amp -6 \\
-	    3 \amp -1 \amp 10 \\
-	    \end{array}\right]
-	  </me> and begin the Gaussian elimination process
-	  with a row replacement operation
-	  <me>
-	    A = 
-	    \left[\begin{array}{rrr}
-	    1 \amp -1 \amp 2 \\
-	    -2 \amp 2 \amp -6 \\
-	    3 \amp -1 \amp 10 \\
-	    \end{array}\right]
-	    \sim
-	    \left[\begin{array}{rrr}
-	    1 \amp -1 \amp 2 \\
-	    0 \amp 0 \amp -2 \\
-	    3 \amp -1 \amp 10 \\
-	    \end{array}\right]
-	    = A_1
-	    </me>.
-	    What is the relationship between <m>\det(A)</m> and
-	    <m>\det(A_1)</m>?
-	</p></li>
-
-	<li><p> Next we perform another row replacement operation:
-	<me>
-	  A_1=
-	\left[\begin{array}{rrr}
-	1 \amp -1 \amp 2 \\
-	0 \amp 0 \amp -2 \\
-	3 \amp -1 \amp 10 \\
-	\end{array}\right]
-	\sim
-	\left[\begin{array}{rrr}
-	1 \amp -1 \amp 2 \\
-	0 \amp 0 \amp -2 \\
-	0 \amp 2 \amp 4 \\
-	\end{array}\right]
-	= A_2
-	</me>.
-	What is the relationship between <m>\det(A)</m> and
-	<m>\det(A_2)</m>? 
-	</p></li>
-
-	<li><p> Finally, we perform an interchange:
-	<me>
-	  A_2 =
-	  \left[\begin{array}{rrr}
-	1 \amp -1 \amp 2 \\
-	0 \amp 0 \amp -2 \\
-	0 \amp 2 \amp 4 \\
-	\end{array}\right]
-	\sim
-	  \left[\begin{array}{rrr}
-	  1 \amp -1 \amp 2 \\
-	  0 \amp 2 \amp 4 \\
-	  0 \amp 0 \amp -2 \\
-	  \end{array}\right]
-	  = U
-	</me>
-	to arrive at an upper triangular matrix <m>U</m>.  What is the
-	relationship between <m>\det(A)</m> and <m>\det(U)</m>?
-	</p></li>
-
-	<li><p> Since <m>U</m> is upper
-	triangular, we can compute its determinant, which allows us to
-	find <m>\det(A)</m>.  What is <m>\det(A)</m>?  Is <m>A</m>
-	invertible?
-	</p></li>
-
-	<li><p> Now consider the matrix
-	<me>
-	  A = 
-	  \left[\begin{array}{rrr}
-	  1 \amp -1 \amp 3 \\
-	  0 \amp 2 \amp -2 \\
-	  2 \amp 1 \amp 3 \\
-	  \end{array}\right].
-	</me>
-	Perform a sequence of row operations to find an upper
-	triangular matrix <m>U</m> that is row equivalent to
-	<m>A</m>.  Use this to determine <m>\det(A)</m> and whether
-	<m>A</m> is invertible.
-	</p></li>
-
-	<li><p> Suppose we apply a sequence of row operations on a
-	matrix <m>A</m> to obtain <m>A'</m>.  Explain why <m>\det(A)
-	\neq 0</m> if and only if <m>\det(A') \neq 0</m>.
-	</p></li>
-
-	<li><p> Explain why an <m>n\times n</m> matrix
-	<m>A</m> is invertible if and only if <m>\det(A) \neq 0</m>.
-	</p></li>
-
-      </ol></p>
-      </statement>
-                    
-                    
+					<task workspace="4in">
+                        <statement>
+                            <p>
+                               State and prove the analogous result to Problem 3.44 involving infimum.
+                            </p>
+                        </statement>
+                    </task>
+					
                 </exercise>
-            </page>
 
-            <page>
-                <exercise workspace="3in">
-                    <title>Remarks: Determinants and Invertibility</title>
+            <exercise workspace="4in">
+                    <title>The Completeness Axiom</title>
                     <statement>
                         <p>
-                            
+                           If <m>A \subseteq \mathbb{R}</m> is nonempty and bounded above, then
                         </p>
                     </statement>
                     
-                    
                 </exercise>
-                <exercise workspace="6in">
-                    <title>Cofactor Expansions</title>
-                    <statement>
-                        <p>
-                            For <m>2 \times 2</m> matrices, 
-                            <me>
-                                \text{det}\left(\begin{bmatrix} a \amp b \\ c \amp d \end{bmatrix} \right) = 
-                            </me>
-                            
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-            </page>
-            <page>
+
                 <exercise>
-                    <title>Example: Cofactor Expansions</title>
-                    <statement>
-                        <p>
-                            <me>
-                                \text{det}\left(\begin{bmatrix} -3 \amp 0 \amp 0 \amp 0 \\ 4 \amp 1 \amp 0 \amp 0 \\ -1 \amp 4 \amp -4 \amp 0 \\ 0 \amp 3 \amp 2 \amp 3 \end{bmatrix} \right) =
-                            </me>
-                            
-                        </p>
-                    </statement>
-                    
-                    
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that if <m>A</m> is a nonempty subset of <m>\mathbb{R}</m> that is bounded below, then <m>\inf(A)</m> exists.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that the Completeness Axiom is <em>not</em> true if one replaces <m>\mathbb{R}</m> with <m>\mathbb{Q}</m>, and requires that the supremum be a rational number.
+                            </p>
+                        </statement>
+                    </task>
+
+					<task workspace="4in">
+                        <statement>
+                            <p>
+                              If <m>A</m> and <m>B</m> are nonempty and each bounded above, characterize the supremum of each of the following sets.
+<ol>
+  <li>
+    <p>
+      <m>A \cup B</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>A \cap B</m>
+    </p>
+  </li>
+</ol>
+What are the analogous results involving infimum?
+                            </p>
+                        </statement>
+                    </task>
+
+					<task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove each of the following.
+<ol>
+  <li>
+    <p>
+      If <m>A</m> and <m>B</m> are each nonempty and bounded above, then <m>\sup(A+B) = \sup(A) + \sup(B)</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>A</m> and <m>B</m> are each nonempty and bounded below, then <m>\inf(A+B) = \inf(A) + \inf{B}</m>
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+					<task workspace="4in">
+                        <statement>
+                            <p>
+                               Let <m>A</m> be a nonempty set and <m>c \in \mathbb{R}</m>.
+Prove each of the following.
+<ol>
+  <li>
+    <p>
+      If <m>c \gt 0</m> and <m>A</m> is bounded above, then <m>\sup(cA) = c\sup(A)</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>c \lt 0</m> and <m>A</m> is bounded below, then <m>c\inf(A) = \sup(cA)</m>.
+    </p>
+  </li>
+</ol>
+What other properties are there relating inf, sup, and <m>c</m>?
+                            </p>
+                        </statement>
+                    </task>
+					
                 </exercise>
-            </page>
+                
 
         </worksheet>
     </article>

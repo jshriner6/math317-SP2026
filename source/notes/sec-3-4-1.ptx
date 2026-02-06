@@ -1,206 +1,133 @@
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-3-4-1">
-        <title><m>\S 3.4</m>: Determinants</title>
-            <page>
-                <exercise workspace="1in">
-                    <title>Motivation: Determinants</title>
+        <title><m>\S 3.4</m>: Suprema and Infima</title>
+
+                <exercise workspace="4in">
+                    <title>Definitions</title>
                     <statement>
                         <p>
-                            
+                           Let <m>A \subseteq \mathbb{R}</m>. A point <m>b \in \mathbb{R}</m> is
                         </p>
                     </statement>
-                </exercise>
-
-                <exercise>
-                    <title>Preview Activity 3.4.1</title>
-                    <introduction>
-        <p> We will explore the area formula in this preview
-        activity.</p>
-      </introduction>
-
-      <task>
-        <statement>
-	  <p> Find the area of the following parallelograms. </p>
-
-	  <sbsgroup>
-	    <sidebyside widths="3% 30% 3% 30% 3% 30%">
-	      <p> 1. </p>
-	      <image source="images/parallelogram-a" />
-	      <p> 2. </p>
-	      <image source="images/parallelogram-b" />
-	      <p> 3. </p>
-	      <image source="images/parallelogram-c" />
-	    </sidebyside>
-	    <sidebyside widths="3% 30% 3% 30% 3% 30%">
-	      <p> 4. </p>
-	      <image source="images/parallelogram-d" />
-	      <p> 5. </p>
-	      <image source="images/parallelogram-e" />
-	      <p>
-	      </p>
-	      <p>
-	      </p>
-	    </sidebyside>
-	  </sbsgroup>
-        </statement>
-        </task>
-        <task >
-        <statement>
-	  <sidebyside widths="50% 40%" valign="middle">
-	    <p> Explain why the area of the parallelogram formed by
-	      the vectors <m>\vvec</m> and <m>\wvec_1</m> is the same as
-	    that formed by <m>\vvec</m> and <m>\wvec_2</m>. </p>
-	    <image source="images/area-shear" />
-	  </sidebyside>
-        </statement>
-        </task>
                     
                 </exercise>
-            </page>
+				
+            
 
-            <page>
                 <exercise>
-                    <title>First Definitions</title>
-                    <task workspace="3in">
+                    <title>Problems</title>
+                    <task workspace="4in">
                         <statement>
                             <p>
-                                Vectors <m>\vvec_1</m> and <m>\vvec_2</m> are <term>positively oriented</term> if 
+                               The notion of <alert>lower bound</alert> and the property of a set being <alert>bounded below</alert> are defined similarly.
+Define them here.
                             </p>
                         </statement>
                     </task>
-                    <task workspace="3in">
+
+                    <task workspace="4in">
                         <statement>
                             <p>
-                               Let <m>A= [\vvec_1 \vvec_2]</m> be a <m>2 \times 2</m> matrix, where <m>\vvec_1</m> and <m>\vvec_2</m> are positively oriented.
-                               Then the <term>determinant</term> of <m>A</m>, written <m>\text{det}(A)</m>, is
+                               Find all upper bounds and all lower bounds for each of the following sets when they exist.
+<ol>
+  <li>
+    <p>
+      <m>\{5,11,17,42,103\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\mathbb{N}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\mathbb{Z}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>(0,1]</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>(0,1] \cap \mathbb{Q}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>(0,\infty)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\{42\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\left\{\frac{1}{n}\mid n \in \mathbb{N}\right\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\left\{\frac{1}{n}\mid n \in \mathbb{N}\right\} \cup \{0\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\emptyset</m>
+    </p>
+  </li>
+</ol>
                             </p>
                         </statement>
                     </task>
-                    
-                    
+					
                 </exercise>
 
-                <exercise workspace="3in">
-                    <title>Example: Determinant</title>
+            <exercise workspace="4in">
+                    <title>Definitions</title>
                     <statement>
                         <p>
-                            Let 
-                            <me>
-                                I =
-\left[\begin{array}{rr} 1\amp 0 \\ 0 \amp 1 \\
-\end{array}\right]
-\text{, }
-
-A =
-\left[\begin{array}{rr} -2\amp 0 \\ 0 \amp 1 \\
-\end{array}\right]
-\text{.}
-
-                            </me>
-                            
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-            </page>
-
-            <page>
-                <exercise>
-                    <title>Activity: Determinants</title>
-                    <statement>
-      <p> In this activity, we will find the determinant of some
-      simple <m>2\times2</m> matrices and discover some important
-      properties of determinants. Use the interactive diagram in the textbook, or this 
-      <url href="https://understandinglinearalgebra.org/jsactivities/determinants.html">interactive determinants diagram</url> 
-      to help answer the questions below.
-      </p>
-
-    
-
-      <p> <ol marker="a.">
-	<li><p>
-	  Use the diagram to find the determinant of the matrix
-	  <m>\left[\begin{array}{rr} -\frac12 \amp 0 \\ 0 \amp 2
-	  \end{array}\right]</m>.
-	  Along with our previous example, what
-	  does this lead you to believe is generally true about 
-	  the determinant of a diagonal matrix?
-	</p></li>
-
-	<li><p> Use the diagram to find the determinant of the matrix
-	<m>\left[\begin{array}{rr} 0 \amp 1 \\
-	1 \amp 0 \\
-	\end{array}\right]</m>.  What is the geometric effect of the
-	matrix transformation defined by this matrix?
-	</p></li>
-
-	<li><p> Use the diagram to find the determinant of the matrix
-	<m>\left[\begin{array}{rr} 2 \amp 1 \\
-	0 \amp 1 \\
-	\end{array}\right]</m>.  
-	More generally, what do you notice about the determinant of any matrix
-	of the form
-	<m>\left[\begin{array}{rr} 2 \amp k \\
-	0 \amp 1 \\
-	\end{array}\right]</m>?  What does this say about the
-	determinant of an upper triangular matrix?
-	</p></li>
-
-	<li><p> Use the diagram to find the determinant of any matrix
-	of the form
-	<m>\left[\begin{array}{rr} 2 \amp 0 \\
-	k \amp 1 \\
-	\end{array}\right]</m>.  What does this say about the
-	determinant of a 
-	lower triangular matrix?
-	</p></li>
-
-	<li><p> Use the diagram to find the determinant of the matrix
-	<m>\left[\begin{array}{rr} 1 \amp -1 \\
-	-2 \amp 2 \\
-	\end{array}\right]</m>.   In general,
-	what is the determinant of a matrix whose columns are linearly
-	dependent? 
-	</p></li>
-
-	<li><p> Consider the matrices
-	<me>
-	  A = \left[\begin{array}{rr}
-	  2 \amp 1 \\
-	  2 \amp -1 \\
-	  \end{array}\right],~~~
-	  B = \left[\begin{array}{rr}
-	  1 \amp 0 \\
-	  0 \amp 2 \\
-	  \end{array}\right]
-	  </me>.
-	  Use the diagram to find the determinants of <m>A</m>,
-	  <m>B</m>, and <m>AB</m>.  What does this suggest is
-	  generally true about the 
-	  relationship of <m>\det(AB)</m> to <m>\det(A)</m> and
-	  <m>\det(B)</m>?
-	</p></li>
-      </ol></p>
-      </statement>
-                    
-                </exercise>
-            </page>
-
-            <page>
-                <exercise>
-                    <title>Observations: Determinants</title>
-                    <statement>
-                        <p>
-                            
+                           
                         </p>
                     </statement>
                     
                 </exercise>
-            </page>
+
+                <exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that if <m>A \subseteq \mathbb{R}</m> such that a supremum (respectively, infimum) of <m>A</m> exists, then the supremum (respectively, infimum) of <m>A</m> is unique.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Find the supremum and the infimum of each of the sets in Problem 3.38 when they exist.
+                            </p>
+                        </statement>
+                    </task>
+					
+                </exercise>
+                
 
         </worksheet>
-
     </article>
 </pretext>

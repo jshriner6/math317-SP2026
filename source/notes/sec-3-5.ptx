@@ -1,0 +1,70 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-3-5">
+        <title><m>\S 3.5</m>: The Archimedean Property</title>
+
+                <exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that for every <m>x \in \mathbb{R}</m>, there exists <m>n \in \mathbb{N}</m> such that <m>x \lt n</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that for every <m>x \in \mathbb{R}</m>, there exists <m>k,n \in \mathbb{Z}</m> such that <m>k \lt x \lt n</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that for any positive real number <m>x</m>, there exists <m>N \in \mathbb{N}</m> such that <m>0 \lt \frac{1}{N}\lt x</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that for every <m>x \in \mathbb{R}</m>, there exists <m>n \in \mathbb{Z}</m> such that <m>n \leq x \lt n+1</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that if <m>(a,b)</m> is an open interval, then there exists a rational number <m>p</m> such that <m>p \in (a,b)</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that if <m>a \lt b</m>, then there exists disjoint open intervals <m>I</m> and <m>J</m> such that <m>a \in I</m> and <m>b \in J</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that if <m>(a,b)</m> is an open interval, then there exists an irrational number <m>p</m> such that <m>p \in (a,b)</m>.
+                            </p>
+                        </statement>
+                    </task>
+					
+                </exercise>
+
+                
+
+        </worksheet>
+    </article>
+</pretext>
