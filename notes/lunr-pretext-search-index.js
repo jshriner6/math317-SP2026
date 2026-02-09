@@ -602,6 +602,42 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "Problems.",
   "body": " Problems    Prove that for every , there exists such that .      Prove that for every , there exists such that .      Prove that for any positive real number , there exists such that .      Prove that for every , there exists such that .      Prove that if is an open interval, then there exists a rational number such that .      Prove that if , then there exists disjoint open intervals and such that and .      Prove that if is an open interval, then there exists an irrational number such that .    "
+},
+{
+  "id": "sec-4-1",
+  "level": "1",
+  "url": "sec-4-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 4.1\\text{:}\\)<\/span> Open Sets",
+  "body": " : Open Sets   Motivation: Topology        Definitions   A set is an open set if for every ,     Problems    Determine whether each of the following sets is open. Justify your assertions.                                                                    Prove that every open interval is an open set.      Provide an example of an open set that is not a single open interval.      Prove that if and are open sets, then    is an open set, and     is an open set.         Prove that if is a collection of open sets, then is an open set.      Prove that if is a finite collection of open sets for , then is an open set.      Explain why we cannot utilize induction to prove that the intersection of infinitely many open sets indexed by the natural numbers is open.      Give an example of each of the following.   A collection of open sets such that is an open set.    A collection of open sets such that is not an open set.        "
+},
+{
+  "id": "sec-4-1-2",
+  "level": "2",
+  "url": "sec-4-1.html#sec-4-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Motivation: Topology.",
+  "body": " Motivation: Topology      "
+},
+{
+  "id": "sec-4-1-3",
+  "level": "2",
+  "url": "sec-4-1.html#sec-4-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definitions.",
+  "body": " Definitions   A set is an open set if for every ,   "
+},
+{
+  "id": "sec-4-1-4",
+  "level": "2",
+  "url": "sec-4-1.html#sec-4-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Problems.",
+  "body": " Problems    Determine whether each of the following sets is open. Justify your assertions.                                                                    Prove that every open interval is an open set.      Provide an example of an open set that is not a single open interval.      Prove that if and are open sets, then    is an open set, and     is an open set.         Prove that if is a collection of open sets, then is an open set.      Prove that if is a finite collection of open sets for , then is an open set.      Explain why we cannot utilize induction to prove that the intersection of infinitely many open sets indexed by the natural numbers is open.      Give an example of each of the following.   A collection of open sets such that is an open set.    A collection of open sets such that is not an open set.       "
 }
 ]
 
