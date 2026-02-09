@@ -1,222 +1,195 @@
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-4-1">
-        <title><m>\S 4.1</m>: Introduction to Eigenvectors and Eigenvalues</title>
-            <page>
-                <exercise workspace="1.5in">
-                    <title>Motivation: Eigenvectors and Eigenvalues</title>
-                    <statement>
-                        <p>
-                            
-                        </p>
-                    </statement>
-                </exercise>
+        <title><m>\S 4.1</m>: Open Sets</title>
 
-                <exercise workspace="1in">
-                    <title>Preview Activity 4.1.1</title>
-                    <introduction>
-      <p> Before we introduce the definition of eigenvectors and
-      eigenvalues, it will be helpful to remember some ideas we have
-      seen previously.</p>
-      </introduction>
-
-      <task>
-        <statement>
-	  <sidebyside widths="25% 25%">
-	  <p> Suppose that <m>\vvec</m> is the vector shown in the
-	  figure.  Sketch the vector <m>2\vvec</m> and the vector
-	  <m>-\vvec</m>.
-	  </p>
-	  <image source="images/eigen-intro-vec" >
-        <shortdescription>The vector (1,2) in 2 dimensional space.</shortdescription>
-      </image>
-	  </sidebyside>
-          
-        </statement>
-        
-      </task>
-
-      <task >
-        <statement>
-	  <p> State the geometric effect that scalar multiplication
-	  has on the vector <m>\vvec</m>.  Then sketch all the vectors
-	  of the form <m>\lambda \vvec</m> where <m>\lambda</m> is a scalar.
-	  </p>
-          
-        </statement>
-        
-        
-      </task>
-
-      <task >
-        <statement>
-	  <p> State the geometric effect of the matrix
-	  transformation defined by
-	  <me>
-	    \left[\begin{array}{rr}
-	    3 \amp 0 \\
-	    0 \amp -1 \\
-	    \end{array}\right]
-	    </me>.
-	  </p>
-        </statement>
-        
-        
-      </task>
-
-      <task >
-        <statement>
-	  <p> Suppose that <m>A</m> is a <m>2\times 2</m>
-	  matrix and that <m>\vvec_1</m> and <m>\vvec_2</m> are vectors
-	  such that
-	  <me>
-            A\vvec_1 = 3 \vvec_1, \qquad A\vvec_2 = -\vvec_2
-	  </me>.
-	  Use the linearity of matrix multiplication to express the
-	  following vectors in terms of <m>\vvec_1</m> and
-	  <m>\vvec_2</m>.
-	  <ol marker="1.">
-	    <li><p> <m>A(4\vvec_1)</m>. </p></li>
-	    <li><p> <m>A(\vvec_1 + \vvec_2)</m>. </p></li>
-	    <li><p> <m>A(4\vvec_1 -3\vvec_2)</m>. </p></li>
-	    <li><p> <m>A^2\vvec_1</m>. </p></li>
-	    <li><p> <m>A^2(4\vvec_1 - 3\vvec_2)</m>. </p></li>
-	    <li><p> <m>A^4\vvec_1</m>. </p></li>
-	  </ol></p>
-        </statement>
-       
-
-        
-      </task>
-                    
-                    
-                </exercise>
-
-            </page>
-
-            <page>
                 <exercise workspace="2in">
-                    <title>Definition: Eigenvector and Eigenvalue</title>
-                    <statement>
-                        <p>
-                            Given a square matrix <m>A</m>, a non-zero vector <m>\vvec</m> is an <term>eigenvector</term> if
-                            there is a scalar <m>\lambda </m> such that
-                        </p>
-                    </statement>
-                    
-                    
+					<title>Motivation: Topology</title>
+					<statement>
+						<p>
+							
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise workspace="2in">
+					<title>Definitions</title>
+					<statement>
+						<p>
+							A set <m>U</m> is an <term>open set</term> if for every <m>x \in U</m>, 
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                              Determine whether each of the following sets is open.
+Justify your assertions.
+<ol>
+  <li>
+    <p>
+      <m>(1,2)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>(1,\infty)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>(1,2) \cup (\pi, 5)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>[1,2]</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>(-\infty,\sqrt{2}]</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\{4,17,42\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\{\frac{1}{n}| n \in \mathbb{N}\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\{\frac{1}{n}| n \in \mathbb{N}\} \cup \{0\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\mathbb{R}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\mathbb{Q}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\mathbb{Z}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\emptyset</m>
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that every open interval is an open set.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Provide an example of an open set that is not a single open interval.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that if <m>U</m> and <m>V</m> are open sets, then
+<ol>
+  <li>
+    <p>
+      <m>U \cup V</m> is an open set, and
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>U \cap V</m> is an open set.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+								Prove that if <m>\{U_{\alpha}\}_{\alpha \in \Delta}</m> is a collection of open sets, then <m>\bigcup_{\alpha \in \Delta}U_{\alpha}</m> is an open set.
+							</p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Prove that if <m>\{U_{i}\}_{i=1}^{n}</m> is a finite collection of open sets for <m>n \in \mathbb{N}</m>, then <m>\bigcap_{i=1}^{n} U_{i}</m> is an open set.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                               Explain why we cannot utilize induction to prove that the intersection of infinitely many open sets indexed by the natural numbers is open.
+                            </p>
+                        </statement>
+                    </task>
+
+					<task workspace="4in">
+                        <statement>
+                            <p>
+                              Give an example of each of the following.
+<ol>
+  <li>
+    <p>
+      A collection of open sets <m>\{U_{\alpha}\}_{\alpha \in \Delta}</m> such that <m>\bigcap_{\alpha \in \Delta}U_{\alpha}</m> is an open set.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      A collection of open sets <m>\{U_{\alpha}\}_{\alpha \in \Delta}</m> such that <m>\bigcap_{\alpha \in \Delta}U_{\alpha}</m> is not an open set.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+					
                 </exercise>
 
-                <exercise workspace="6in">
-                    <title>Example: Eigenvector and Eigenvalue</title>
-                    <statement>
-                        <p>
-                            Let <m> A = \left[\begin{array}{rr}
-	7 \amp 6 \\
-	6 \amp -2 \\
-	\end{array}\right]
-	</m>
-	and <m>\vvec=\twovec{2}{1}</m>.
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-            </page>
-
-            <page>
-                <exercise>
-                    <title>Activity: Geometric Interpretation of Eigenvectors</title>
-                    <statement>
-      <p> This definition has an important geometric interpretation
-      that we will investigate here.
-      <ol marker="a.">
-	<li><p> Suppose that <m>\vvec</m> is a nonzero vector and
-	that <m>\lambda</m> is a scalar.  What is the geometric
-	relationship between <m>\vvec</m> and <m>\lambda\vvec</m>?
-	</p></li>
-
-	<li><p> Let's now consider the eigenvector condition:
-	<m>A\vvec = \lambda\vvec</m>.  Here we have two vectors,
-	<m>\vvec</m> and <m>A\vvec</m>.  If <m>A\vvec =
-	\lambda\vvec</m>, what is the geometric relationship between
-	<m>\vvec</m> and <m>A\vvec</m>?
-	</p></li>
-
-	<li>
-	<p>
-		  Use the <url href="http://gvsu.edu/s/0Ja">interactive diagram</url>
-		  that accompanies this activity.
-		</p>
-
-	<p> Choose the matrix
-	<m>A=
-	\left[\begin{array}{rr}
-	1\amp 2 \\
-	2\amp 1 \\
-	\end{array}\right]
-	</m>.
-	Move the vector <m>\vvec</m> so that the eigenvector condition
-	holds.  What is the eigenvector <m>\vvec</m> and what is the
-	associated eigenvalue?
-	</p></li>
-
-	<li><p> By algebraically computing <m>A\vvec</m>, verify that
-	the eigenvector condition holds for the vector <m>\vvec</m>
-	that you found.  </p></li>
-
-	<li><p> If you multiply the eigenvector <m>\vvec</m> that you
-	found by <m>2</m>, do you still have an eigenvector?  If so,
-	what is the associated eigenvalue? </p></li>
-
-	<li><p> Are you able to find another eigenvector <m>\vvec</m>
-	that is not a scalar multiple of the first one that you found?
-	If so, what is the eigenvector and what is the associated
-	eigenvalue? </p></li>
-
-	<li><p> Now consider the matrix
-	<m>A = \left[\begin{array}{rr}
-	2 \amp 1 \\
-	0 \amp 2 \\
-	\end{array}\right]
-	</m>.
-	Use the diagram to describe any eigenvectors and associated
-	eigenvalues.
-	</p></li>
-
-	<li><p> Finally, consider the matrix
-	<m>A = \left[\begin{array}{rr}
-	0 \amp -1 \\
-	1 \amp 0 \\
-	\end{array}\right]
-	</m>.
-	Use the diagram to describe any eigenvectors and associated
-	eigenvalues.  What geometric transformation does this
-	matrix perform on vectors?  How does this explain the presence
-	of any eigenvectors?
-	</p></li>
-      </ol> </p>
-      </statement>
-
-                    
-                </exercise>
-            </page>
-
-            <page>
-                <exercise>
-                    <title>Making Connections</title>
-                    <statement>
-                        <p>
-                            <me>
-                                A \vvec  = \lambda \vvec
-                            </me>
-                            
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-            </page>
+                
 
         </worksheet>
     </article>

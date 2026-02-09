@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        
+        
+            <section xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Chapter 4: Standard Topology of the Real Line</title>
+                    
+                     <program language="latex" line-numbers="yes">
+                        <code>  
+  \documentclass{article}
+  \usepackage{amssymb, amsmath}
+  \newcommand{\lt}{&lt;}
+  \newcommand{\gt}{&gt;}
+  \begin{document}
+    \title{Math 317: Chapter 4 Portfolio}
+    \author{Your name here}
+    \maketitle
+    \begin{enumerate}
+            \item[Problem 4.2] Determine whether each of the following sets is open. Justify your assertions.
+        \begin{enumerate}
+            \item $(1,2)$
+            \item $(1,\infty)$
+            \item $(1,2) \cup (\pi, 5)$
+            \item $[1,2]$
+            \item $(-\infty,\sqrt{2}]$
+            \item $\{4,17,42\}$
+            \item $\{\frac{1}{n} | n \in \mathbb{N}\}$
+            \item $\{\frac{1}{n} | n \in \mathbb{N}\} \cup \{0\}$
+            \item $\mathbb{R}$
+            \item $\mathbb{Q}$
+            \item $\mathbb{Z}$
+            \item $\emptyset$
+        \end{enumerate}
+    \item[Solution 4.2]
+
+    \item[Problem 4.3] Prove that every open interval is an open set.
+    \item[Solution 4.3]
+
+    \item[Problem 4.4] Provide an example of an open set that is not a single open interval.
+    \item[Solution 4.4]
+
+    \item[Problem 4.5] Prove that if $U$ and $V$ are open sets, then
+        \begin{enumerate}
+            \item $U \cup V$ is an open set, and
+            \item $U \cap V$ is an open set.
+        \end{enumerate}
+    \item[Solution 4.5]
+
+    \item[Problem 4.6] Prove that if $\{U_\alpha\}_{\alpha \in \Delta}$ is a collection of open sets, then $\bigcup_{\alpha \in \Delta} U_\alpha$ is an open set.
+    \item[Solution 4.6]
+
+    \item[Problem 4.7] Prove that if $\{U_i\}_{i=1}^{n}$ is a finite collection of open sets for $n \in \mathbb{N}$, then $\bigcap_{i=1}^n U_i$ is an open set.
+    \item[Solution 4.7]
+
+    \item[Problem 4.8] Explain why we cannot utilize induction to prove that the intersection of infinitely many open sets indexed by the natural numbers is open.
+    \item[Solution 4.8]
+
+    \item[Problem 4.9] Give an example of each of the following.
+        \begin{enumerate}
+            \item A collection of open sets $\{U_\alpha\}_{\alpha \in \Delta}$ such that $\bigcap_{\alpha \in \Delta} U_\alpha$ is an open set.
+            \item A collection of open sets $\{U_\alpha\}_{\alpha \in \Delta}$ such that $\bigcap_{\alpha \in \Delta} U_\alpha$ is not an open set.
+        \end{enumerate}
+    \item[Solution 4.9]
+
+        \textit{This is NOT the end of Chapter 4 problems.}
+
+    \end{enumerate}
+  \end{document}          
+                        </code>
+                    </program>
+                
+            </section>
