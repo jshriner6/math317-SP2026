@@ -44,7 +44,7 @@
                     <task workspace="4in">
                         <statement>
                             <p>
-                                Prove that for all <m>a,b \in \mathbb{R}</m>, if <m>\pm ab \leq b</m>, then <m>|a| \leq b</m>.
+                                Prove that for all <m>a,b \in \mathbb{R}</m>, if <m>\pm a \leq b</m>, then <m>|a| \leq b</m>.
                             </p>
                         </statement>
                     </task>

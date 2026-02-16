@@ -92,7 +92,7 @@
         \item[Problem 3.27] Prove that for all $a,b \in \mathbb{R}$, $|ab| = |a||b|$.
         \item[Solution 3.27]
 
-        \item[Problem 3.28] Prove that for all $a,b \in \mathbb{R}$, if $\pm ab \leq b$, then $|a| \leq b$.
+        \item[Problem 3.28] Prove that for all $a,b \in \mathbb{R}$, if $\pm a \leq b$, then $|a| \leq b$.
         \item[Solution 3.28]
 
         \item[Problem 3.29] Prove that for all $a \in \mathbb{R}$, $|a|^2 = a^2$.
