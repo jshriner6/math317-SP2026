@@ -1,0 +1,231 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-4-3">
+        <title><m>\S 4.3</m>: Compact and Connected Sets</title>
+
+
+				<exercise workspace="2in">
+					<title>Definitions</title>
+					<statement>
+						<p>
+							A set <m>K \subseteq \mathbb{R}</m> is 
+                            <term>compact</term> if
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Determine whether each of the following sets is compact.
+Briefly justify your assertions.
+<ol>
+  <li>
+    <p>
+      <m>[0,1) \cup [2,3]</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>[0,1) \cup (1,2]</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>[0,1) \cup [1,2]</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\mathbb{R}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\mathbb{Q}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\mathbb{R}\setminus\mathbb{Q}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\mathbb{Z}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\{\frac{1}{n}| n \in \mathbb{N}\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>[0,1] \cup \{1+\frac{1}{n}| n \in \mathbb{N}\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\{17,42\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\{17\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\emptyset</m>
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Is every finite set compact? Justify your assertion.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that if <m>K</m> is a nonempty compact subset of <m>\mathbb{R}</m>, then <m>\sup(K),\inf(K) \in K</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+					<title>Definitions</title>
+					<statement>
+						<p>
+							Let <m>A \subseteq \mathbb{R}</m> and <m>\mathcal{U} = \{U_\alpha\}_{\alpha \in \Delta}</m> 
+                            a collection of open sets.
+						</p>
+					</statement>
+				</exercise>
+
+
+                <exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Let <m>A = [0,1]</m>, and for <m>n \in \mathbb{N}\}</m>, <m>\mathcal{U}_{1} = \{(-\frac{n}{2},\frac{n}{2})\}</m> and <m>\mathcal{U}_{2} = \{(-\frac{1}{n},\frac{1}{n})\} \cup \{(-\frac{1}{n}+1,\frac{1}{n}+1) \}</m>.
+It turns out that both <m>\mathcal{U}_{1}</m> and <m>\mathcal{U}_{2}</m> are open covers of <m>A</m>.
+<ol>
+  <li>
+    <p>
+      If possible, find a finite open subcover of <m>\mathcal{U}_{1}</m>.
+      If this is not possible, explain why.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If possible, find a finite open subcover of <m>\mathcal{U}_{2}</m>.
+      If this is not possible, explain why.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Let <m>A = (0,1)</m>, and for <m>n \in \mathbb{N}\}</m>, <m>\mathcal{V}_{1} = \{(-\frac{n}{2},\frac{n}{2})\}</m> and <m>\mathcal{V}_{2} = \{(\frac{1}{n},1)\}</m>.
+It turns out that both <m>\mathcal{V}_{1}</m> and <m>\mathcal{V}_{2}</m> are open covers of <m>A</m>.
+<ol>
+  <li>
+    <p>
+      If possible, find a finite open subcover of <m>\mathcal{V}_{1}</m>.
+      If this is not possible, explain why.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If possible, find a finite open subcover of <m>\mathcal{V}_{2}</m>.
+      If this is not possible, explain why.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            You are not required to write a solution to Problem 4.40, but please read it.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+					<title>Definitions</title>
+					<statement>
+						<p>
+							A set <m>A \subseteq \mathbb{R}</m> is <term>disconnected</term> if 
+						</p>
+					</statement>
+				</exercise>
+
+                <exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Determine whether each of the sets in Problem 4.34 is connected or disconnected.
+Briefly justify your assertions.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that if <m>a \in \mathbb{R}</m>, then <m>\{a\}</m> is connected.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that every closed interval <m>[a,b]</m> is connected.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+                
+
+        </worksheet>
+    </article>
+</pretext>

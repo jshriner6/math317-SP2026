@@ -1,0 +1,184 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-4-2-1">
+        <title><m>\S 4.2</m>: Accumulation Points</title>
+
+
+				<exercise workspace="2in">
+					<title>Definitions</title>
+					<statement>
+						<p>
+							Let <m>A \subseteq \mathbb{R}</m>. A point <m>p \in \mathbb{R}</m> is 
+                            an <term>accumulation point</term> if
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Consider the open interval <m>I=(1,2)</m>.
+Prove each of the following.
+<ol>
+  <li>
+    <p>
+      The points <m>1</m> and <m>2</m> are accumulation points of <m>I</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>p \in I</m>, then <m>p</m> is an accumulation point of <m>I</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>p \lt 1</m> or <m>p \gt 2</m>, then <m>p</m> is not an accumulation point of <m>I</m>.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Show that a point <m>p</m> is an accumulation point of the intervals <m>(a,b)</m>, <m>(a,b]</m>, <m>[a,b)</m>, and <m>[a,b]</m> if and only if <m>p \in [a,b]</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that the point <m>p=0</m> is an accumulation point of <m>A =\{\frac{1}{n}| n \in \mathbb{N}\}</m>.
+Are there any other accumulation points of <m>A</m>?
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            For each set <m>A</m>, find the set of accumulation points <m>A'</m>.
+In each case, sketch a proof to justify your assertions.
+<ol>
+  <li>
+    <p>
+      <m>A=\{-17,1,\pi,42\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>A=[1,3) \cup (3,5)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>A = [1,3) \cup \{17\}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>A = \mathbb{R}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>A= \mathbb{Q}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>A = \mathbb{Z}</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\displaystyle M=\bigcup_{n=1}^{\infty} (-1-\frac{1}{n}, 1+\frac{1}{n})</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\displaystyle M=\bigcap_{n=1}^{\infty} (-\frac{1}{n}, \frac{1}{n})</m>
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that if <m>A</m> is finite, then <m>A</m> has no accumulation points.
+That is, if <m>A</m> is finite, then <m>A'=\emptyset</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            State the contrapositive of the previous problem.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Determine whether the converse of Problem 4.16 is true or false. Justify your assertion.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Provide an example of a set <m>A</m> with exactly two accumulation points.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Given sets <m>A</m> and <m>B</m>, determine whether each of the following is true or false.
+If the statement is true, prove it.
+Otherwise, provide a counterexample.
+<ol>
+  <li>
+    <p>
+      If <m>p</m> is an accumulation point of <m>A \cap B</m>, then <m>p</m> is an accumulation point of both <m>A</m> and <m>B</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>p</m> is an accumulation point of <m>A \cup B</m>, then <m>p</m> is an accumulation point of <m>A</m> or <m>p</m> is an accumulation point of <m>B</m>.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+
+                
+
+        </worksheet>
+    </article>
+</pretext>

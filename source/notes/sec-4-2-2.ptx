@@ -1,0 +1,188 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-4-2-2">
+        <title><m>\S 4.2</m>: Closed Sets</title>
+
+
+				<exercise workspace="2in">
+					<title>Definitions</title>
+					<statement>
+						<p>
+							A set <m>A \subseteq \mathbb{R}</m> is 
+                            an <term>closed</term> if
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Determine whether each of the sets in Problem 4.2 is closed. Justify your assertions.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Provide an example of each of the following.
+You do not need to prove that your answers are correct.
+<ol>
+  <li>
+    <p>
+      A set that is open but not closed.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      A set that is closed but not open.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      A set that is neither open nor closed.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that every interval of the form <m>[a,b]</m>, <m>(-\infty,b]</m>, <m>[a,\infty)</m>, or <m>(-\infty,\infty)</m> is a closed set.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that if <m>A</m> is finite, then <m>A</m> is a closed set.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that <m>\mathbb{Z}</m> is a closed set.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Let <m>U \subseteq \mathbb{R}</m>.
+Prove that <m>U</m> is open if and only if <m>U^{C}</m> is closed.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that if <m>A</m> and <m>B</m> are closed sets, then
+<ol>
+  <li>
+    <p>
+      <m>A \cup B</m> is a closed set, and
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>A \cap B</m> is a closed set.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that if <m>\{A_{\alpha}\}_{\alpha \in \Delta}</m> is a collection of closed sets, then <m>\cap_{\alpha \in \Delta}A_{\alpha}</m> is a closed set.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove that if <m>\{A_{i}\}_{i=1}^{n}</m> is a finite collection of closed sets for <m>n \in \mathbb{N}</m>, then <m>\cup_{i=1}^{n}A_{i}</m> is a closed set.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Provide an example of a collection of closed sets <m>\{A_{\alpha}\}_{\alpha \in \Delta}</m> such that <m>\cup_{\alpha \in \Delta}A_{\alpha}</m> is not a closed set.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                           Determine whether each of the following sets is open, closed, both, or neither.
+<ol>
+  <li>
+    <p>
+      <m>\displaystyle V = \bigcup_{n=2}^{\infty} \left(n-\frac{1}{2}, n\right)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\displaystyle W = \bigcap_{n=2}^{\infty} \left(n-\frac{1}{2}, n\right)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\displaystyle X = \bigcap_{n=1}^{\infty} \left(-\frac{1}{n}, \frac{1}{n}\right)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>\displaystyle Y = \bigcap_{n=1}^{\infty} \left(-n, n\right)</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>Z= (0,1) \cap \mathbb{Q}</m>
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="4in">
+                        <statement>
+                            <p>
+                            Prove or provide a counterexample: Every non-closed set has at least one accumulation point.
+                            </p>
+                        </statement>
+                    </task>
+
+                    
+                    
+                </exercise>
+
+                
+
+        </worksheet>
+    </article>
+</pretext>
