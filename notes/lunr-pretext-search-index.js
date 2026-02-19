@@ -638,6 +638,123 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "Problems.",
   "body": " Problems    Determine whether each of the following sets is open. Justify your assertions.                                                                    Prove that every open interval is an open set.      Provide an example of an open set that is not a single open interval.      Prove that if and are open sets, then    is an open set, and     is an open set.         Prove that if is a collection of open sets, then is an open set.      Prove that if is a finite collection of open sets for , then is an open set.      Explain why we cannot utilize induction to prove that the intersection of infinitely many open sets indexed by the natural numbers is open.      Give an example of each of the following.   A collection of open sets such that is an open set.    A collection of open sets such that is not an open set.       "
+},
+{
+  "id": "sec-4-2-1",
+  "level": "1",
+  "url": "sec-4-2-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 4.2\\text{:}\\)<\/span> Accumulation Points",
+  "body": " : Accumulation Points   Definitions   Let . A point is an accumulation point if     Problems    Consider the open interval . Prove each of the following.   The points and are accumulation points of .    If , then is an accumulation point of .    If or , then is not an accumulation point of .         Show that a point is an accumulation point of the intervals , , , and if and only if .      Prove that the point is an accumulation point of . Are there any other accumulation points of ?      For each set , find the set of accumulation points . In each case, sketch a proof to justify your assertions.                                                Prove that if is finite, then has no accumulation points. That is, if is finite, then .      State the contrapositive of the previous problem.      Determine whether the converse of Problem 4.16 is true or false. Justify your assertion.      Provide an example of a set with exactly two accumulation points.      Given sets and , determine whether each of the following is true or false. If the statement is true, prove it. Otherwise, provide a counterexample.   If is an accumulation point of , then is an accumulation point of both and .    If is an accumulation point of , then is an accumulation point of or is an accumulation point of .        "
+},
+{
+  "id": "sec-4-2-1-2",
+  "level": "2",
+  "url": "sec-4-2-1.html#sec-4-2-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions   Let . A point is an accumulation point if   "
+},
+{
+  "id": "sec-4-2-1-3",
+  "level": "2",
+  "url": "sec-4-2-1.html#sec-4-2-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Consider the open interval . Prove each of the following.   The points and are accumulation points of .    If , then is an accumulation point of .    If or , then is not an accumulation point of .         Show that a point is an accumulation point of the intervals , , , and if and only if .      Prove that the point is an accumulation point of . Are there any other accumulation points of ?      For each set , find the set of accumulation points . In each case, sketch a proof to justify your assertions.                                                Prove that if is finite, then has no accumulation points. That is, if is finite, then .      State the contrapositive of the previous problem.      Determine whether the converse of Problem 4.16 is true or false. Justify your assertion.      Provide an example of a set with exactly two accumulation points.      Given sets and , determine whether each of the following is true or false. If the statement is true, prove it. Otherwise, provide a counterexample.   If is an accumulation point of , then is an accumulation point of both and .    If is an accumulation point of , then is an accumulation point of or is an accumulation point of .       "
+},
+{
+  "id": "sec-4-2-2",
+  "level": "1",
+  "url": "sec-4-2-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 4.2\\text{:}\\)<\/span> Closed Sets",
+  "body": " : Closed Sets   Definitions   A set is an closed if     Problems    Determine whether each of the sets in Problem 4.2 is closed. Justify your assertions.      Provide an example of each of the following. You do not need to prove that your answers are correct.   A set that is open but not closed.    A set that is closed but not open.    A set that is neither open nor closed.         Prove that every interval of the form , , , or is a closed set.      Prove that if is finite, then is a closed set.      Prove that is a closed set.      Let . Prove that is open if and only if is closed.      Prove that if and are closed sets, then    is a closed set, and     is a closed set.         Prove that if is a collection of closed sets, then is a closed set.      Prove that if is a finite collection of closed sets for , then is a closed set.      Provide an example of a collection of closed sets such that is not a closed set.      Determine whether each of the following sets is open, closed, both, or neither.                                 Prove or provide a counterexample: Every non-closed set has at least one accumulation point.     "
+},
+{
+  "id": "sec-4-2-2-2",
+  "level": "2",
+  "url": "sec-4-2-2.html#sec-4-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions   A set is an closed if   "
+},
+{
+  "id": "sec-4-2-2-3",
+  "level": "2",
+  "url": "sec-4-2-2.html#sec-4-2-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Determine whether each of the sets in Problem 4.2 is closed. Justify your assertions.      Provide an example of each of the following. You do not need to prove that your answers are correct.   A set that is open but not closed.    A set that is closed but not open.    A set that is neither open nor closed.         Prove that every interval of the form , , , or is a closed set.      Prove that if is finite, then is a closed set.      Prove that is a closed set.      Let . Prove that is open if and only if is closed.      Prove that if and are closed sets, then    is a closed set, and     is a closed set.         Prove that if is a collection of closed sets, then is a closed set.      Prove that if is a finite collection of closed sets for , then is a closed set.      Provide an example of a collection of closed sets such that is not a closed set.      Determine whether each of the following sets is open, closed, both, or neither.                                 Prove or provide a counterexample: Every non-closed set has at least one accumulation point.    "
+},
+{
+  "id": "sec-4-3",
+  "level": "1",
+  "url": "sec-4-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 4.3\\text{:}\\)<\/span> Compact and Connected Sets",
+  "body": " : Compact and Connected Sets   Definitions   A set is compact if     Problems    Determine whether each of the following sets is compact. Briefly justify your assertions.                                                                    Is every finite set compact? Justify your assertion.      Prove that if is a nonempty compact subset of , then .      Definitions   Let and a collection of open sets.     Problems    Let , and for , and . It turns out that both and are open covers of .   If possible, find a finite open subcover of . If this is not possible, explain why.    If possible, find a finite open subcover of . If this is not possible, explain why.         Let , and for , and . It turns out that both and are open covers of .   If possible, find a finite open subcover of . If this is not possible, explain why.    If possible, find a finite open subcover of . If this is not possible, explain why.         You are not required to write a solution to Problem 4.40, but please read it.      Definitions   A set is disconnected if     Problems    Determine whether each of the sets in Problem 4.34 is connected or disconnected. Briefly justify your assertions.      Prove that if , then is connected.      Prove that every closed interval is connected.     "
+},
+{
+  "id": "sec-4-3-2",
+  "level": "2",
+  "url": "sec-4-3.html#sec-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions   A set is compact if   "
+},
+{
+  "id": "sec-4-3-3",
+  "level": "2",
+  "url": "sec-4-3.html#sec-4-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Determine whether each of the following sets is compact. Briefly justify your assertions.                                                                    Is every finite set compact? Justify your assertion.      Prove that if is a nonempty compact subset of , then .    "
+},
+{
+  "id": "sec-4-3-4",
+  "level": "2",
+  "url": "sec-4-3.html#sec-4-3-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definitions.",
+  "body": " Definitions   Let and a collection of open sets.   "
+},
+{
+  "id": "sec-4-3-5",
+  "level": "2",
+  "url": "sec-4-3.html#sec-4-3-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problems.",
+  "body": " Problems    Let , and for , and . It turns out that both and are open covers of .   If possible, find a finite open subcover of . If this is not possible, explain why.    If possible, find a finite open subcover of . If this is not possible, explain why.         Let , and for , and . It turns out that both and are open covers of .   If possible, find a finite open subcover of . If this is not possible, explain why.    If possible, find a finite open subcover of . If this is not possible, explain why.         You are not required to write a solution to Problem 4.40, but please read it.    "
+},
+{
+  "id": "sec-4-3-6",
+  "level": "2",
+  "url": "sec-4-3.html#sec-4-3-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Definitions.",
+  "body": " Definitions   A set is disconnected if   "
+},
+{
+  "id": "sec-4-3-7",
+  "level": "2",
+  "url": "sec-4-3.html#sec-4-3-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Problems.",
+  "body": " Problems    Determine whether each of the sets in Problem 4.34 is connected or disconnected. Briefly justify your assertions.      Prove that if , then is connected.      Prove that every closed interval is connected.    "
 }
 ]
 
