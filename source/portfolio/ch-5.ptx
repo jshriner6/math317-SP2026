@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        
+        
+            <section xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Chapter 5: Sequences</title>
+                    
+                     <program language="latex" line-numbers="yes">
+                        <code>  
+  \documentclass{article}
+  \usepackage{amssymb, amsmath}
+  \newcommand{\lt}{&lt;}
+  \newcommand{\gt}{&gt;}
+  \begin{document}
+    \title{Math 317: Chapter 5 Portfolio}
+    \author{Your name here}
+    \maketitle
+    \begin{enumerate}
+
+        \item[Problem 5.3] Write down several sequences $(p_n)_{n=1}^\infty$ you are familiar with. If possible, give an algebraic formula for each $p_n$ in terms of $n$.
+        \item[Solution 5.3]
+
+        \item[Problem 5.4] Explain the differences between $\{p_n\}_{n=1}^\infty$ and $(p_n)_{n=1}^\infty$. Give an example of a sequence whose image set is finite.
+        \item[Solution 5.4]
+
+        \item[Problem 5.6] Consider the sequence given by $p_n = \frac{1}{n}$. Prove that $(p_n)_{n=1}^\infty$ converges to $0$.
+        \item[Solution 5.6]
+
+        \item[Problem 5.7] Consider the sequence given by $p_n = 1-\frac{1}{n}$. Prove that $(p_n)_{n=1}^\infty$ converges to $1$.
+        \item[Solution 5.7]
+
+        \item[Problem 5.8] Consider the sequence with even terms $p_{2i}=\frac{1}{2i-1}$ and odd terms $p_{2i-1} = \frac{1}{2i}$. Prove that $(p_n)_{n=1}^\infty$ converges to $0$.
+        \item[Solution 5.8]
+
+        \item[Problem 5.9] Consider the sequence with odd terms $p_{2i-1}=\frac{1}{2i-1}$ and even terms $p_{2i} = 1+\frac{1}{2i}$. Determine whether $(p_n)_{n=1}^\infty$ converges to $0$.
+        \item[Solution 5.9]
+
+        \item[Problem 5.10] Prove that if $(p_n)_{n=1}^\infty$ converges to the point $x$ \textit{and} for each $n \in \mathbb{N}$, $p_n \neq p_{n+1}$, then $x$ is an accumulation point of the image set $\{p_n\}_{n=1}^\infty$ of the sequence. Can we weaken the requirement that $p_n \neq p_{n+1}$ for all $n \in \mathbb{N}$ and still conclude that $x$ is an accumulation point of the image set?
+        \item[Solution 5.10]
+
+        \item[Problem 5.11] Prove that if $(p_n)_{n=1}^\infty$ converges to the point $x$ and $y$ is a point different from $x$, then $(p_n)_{n=1}^\infty$ does \textit{not} converge to $y$.
+        \item[Solution 5.11]   
+
+        \item[Problem 5.12] Let $(p_n)_{n=1}^\infty$ be a sequence. Prove that if for every $\varepsilon \gt 0$, there exists $N \in \mathbb{N}$ such that $|p_n-x| \lt \varepsilon$ whenever $n \geq N$, then $(p_n)_{n=1}^\infty$ converges to $x$.
+        \item[Solution 5.12] 
+
+        \item[Problem 5.13] Prove that if $c$ is a real number and $(p_n)_{n=1}^\infty$ converges to $x$, then the sequence $(cp_n)_{n=1}^\infty$ converges to $cx$.
+        \item[Solution 5.13] 
+
+        \item[Problem 5.14] Prove that if $(p_n)_{n=1}^\infty$ converges to $x$ and $(q_n)_{n=1}^\infty$ converges to $y$, then the sequence $(p_n+q_n)_{n=1}^\infty$ converges to $x+y$.
+        \item[Solution 5.14] 
+
+        \item[Problem 5.15] If the sequence $(p_n)_{n=1}^\infty$ converges to $x$, then the image set $\{p_n\}_{n=1}^\infty$ is bounded.
+        \item[Solution 5.15]
+
+        \item[Problem 5.16] Find an example of a sequence $(p_n)_{n=1}^\infty$ such that its image set $\{p_n\}_{n=1}^\infty$ is unbounded above and hence does not have a supremum.
+        \item[Solution 5.16]
+
+        \item[Problem 5.17] Prove that if $(p_n)_{n=1}^\infty$ converges to $x$ and $(q_n)_{n=1}^\infty$ converges to $0$, then $(p_n \cdot q_n)_{n=1}^\infty$ converges to $0$.
+        \item[Solution 5.17]
+
+        \item[Problem 5.19] Replace $\leq$ with $\lt$ to define the notion of (strictly) \textbf{increasing}. Find examples of nondecreasing sequences that are not increasing. Similarly, define (strictly) \textbf{decreasing}.
+        \item[Solution 5.19]
+
+        \item[Problem 5.20] Prove that if $(p_n)_{n=1}^\infty$ is a nondecreasing sequence such that the image set $\{p_n\}_{n=1}^\infty$ is bounded above, then $(p_n)_{n=1}^\infty$ converges to some point $x$.
+        \item[Solution 5.20]
+
+        \item[Problem 5.21] \textit{This problem is optional.} Assuming the result of Problem 5.20, prove the Completeness Axiom.
+        \item[Solution 5.21]   
+
+        \item[Problem 5.22] Let $A$ be a nonempty set that is bounded above. Prove that there exists a nondecreasing sequence $(p_n)_{n=1}^\infty$ that converges to $\sup(A)$, where the image set $\{p_n\} \subseteq A$.
+        \item[Solution 5.22]
+
+        \textit{This is NOT the end of Chapter 5 problems.}
+
+    \end{enumerate}  
+  \end{document}          
+                        </code>
+                    </program>
+                
+            </section>

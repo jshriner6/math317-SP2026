@@ -1,0 +1,65 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-5-3">
+        <title><m>\S 5.3</m>: Monotone Convergence Theorem</title>
+
+                <exercise workspace="2in">
+                    <title>Definitions</title>
+                    <statement>
+                        <p>
+                            A sequence <m>(p_n)</m> is 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Replace <m>\leq</m> with <m>\lt</m> to define the notion of (strictly) <alert>increasing</alert>.
+Find examples of nondecreasing sequences that are not increasing.
+Similarly, define (strictly) <alert>decreasing</alert>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that if <m>(p_{n})_{n=1}^{\infty}</m> is a nondecreasing sequence such that the image set <m>\{p_{n}\}_{n=1}^{\infty}</m> is bounded above, then <m>(p_{n})_{n=1}^{\infty}</m> converges to some point <m>x</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            <em>This problem is optional.</em> Assuming the result of Problem 5.20, prove the Completeness Axiom.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>A</m> be a nonempty set that is bounded above.
+Prove that there exists a nondecreasing sequence <m>(p_{n})_{n=1}^{\infty}</m> that converges to <m>\sup(A)</m>, where the image set <m>\{p_{n}\} \subseteq A</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    
+                </exercise>
+
+
+    
+                
+
+        </worksheet>
+    </article>
+</pretext>

@@ -1,82 +1,57 @@
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-5-2">
-        <title><m>\S 5.2</m>: The Power Method</title>
-            <page>
-                <exercise workspace="2in">
-                    <title>Motivation: The Power Method</title>
-                    <statement>
-                        <p>
-                            
-                        </p>
-                    </statement>
-                </exercise>
-                <exercise workspace="5in">
-                    <title>Example: Markov Chains</title>
-                    <statement>
-                        <p>
-                            Let <m>A=\left[\begin{array}{rr}
-0.7 \amp 0.6 \\
-0.3 \amp 0.4 \\
-\end{array}\right]</m>.
-                        </p>
-                    </statement>
-                    
+        <title><m>\S 5.2</m>: Properties of Convergent Sequences</title>
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that if <m>c</m> is a real number and <m>(p_{n})_{n=1}^{\infty}</m> converges to <m>x</m>, then the sequence <m>(cp_{n})_{n=1}^{\infty}</m> converges to <m>cx</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that if <m>(p_{n})_{n=1}^{\infty}</m> converges to <m>x</m> and <m>(q_{n})_{n=1}^{\infty}</m> converges to <m>y</m>, then the sequence <m>(p_{n}+q_{n})_{n=1}^{\infty}</m> converges to <m>x+y</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            If the sequence <m>(p_{n})_{n=1}^{\infty}</m> converges to <m>x</m>, then the image set <m>\{p_{n}\}_{n=1}^{\infty}</m> is bounded.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Find an example of a sequence <m>(p_{n})_{n=1}^{\infty}</m> such that its image set <m>\{p_{n}\}_{n=1}^{\infty}</m> is unbounded above and hence does not have a supremum.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that if <m>(p_{n})_{n=1}^{\infty}</m> converges to <m>x</m> and <m>(q_{n})_{n=1}^{\infty}</m> converges to <m>0</m>, then <m>(p_{n} \cdot q_{n})_{n=1}^{\infty}</m> converges to <m>0</m>.
+                            </p>
+                        </statement>
+                    </task>
                     
                 </exercise>
 
-            </page>
 
-            <page>
-                <exercise>
-                    <title>Dominant Eigenvalue and Power Method</title>
-                    <statement>
-                        <p>
-                            The <term>dominant eigenvalue</term> of a matrix <m>A</m> is
-                        </p>
-                    </statement>
-                    
-                    
-                </exercise>
-            </page>
-            <page>
-                <exercise>
-                    <title>Example: Power Method</title>
-                    <statement>
-                        <p>
-                            Let <m>A = \left[\begin{array}{rr}
-2 \amp 1 \\ 1 \amp 2 \\ \end{array}\right]</m>, and suppose <m>\lambda_1 \gt \lambda_2</m>.
-                        </p>
-                    </statement>
-                    
-                </exercise>
-            </page>
-            <page>
-                <exercise>
-                    <title>Practice: Power Method</title>
-                    <statement>
-                        <p>
-                            Use Sage to find the dominant eigenvalue and associated eigenvector of 
-                            <m>A = \left[\begin{array}{rr}
-0.5 \amp 0.2 \\
-0.4 \amp 0.7 \\
-\end{array}\right]</m>.
-                        </p>
-                    </statement>
-                    
-                </exercise>
-            </page>
-            <page>
-                <exercise>
-                    <title>Remark</title>
-                    <statement>
-                        <p>
-                            
-                        </p>
-                    </statement>
-                    
-                </exercise>
-            </page>
+    
+                
 
         </worksheet>
     </article>

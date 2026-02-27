@@ -55,6 +55,12 @@
 
   <xi:include href="./notes/sec-4-3.ptx" xpointer="sec-4-3" />
 
+  <xi:include href="./notes/sec-5-1.ptx" xpointer="sec-5-1" />
+
+  <xi:include href="./notes/sec-5-2.ptx" xpointer="sec-5-2" />
+
+  <xi:include href="./notes/sec-5-3.ptx" xpointer="sec-5-3" />
+
   <!--  <xi:include href="./notes/sec-2-4-1.ptx" xpointer="sec-2-4-1" /> 
     <xi:include href="./notes/sec-2-4-1-sols.ptx" xpointer="sec-2-4-1-sols" /> 
 

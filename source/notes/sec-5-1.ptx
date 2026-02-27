@@ -1,85 +1,118 @@
 <pretext>
     <article xml:id="notes">
         <worksheet xml:id="sec-5-1">
-        <title><m>\S 5.1</m>: LU Factorization</title>
-            <page>
-                <exercise workspace="2in">
-                    <title>Motivation: LU Factorization</title>
-                    <statement>
-                        <p>
-                            
-                        </p>
-                    </statement>
+        <title><m>\S 5.1</m>: Introduction to Sequences</title>
+
+
+				<exercise workspace="2in">
+					<title>Definitions</title>
+					<statement>
+						<p>
+							A <term>sequence of real numbers</term> is a function
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Write down several sequences <m>(p_{n})_{n=1}^{\infty}</m> you are familiar with.
+If possible, give an algebraic formula for each <m>p_{n}</m> in terms of <m>n</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Explain the differences between <m>\{p_{n}\}_{n=1}^{\infty}</m> and <m>(p_{n})_{n=1}^{\infty}</m>.
+Give an example of a sequence whose image set is finite.
+                            </p>
+                        </statement>
+                    </task>
+
+                    
                 </exercise>
 
-            
-            
-                <exercise workspace="4in">
-                    <title>Example: LU Factorization</title>
-                    <statement>
-                        <p>
-                            Let <m>A = \left[\begin{array}{rrr}
-1 \amp 2 \amp 1 \\
-2 \amp 0 \amp -2 \\
--1 \amp 2 \amp -1 \\
-\end{array}\right]</m>.
 
-                        </p>
-                    </statement>
-                    
+                <exercise workspace="6in">
+					<title>Definitions</title>
+					<statement>
+						<p>
+							We say <m>(p_n)_{n=1}^\infty</m> <term>converges to <m>x \in \mathbb{R}</m></term> if
+						</p>
+					</statement>
+				</exercise>
+
+            <exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                           Consider the sequence given by <m>p_{n} = \frac{1}{n}</m>.
+Prove that <m>(p_{n})_{n=1}^{\infty}</m> converges to <m>0</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Consider the sequence given by <m>p_{n} = 1-\frac{1}{n}</m>.
+Prove that <m>(p_{n})_{n=1}^{\infty}</m> converges to <m>1</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Consider the sequence with even terms <m>p_{2i}=\frac{1}{2i-1}</m> and odd terms <m>p_{2i-1}= \frac{1}{2i}</m>.
+Prove that <m>(p_{n})_{n=1}^{\infty}</m> converges to <m>0</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Consider the sequence with odd terms <m>p_{2i-1}=\frac{1}{2i-1}</m> and even terms <m>p_{2i}= 1+\frac{1}{2i}</m>.
+Determine whether <m>(p_{n})_{n=1}^{\infty}</m> converges to <m>0</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that if <m>(p_{n})_{n=1}^{\infty}</m> converges to the point <m>x</m> <em>and</em> for each <m>n \in \mathbb{N}</m>, <m>p_{n} \neq p_{n+1}</m>, then <m>x</m> is an accumulation point of the image set <m>\{p_{n}\}_{n=1}^{\infty}</m> of the sequence.
+Can we weaken the requirement that <m>p_{n} \neq p_{n+1}</m> for all <m>n \in \mathbb{N}</m> and still conclude that <m>x</m> is an accumulation point of the image set?
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that if <m>(p_{n})_{n=1}^{\infty}</m> converges to the point <m>x</m> and <m>y</m> is a point different from <m>x</m>, then <m>(p_{n})_{n=1}^{\infty}</m> does <em>not</em> converge to <m>y</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>(p_{n})_{n=1}^{\infty}</m> be a sequence.
+Prove that if for every <m>\varepsilon \gt 0</m>, there exists <m>N \in \mathbb{N}</m> such that <m>|p_{n}-x| \lt \varepsilon</m> whenever <m>n \geq N</m>, then <m>(p_{n})_{n=1}^{\infty}</m> converges to <m>x</m>.
+                            </p>
+                        </statement>
+                    </task>
+
                     
                 </exercise>
-     </page>
-            <page>
-                <exercise>
-                    <title>Using LU Factorization to Solve Systems</title>
-                    <statement>
-                        <p>
-                            Use the LU Factorization of <m>A</m> to solve <m>A\xvec=\bvec</m> when 
-                            <m>\bvec = \threevec123</m>.
-                        </p>
-                    </statement>
-                    
-                </exercise>
-            </page>
-            <page>
-                <exercise>
-                    <title>Practice: LU Factorization and Solving Systems</title>
-                    <statement>
-                        <p>
-                            Find an LU Factorization for <m>A = \left[\begin{array}{rrr}
-2 \amp -3 \amp 1 \\
--4 \amp 5 \amp 0 \\
-2 \amp -2 \amp 2 \\
-\end{array}\right]</m>. Use it to solve <m>A\xvec = \bvec</m> when
-                                <ol>
-                                    <li>
-                                        <p>
-                                            <m>\bvec = \threevec8{-13}8</m>
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <m>\bvec = \threevec{-1}{0}3</m>
-                                        </p>
-                                    </li>
-                                </ol>
-                        </p>
-                    </statement>
-                    
-                </exercise>
-            </page>
-            <page>
-                <exercise>
-                    <title>Remark</title>
-                    <statement>
-                        <p>
-                            
-                        </p>
-                    </statement>
-                    
-                </exercise>
-            </page>
+                
 
         </worksheet>
     </article>
