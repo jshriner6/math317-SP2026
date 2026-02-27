@@ -755,6 +755,96 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "Problems.",
   "body": " Problems    Determine whether each of the sets in Problem 4.34 is connected or disconnected. Briefly justify your assertions.      Prove that if , then is connected.      Prove that every closed interval is connected.    "
+},
+{
+  "id": "sec-5-1",
+  "level": "1",
+  "url": "sec-5-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 5.1\\text{:}\\)<\/span> Introduction to Sequences",
+  "body": " : Introduction to Sequences   Definitions   A sequence of real numbers is a function     Problems    Write down several sequences you are familiar with. If possible, give an algebraic formula for each in terms of .      Explain the differences between and . Give an example of a sequence whose image set is finite.      Definitions   We say  converges to if     Problems    Consider the sequence given by . Prove that converges to .      Consider the sequence given by . Prove that converges to .      Consider the sequence with even terms and odd terms . Prove that converges to .      Consider the sequence with odd terms and even terms . Determine whether converges to .      Prove that if converges to the point  and for each , , then is an accumulation point of the image set of the sequence. Can we weaken the requirement that for all and still conclude that is an accumulation point of the image set?      Prove that if converges to the point and is a point different from , then does not converge to .      Let be a sequence. Prove that if for every , there exists such that whenever , then converges to .     "
+},
+{
+  "id": "sec-5-1-2",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions   A sequence of real numbers is a function   "
+},
+{
+  "id": "sec-5-1-3",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Write down several sequences you are familiar with. If possible, give an algebraic formula for each in terms of .      Explain the differences between and . Give an example of a sequence whose image set is finite.    "
+},
+{
+  "id": "sec-5-1-4",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Definitions.",
+  "body": " Definitions   We say  converges to if   "
+},
+{
+  "id": "sec-5-1-5",
+  "level": "2",
+  "url": "sec-5-1.html#sec-5-1-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problems.",
+  "body": " Problems    Consider the sequence given by . Prove that converges to .      Consider the sequence given by . Prove that converges to .      Consider the sequence with even terms and odd terms . Prove that converges to .      Consider the sequence with odd terms and even terms . Determine whether converges to .      Prove that if converges to the point  and for each , , then is an accumulation point of the image set of the sequence. Can we weaken the requirement that for all and still conclude that is an accumulation point of the image set?      Prove that if converges to the point and is a point different from , then does not converge to .      Let be a sequence. Prove that if for every , there exists such that whenever , then converges to .    "
+},
+{
+  "id": "sec-5-2",
+  "level": "1",
+  "url": "sec-5-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 5.2\\text{:}\\)<\/span> Properties of Convergent Sequences",
+  "body": " : Properties of Convergent Sequences   Problems    Prove that if is a real number and converges to , then the sequence converges to .      Prove that if converges to and converges to , then the sequence converges to .      If the sequence converges to , then the image set is bounded.      Find an example of a sequence such that its image set is unbounded above and hence does not have a supremum.      Prove that if converges to and converges to , then converges to .     "
+},
+{
+  "id": "sec-5-2-2",
+  "level": "2",
+  "url": "sec-5-2.html#sec-5-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Prove that if is a real number and converges to , then the sequence converges to .      Prove that if converges to and converges to , then the sequence converges to .      If the sequence converges to , then the image set is bounded.      Find an example of a sequence such that its image set is unbounded above and hence does not have a supremum.      Prove that if converges to and converges to , then converges to .    "
+},
+{
+  "id": "sec-5-3",
+  "level": "1",
+  "url": "sec-5-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 5.3\\text{:}\\)<\/span> Monotone Convergence Theorem",
+  "body": " : Monotone Convergence Theorem   Definitions   A sequence is     Problems    Replace with to define the notion of (strictly) increasing . Find examples of nondecreasing sequences that are not increasing. Similarly, define (strictly) decreasing .      Prove that if is a nondecreasing sequence such that the image set is bounded above, then converges to some point .       This problem is optional. Assuming the result of Problem 5.20, prove the Completeness Axiom.      Let be a nonempty set that is bounded above. Prove that there exists a nondecreasing sequence that converges to , where the image set .     "
+},
+{
+  "id": "sec-5-3-2",
+  "level": "2",
+  "url": "sec-5-3.html#sec-5-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions   A sequence is   "
+},
+{
+  "id": "sec-5-3-3",
+  "level": "2",
+  "url": "sec-5-3.html#sec-5-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Replace with to define the notion of (strictly) increasing . Find examples of nondecreasing sequences that are not increasing. Similarly, define (strictly) decreasing .      Prove that if is a nondecreasing sequence such that the image set is bounded above, then converges to some point .       This problem is optional. Assuming the result of Problem 5.20, prove the Completeness Axiom.      Let be a nonempty set that is bounded above. Prove that there exists a nondecreasing sequence that converges to , where the image set .    "
 }
 ]
 
