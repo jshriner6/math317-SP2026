@@ -1,0 +1,176 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-6-2">
+        <title><m>\S 6.2</m>: Additional Characterizations of Continuity</title>
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Suppose <m>f</m> is a real function such that <m>a \in \text{Dom}(f)</m>.
+Prove that <m>f</m> is continuous at <m>a</m> if and only if for every <m>\varepsilon \gt 0</m>, there exists <m>\delta \gt 0</m> such that if <m>x \in \text{Dom}(f)</m> and <m>|x-a| \lt \delta</m>, the <m>|f(x)-f(a)| \lt \varepsilon</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Draw a figure in the spirit of Figure 6.1 that captures the essence of Problem 6.7.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: \mathbb{R}\to \mathbb{R}</m> via
+<me>
+  f(x) = \begin{cases}1 &#x26; \text{if } x \in [0,1] \\ 0 &#x26; \text{otherwise.}\end{cases}
+</me>
+Determine where <m>f</m> is continuous and justify your assertion.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>g:\{0\} \to \mathbb{R}</m> via <m>g(0)=0</m>.
+Prove that <m>g</m> is continuous at <m>0</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: \mathbb{R}\to \mathbb{R}</m> via
+<me>
+  f(x) = \begin{cases}1 &#x26; \text{if } x \in \mathbb{Q} \\ 0 &#x26; \text{otherwise.}\end{cases}
+</me>
+Determine where <m>f</m> is continuous and justify your assertion.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f:\mathbb{R}\to \mathbb{R}</m> via <m>f(x)=x^{2}</m>.
+Prove that <m>f</m> is continuous.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Find a continuous real function <m>f</m> and an open interval <m>I</m> such that the preimage <m>f^{-1}(I)</m> is not an open interval.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Suppose <m>f</m> is a real function.
+Prove that <m>f</m> is continuous if and only if the preimage <m>f^{-1}(U)</m> of every open set <m>U</m> is an open set intersected with the domain of <m>f</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            <em>This problem is optional to type up for your portfolio, but you should read and be familiar with the result.</em>  Suppose <m>f</m> is a real function. Prove that <m>f</m> is continuous if and only if the preimage <m>f^{-1}(I)</m> of every open interval <m>I</m> is an open set intersected with the domain of <m>f</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: \mathbb{R}\setminus \{0\} \to \mathbb{R}</m> via <m>f(x) = \frac{1}{x}</m>.
+Determine where <m>f</m> is continuous and justify your assertion.
+                            </p>
+                        </statement>
+                    </task>
+
+                    
+                </exercise>
+
+                <exercise workspace="2in">
+                    <title>Definitions</title>
+                    <statement>
+                        <p>
+                            Let <m>f: A \to \mathbb{R}</m>. We say <term><m>f</m> is sequentially continuous at <m>a \in A</m></term>
+                            if
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+                
+                <exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Suppose <m>f</m> is a real function such that <m>a \in \text{Dom}(f)</m>.
+Prove that <m>f</m> is continuous at <m>a</m> if and only if <m>f</m> is sequentially continuous at <m>a</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Suppose <m>f</m> and <m>g</m> are real functions that are continuous at <m>a</m> and let <m>c \in \mathbb{R}</m>.
+Prove that each of the following functions is also continuous at <m>a</m>.
+<ol>
+  <li>
+    <p>
+      <m>cf</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f+g</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>f-g</m>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>fg</m>  <em>You may assume the relevant result mentioned (but not proven) about the product of convergent sequences from Chapter 5. This is also a good opportunity for more practice if you’d like it!</em>
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that every polynomial is continuous on all of <m>\mathbb{R}</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                </exercise>
+                
+
+        </worksheet>
+    </article>
+</pretext>

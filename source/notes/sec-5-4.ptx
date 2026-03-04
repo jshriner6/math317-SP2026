@@ -1,0 +1,94 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-5-4">
+        <title><m>\S 5.4</m>: Subsequences and the Bolzano-Weierstrass Theorem</title>
+
+                <exercise workspace="2in">
+                    <title>Definitions</title>
+                    <statement>
+                        <p>
+                            A sequence <m>(b_k)</m> is a <term>subsequence</term> of <m>(a_n)</m> if 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Give some examples of subsequences of the sequence from Problem 5.6. 
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that if a sequence converges to <m>x</m>, so does any subsequence of that sequence.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Suppose <m>(p_{n_k})_{k=1}^{\infty}</m> is a subsequence of <m>(p_{n})_{n=1}^{\infty}</m>.
+If <m>p_{n_k}</m> converges to <m>x</m>, does this imply that <m>p_{n}</m> converges to <m>x</m>? Justify your answer.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Provide an example of a sequence <m>(p_{n})_{n=1}^{\infty}</m> with image set <m>\{p_{n}\} \subseteq \mathbb{N}</m> such that <em>every</em> sequence of natural numbers is a subsequence of <m>(p_{n})</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that every sequence of real numbers has a nonincreasing or nondecreasing subsequence. 
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that every sequence with bounded image set has a convergent subsequence.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that if <m>K</m> is a nonempty compace subset of <m>\mathbb{R}</m>, then any sequence with image set in <m>K</m> has a subsequence that converges to a point in <m>K</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Find examples showing that if <m>A</m> is not closed or not bounded, then there exists a sequence with image set in <m>A</m> that does not have a subsequence converging to a point in <m>A</m> (or possibly not at all).
+                            </p>
+                        </statement>
+                    </task>
+
+                    
+                </exercise>
+
+
+    
+                
+
+        </worksheet>
+    </article>
+</pretext>

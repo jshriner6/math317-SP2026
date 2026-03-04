@@ -70,7 +70,31 @@
         \item[Problem 5.22] Let $A$ be a nonempty set that is bounded above. Prove that there exists a nondecreasing sequence $(p_n)_{n=1}^\infty$ that converges to $\sup(A)$, where the image set $\{p_n\} \subseteq A$.
         \item[Solution 5.22]
 
-        \textit{This is NOT the end of Chapter 5 problems.}
+        \item[Problem 5.24] Give some examples of subsequences of the sequence from Problem 5.6. 
+        \item[Solution 5.24]
+
+        \item[Problem 5.25] Prove that if a sequence converges to $x$, so does any subsequence of that sequence.
+        \item[Solution 5.25]
+
+        \item[Problem 5.26] Suppose $(p_{n_k})_{k=1}^\infty$ is a subsequence of $(p_n)_{n=1}^\infty$. If $p_{n_k}$ converges to $x$, does this imply that $p_n$ converges to $x$? Justify your answer. 
+        \item[Solution 5.26]
+
+        \item[Problem 5.27] Provide an example of a sequence $(p_n)_{n=1}^\infty$ with image set $\{p_n\} \subseteq \mathbb{N}$ such that \textit{every} sequence of natural numbers is a subsequence of $(p_n)$. 
+        \item[Solution 5.27]
+
+        \item[Problem 5.28] Prove that every sequence of real numbers has a nonincreasing or nondecreasing subsequence. 
+        \item[Solution 5.28]
+
+        \item[Problem 5.29] Prove that every sequence with bounded image set has a convergent subsequence.
+        \item[Solution 5.29]
+
+        \item[Problem 5.30] Prove that if $K$ is a nonempty compace subset of $\mathbb{R}$, then any sequence with image set in $K$ has a subsequence that converges to a point in $K$. 
+        \item[Solution 5.30]
+
+        \item[Problem 5.31] Find examples showing that if $A$ is not closed or not bounded, then there exists a sequence with image set in $A$ that does not have a subsequence converging to a point in $A$ (or possibly not at all). 
+        \item[Solution 5.31]
+
+        \textit{This is the end of Chapter 5 problems.}
 
     \end{enumerate}  
   \end{document}          

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        
+        
+            <section xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Chapter 6: Continuity</title>
+                    
+                     <program language="latex" line-numbers="yes">
+                        <code>  
+  \documentclass{article}
+  \usepackage{amssymb, amsmath}
+  \newcommand{\lt}{&lt;}
+  \newcommand{\gt}{&gt;}
+  \begin{document}
+    \title{Math 317: Chapter 6 Portfolio}
+    \author{Your name here}
+    \maketitle
+    \begin{enumerate}
+        \item[Problem 6.3] Prove each of the following real functions is continuous using Definition 6.2.
+        \begin{enumerate}
+            \item $f:\mathbb{R} \to \mathbb{R}$ defined via $f(x)=x$.
+            \item $g: \mathbb{R} \to \mathbb{R}$ defined via $g(x)=2x$.
+            \item $h: \mathbb{R} \to \mathbb{R}$ defined via $h(x)=x+3$.
+        \end{enumerate}
+        \item[Solution 6.3]
+
+        \item[Problem 6.4] Prove that every linear function $f:\mathbb{R} \to \mathbb{R}$ given by $f(x) = mx + b$ is continuous. 
+        \item[Solution 6.4]
+
+        \item[Problem 6.5] Define $f: \mathbb{N} \to \mathbb{R}$ via $f(x)=1$. Notice the domain! Determine where $f$ is continuous and justify your assertion. 
+        \item[Solution 6.5]
+
+        \item[Problem 6.6] Find an example of a real function $f$ that satisfies each of the following:
+            \begin{enumerate}
+                \item[(i)] $1 \in \text{Dom}(f)$;
+                \item[(ii)] For any open interval $J$ containing $1$, there is an open interval $I$ containing $f(1)$ such that if $x \in \text{Dom}(f) \cap J$, then $f(x) \in I$;
+                \item[(iii)] $f$ is not continuous at $1$.
+            \end{enumerate}
+        \item[Solution 6.6]
+
+        \item[Problem 6.7] Suppose $f$ is a real function such that $a \in \text{Dom}(f)$. Prove that $f$ is continuous at $a$ if and only if for every $\varepsilon \gt 0$, there exists $\delta \gt 0$ such that if $x \in \text{Dom}(f)$ and $|x-a| \lt \delta$, the $|f(x)-f(a)| \lt \varepsilon$.
+        \item[Solution 6.7]
+
+        \item[Problem 6.8] Draw a figure in the spirit of Figure 6.1 that captures the essence of Problem 6.7.
+        \item[Solution 6.8]
+
+        \item[Problem 6.9] Define $f: \mathbb{R} \to \mathbb{R}$ via
+            \[
+                f(x) = \begin{cases}
+                        1 &amp; \text{if } x \in [0,1] \\
+                        0 &amp; \text{otherwise.}
+                        \end{cases}
+            \]
+            Determine where $f$ is continuous and justify your assertion.
+        \item[Solution 6.9]
+
+        \item[Problem 6.10] Define $g:\{0\} \to \mathbb{R}$ via $g(0)=0$. Prove that $g$ is continuous at $0$. 
+        \item[Solution 6.10]
+
+        \item[Problem 6.11] Define $f: \mathbb{R} \to \mathbb{R}$ via
+            \[
+                f(x) = \begin{cases}
+                        1 &amp; \text{if } x \in \mathbb{Q} \\
+                        0 &amp; \text{otherwise.}
+                        \end{cases}
+            \]
+            Determine where $f$ is continuous and justify your assertion.
+        \item[Solution 6.11]
+
+        \item[Problem 6.12] Define $f:\mathbb{R} \to \mathbb{R}$ via $f(x)=x^2$. Prove that $f$ is continuous. 
+        \item[Solution 6.12]
+
+        \item[Problem 6.13] Find a continuous real function $f$ and an open interval $I$ such that the preimage $f^{-1}(I)$ is not an open interval. 
+        \item[Solution 6.13]
+
+        \item[Problem 6.14] Suppose $f$ is a real function. Prove that $f$ is continuous if and only if the preimage $f^{-1}(U)$ of every open set $U$ is an open set intersected with the domain of $f$.
+        \item[Solution 6.14]
+
+        \item[Problem 6.15] \textit{This problem is optional to type up for your portfolio, but you should read and be familiar with the result.} \\ Suppose $f$ is a real function. Prove that $f$ is continuous if and only if the preimage $f^{-1}(I)$ of every open interval $I$ is an open set intersected with the domain of $f$.
+        \item[Solution 6.15]
+
+        \item[Problem 6.16] Define $f: \mathbb{R}\setminus \{0\} \to \mathbb{R}$ via $f(x) = \frac{1}{x}$. Determine where $f$ is continuous and justify your assertion.
+        \item[Solution 6.16]   
+
+        \item[Problem 6.18] Suppose $f$ is a real function such that $a \in \text{Dom}(f)$. Prove that $f$ is continuous at $a$ if and only if $f$ is sequentially continuous at $a$.
+        \item[Solution 6.18]
+
+        \item[Problem 6.19] Suppose $f$ and $g$ are real functions that are continuous at $a$ and let $c \in \mathbb{R}$. Prove that each of the following functions is also continuous at $a$.
+            \begin{enumerate}
+                \item $cf$
+                \item $f+g$
+                \item $f-g$
+                \item $fg$ \\ \textit{You may assume the relevant result mentioned (but not proven) about the product of convergent sequences from Chapter 5. This is also a good opportunity for more practice if you'd like it!}
+            \end{enumerate}
+        \item[Solution 6.19]
+
+        \item[Problem 6.20] Prove that every polynomial is continuous on all of $\mathbb{R}$.
+        \item[Solution 6.20]
+
+        \textit{This is NOT the end of Chapter 6 problems.}
+ 
+
+    \end{enumerate}  
+  \end{document}          
+                        </code>
+                    </program>
+                
+            </section>

@@ -1,0 +1,106 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-6-1">
+        <title><m>\S 6.1</m>: Introduction to Continuity</title>
+
+                <exercise workspace="2in">
+                    <title>Definitions</title>
+                    <statement>
+                        <p>
+                            Let <m>f: A \to \mathbb{R}</m>. We say <term><m>f</m> is continuous at <m>a \in A</m></term>
+                            if
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove each of the following real functions is continuous using Definition 6.2.
+<ol>
+  <li>
+    <p>
+      <m>f:\mathbb{R}\to \mathbb{R}</m> defined via <m>f(x)=x</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>g: \mathbb{R}\to \mathbb{R}</m> defined via <m>g(x)=2x</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <m>h: \mathbb{R}\to \mathbb{R}</m> defined via <m>h(x)=x+3</m>.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that every linear function <m>f:\mathbb{R}\to \mathbb{R}</m> given by <m>f(x) = mx + b</m> is continuous.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: \mathbb{N}\to \mathbb{R}</m> via <m>f(x)=1</m>.
+Notice the domain! Determine where <m>f</m> is continuous and justify your assertion.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Find an example of a real function <m>f</m> that satisfies each of the following: <dl>
+<li>
+  <title>(i)</title>
+
+  <p>
+    <m>1 \in \text{Dom}(f)</m>;
+  </p>
+</li>
+
+<li>
+  <title>(ii)</title>
+
+  <p>
+    For any open interval <m>J</m> containing <m>1</m>, there is an open interval <m>I</m> containing <m>f(1)</m> such that if <m>x \in \text{Dom}(f) \cap J</m>, then <m>f(x) \in I</m>;
+  </p>
+</li>
+
+<li>
+  <title>(iii)</title>
+
+  <p>
+    <m>f</m> is not continuous at <m>1</m>.
+  </p>
+</li>
+</dl>
+                            </p>
+                        </statement>
+                    </task>
+
+                    
+                </exercise>
+
+
+    
+                
+
+        </worksheet>
+    </article>
+</pretext>
