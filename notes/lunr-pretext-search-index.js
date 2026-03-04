@@ -845,6 +845,96 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "Problems.",
   "body": " Problems    Replace with to define the notion of (strictly) increasing . Find examples of nondecreasing sequences that are not increasing. Similarly, define (strictly) decreasing .      Prove that if is a nondecreasing sequence such that the image set is bounded above, then converges to some point .       This problem is optional. Assuming the result of Problem 5.20, prove the Completeness Axiom.      Let be a nonempty set that is bounded above. Prove that there exists a nondecreasing sequence that converges to , where the image set .    "
+},
+{
+  "id": "sec-5-4",
+  "level": "1",
+  "url": "sec-5-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 5.4\\text{:}\\)<\/span> Subsequences and the Bolzano-Weierstrass Theorem",
+  "body": " : Subsequences and the Bolzano-Weierstrass Theorem   Definitions   A sequence is a subsequence of if     Problems    Give some examples of subsequences of the sequence from Problem 5.6.      Prove that if a sequence converges to , so does any subsequence of that sequence.      Suppose is a subsequence of . If converges to , does this imply that converges to ? Justify your answer.      Provide an example of a sequence with image set such that every sequence of natural numbers is a subsequence of .      Prove that every sequence of real numbers has a nonincreasing or nondecreasing subsequence.      Prove that every sequence with bounded image set has a convergent subsequence.      Prove that if is a nonempty compace subset of , then any sequence with image set in has a subsequence that converges to a point in .      Find examples showing that if is not closed or not bounded, then there exists a sequence with image set in that does not have a subsequence converging to a point in (or possibly not at all).     "
+},
+{
+  "id": "sec-5-4-2",
+  "level": "2",
+  "url": "sec-5-4.html#sec-5-4-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions   A sequence is a subsequence of if   "
+},
+{
+  "id": "sec-5-4-3",
+  "level": "2",
+  "url": "sec-5-4.html#sec-5-4-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Give some examples of subsequences of the sequence from Problem 5.6.      Prove that if a sequence converges to , so does any subsequence of that sequence.      Suppose is a subsequence of . If converges to , does this imply that converges to ? Justify your answer.      Provide an example of a sequence with image set such that every sequence of natural numbers is a subsequence of .      Prove that every sequence of real numbers has a nonincreasing or nondecreasing subsequence.      Prove that every sequence with bounded image set has a convergent subsequence.      Prove that if is a nonempty compace subset of , then any sequence with image set in has a subsequence that converges to a point in .      Find examples showing that if is not closed or not bounded, then there exists a sequence with image set in that does not have a subsequence converging to a point in (or possibly not at all).    "
+},
+{
+  "id": "sec-6-1",
+  "level": "1",
+  "url": "sec-6-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 6.1\\text{:}\\)<\/span> Introduction to Continuity",
+  "body": " : Introduction to Continuity   Definitions   Let . We say is continuous at if     Problems    Prove each of the following real functions is continuous using Definition 6.2.    defined via .     defined via .     defined via .         Prove that every linear function given by is continuous.      Define via . Notice the domain! Determine where is continuous and justify your assertion.      Find an example of a real function that satisfies each of the following:   (i)   ;    (ii)  For any open interval containing , there is an open interval containing such that if , then ;    (iii)   is not continuous at .        "
+},
+{
+  "id": "sec-6-1-2",
+  "level": "2",
+  "url": "sec-6-1.html#sec-6-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions.",
+  "body": " Definitions   Let . We say is continuous at if   "
+},
+{
+  "id": "sec-6-1-3",
+  "level": "2",
+  "url": "sec-6-1.html#sec-6-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Prove each of the following real functions is continuous using Definition 6.2.    defined via .     defined via .     defined via .         Prove that every linear function given by is continuous.      Define via . Notice the domain! Determine where is continuous and justify your assertion.      Find an example of a real function that satisfies each of the following:   (i)   ;    (ii)  For any open interval containing , there is an open interval containing such that if , then ;    (iii)   is not continuous at .       "
+},
+{
+  "id": "sec-6-2",
+  "level": "1",
+  "url": "sec-6-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 6.2\\text{:}\\)<\/span> Additional Characterizations of Continuity",
+  "body": " : Additional Characterizations of Continuity   Problems    Suppose is a real function such that . Prove that is continuous at if and only if for every , there exists such that if and , the .      Draw a figure in the spirit of Figure 6.1 that captures the essence of Problem 6.7.      Define via Determine where is continuous and justify your assertion.      Define via . Prove that is continuous at .      Define via Determine where is continuous and justify your assertion.      Define via . Prove that is continuous.      Find a continuous real function and an open interval such that the preimage is not an open interval.      Suppose is a real function. Prove that is continuous if and only if the preimage of every open set is an open set intersected with the domain of .       This problem is optional to type up for your portfolio, but you should read and be familiar with the result. Suppose is a real function. Prove that is continuous if and only if the preimage of every open interval is an open set intersected with the domain of .      Define via . Determine where is continuous and justify your assertion.      Definitions   Let . We say is sequentially continuous at if     Problems    Suppose is a real function such that . Prove that is continuous at if and only if is sequentially continuous at .      Suppose and are real functions that are continuous at and let . Prove that each of the following functions is also continuous at .                    You may assume the relevant result mentioned (but not proven) about the product of convergent sequences from Chapter 5. This is also a good opportunity for more practice if you’d like it!          Prove that every polynomial is continuous on all of .     "
+},
+{
+  "id": "sec-6-2-2",
+  "level": "2",
+  "url": "sec-6-2.html#sec-6-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Suppose is a real function such that . Prove that is continuous at if and only if for every , there exists such that if and , the .      Draw a figure in the spirit of Figure 6.1 that captures the essence of Problem 6.7.      Define via Determine where is continuous and justify your assertion.      Define via . Prove that is continuous at .      Define via Determine where is continuous and justify your assertion.      Define via . Prove that is continuous.      Find a continuous real function and an open interval such that the preimage is not an open interval.      Suppose is a real function. Prove that is continuous if and only if the preimage of every open set is an open set intersected with the domain of .       This problem is optional to type up for your portfolio, but you should read and be familiar with the result. Suppose is a real function. Prove that is continuous if and only if the preimage of every open interval is an open set intersected with the domain of .      Define via . Determine where is continuous and justify your assertion.    "
+},
+{
+  "id": "sec-6-2-3",
+  "level": "2",
+  "url": "sec-6-2.html#sec-6-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definitions.",
+  "body": " Definitions   Let . We say is sequentially continuous at if   "
+},
+{
+  "id": "sec-6-2-4",
+  "level": "2",
+  "url": "sec-6-2.html#sec-6-2-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Problems.",
+  "body": " Problems    Suppose is a real function such that . Prove that is continuous at if and only if is sequentially continuous at .      Suppose and are real functions that are continuous at and let . Prove that each of the following functions is also continuous at .                    You may assume the relevant result mentioned (but not proven) about the product of convergent sequences from Chapter 5. This is also a good opportunity for more practice if you’d like it!          Prove that every polynomial is continuous on all of .    "
 }
 ]
 
