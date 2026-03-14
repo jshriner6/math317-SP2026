@@ -1,0 +1,62 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-6-4">
+        <title><m>\S 6.4</m>: Intermediate Value Theorem</title>
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that if <m>f: \mathbb{R}\to \mathbb{R}</m> is a continuous function and <m>C</m> is a connected set, then the image <m>f(C)</m> is connected.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                               Suppose <m>f</m> is a real function and let <m>I=[a,b]</m> be a closed interval.
+Prove that if <m>f</m> is continuous on <m>I</m> such that <m>f(a) \lt 0 \lt f(b)</m> or <m>f(b) \lt 0 \lt f(a)</m>, then there exists <m>r \in I</m> such that <m>f(r) =0</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                           Suppose <m>f</m> is a real function and let <m>I=[a,b]</m> be a closed interval.
+Prove that if <m>f</m> is continuous on <m>I</m> such that <m>f(a) \lt c \lt f(b)</m> or <m>f(b) \lt c \lt f(a)</m>, then there exists <m>r \in I</m> such that <m>f(r) =c</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Is the converse of the Intermediate Value Theorem true? If so, prove it. Otherwise, provide a counterexample. 
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f:[0,1] \to \mathbb{R}</m> be a function such that <m>f(0)=-1</m>, <m>f(1)=1</m>, and <m>f([0,1])=\{-1,1\}</m>.
+Prove that there exists <m>a \in [0,1]</m> such that <m>f</m> is not continuous at <m>a</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+
+                    
+                </exercise>
+
+                
+                
+                
+
+        </worksheet>
+    </article>
+</pretext>

@@ -1,0 +1,72 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-6-3">
+        <title><m>\S 6.3</m>: Extreme Value Theorem</title>
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Suppose <m>f:\mathbb{R}\to \mathbb{R}</m> is a continuous function and consider the closed interval <m>[a,b]</m>.
+Is the image <m>f([a,b])</m> always a closed interval? If so, prove it.
+Otherwise, provide a counterexample.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                               Prove that if <m>f:\mathbb{R}\to \mathbb{R}</m> is a continuous function and <m>K</m> is a compact set, the the image <m>f(K)</m> is compact.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                           Suppose <m>f</m> is a real function and let <m>I=[a,b]</m> be a closed interval.
+Prove that if <m>f</m> is continuous on <m>I</m>, then there exists <m>x_{M}\in I</m> such that <m>f(x_{M})\geq f(x)</m> for all <m>x \in I</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Is the hypothesis that <m>I</m> is closed needed in the Extreme Value Theorem? Justify your assertion.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Is the converse of the Extreme Value Theorem true? That is, if a function attains a maximum value over a closed interval, does that imply that the function is continuous? If so, prove it.
+Otherwise, provide a counterexample.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f:[0,1] \to \mathbb{R}</m> and assume that the image <m>f([0,1])</m> has a supremum.
+Prove that there is a sequence of points <m>(p_{n})_{n=1}^{\infty}</m> in <m>[0,1]</m> such that <m>(f(p_{n}))_{n=1}^{\infty}</m> converges to that supremum.
+Does this show that <m>f</m> is continuous on <m>[0,1]</m>?
+                            </p>
+                        </statement>
+                    </task>
+
+                    
+                </exercise>
+
+                
+                
+                
+
+        </worksheet>
+    </article>
+</pretext>

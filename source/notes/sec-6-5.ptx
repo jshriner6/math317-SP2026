@@ -1,0 +1,84 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-6-5">
+        <title><m>\S 6.5</m>: Uniform Continuity</title>
+
+
+                <exercise workspace="3in">
+                    <title>Definition</title>
+                    <statement>
+                        <p>
+                            Let <m>f: A \to \mathbb{R}</m>. We say <m>f</m> is <term>uniformly continuous</term> if
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f</m> be a real function.
+Prove that if <m>f</m> is uniformly continuous, then <m>f</m> is continuous.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Define <m>f: \mathbb{R}\to \mathbb{R}</m> via <m>f(x) = 5x -3</m>.
+Prove that <m>f</m> is uniformly continuous.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                           Define <m>f: \mathbb{R}\to \mathbb{R}</m> via <m>f(x) = x^{2}</m>.
+Prove that <m>f</m> is not uniformly continuous.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: [0,\infty)\to \mathbb{R}</m> via <m>f(x) = \sqrt{x}</m>.
+Prove that <m>f</m> is uniformly continuous.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: \mathbb{R}\setminus \{0\} \to \mathbb{R}</m> via <m>f(x) = \frac{1}{x}</m>.
+Determine whether <m>f</m> is uniformly continuous.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f: K \to \mathbb{R}</m> be a continuous real function such that <m>K</m> is compact.
+Prove that <m>f</m> is uniformly continuous.
+                            </p>
+                        </statement>
+                    </task>
+
+
+                    
+                </exercise>
+
+                
+                
+                
+
+        </worksheet>
+    </article>
+</pretext>
