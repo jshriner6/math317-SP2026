@@ -935,6 +935,69 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "Problems.",
   "body": " Problems    Suppose is a real function such that . Prove that is continuous at if and only if is sequentially continuous at .      Suppose and are real functions that are continuous at and let . Prove that each of the following functions is also continuous at .                    You may assume the relevant result mentioned (but not proven) about the product of convergent sequences from Chapter 5. This is also a good opportunity for more practice if you’d like it!          Prove that every polynomial is continuous on all of .    "
+},
+{
+  "id": "sec-6-3",
+  "level": "1",
+  "url": "sec-6-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 6.3\\text{:}\\)<\/span> Extreme Value Theorem",
+  "body": " : Extreme Value Theorem   Problems    Suppose is a continuous function and consider the closed interval . Is the image always a closed interval? If so, prove it. Otherwise, provide a counterexample.      Prove that if is a continuous function and is a compact set, the the image is compact.      Suppose is a real function and let be a closed interval. Prove that if is continuous on , then there exists such that for all .      Is the hypothesis that is closed needed in the Extreme Value Theorem? Justify your assertion.      Is the converse of the Extreme Value Theorem true? That is, if a function attains a maximum value over a closed interval, does that imply that the function is continuous? If so, prove it. Otherwise, provide a counterexample.      Let and assume that the image has a supremum. Prove that there is a sequence of points in such that converges to that supremum. Does this show that is continuous on ?     "
+},
+{
+  "id": "sec-6-3-2",
+  "level": "2",
+  "url": "sec-6-3.html#sec-6-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Suppose is a continuous function and consider the closed interval . Is the image always a closed interval? If so, prove it. Otherwise, provide a counterexample.      Prove that if is a continuous function and is a compact set, the the image is compact.      Suppose is a real function and let be a closed interval. Prove that if is continuous on , then there exists such that for all .      Is the hypothesis that is closed needed in the Extreme Value Theorem? Justify your assertion.      Is the converse of the Extreme Value Theorem true? That is, if a function attains a maximum value over a closed interval, does that imply that the function is continuous? If so, prove it. Otherwise, provide a counterexample.      Let and assume that the image has a supremum. Prove that there is a sequence of points in such that converges to that supremum. Does this show that is continuous on ?    "
+},
+{
+  "id": "sec-6-4",
+  "level": "1",
+  "url": "sec-6-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 6.4\\text{:}\\)<\/span> Intermediate Value Theorem",
+  "body": " : Intermediate Value Theorem   Problems    Prove that if is a continuous function and is a connected set, then the image is connected.      Suppose is a real function and let be a closed interval. Prove that if is continuous on such that or , then there exists such that .      Suppose is a real function and let be a closed interval. Prove that if is continuous on such that or , then there exists such that .      Is the converse of the Intermediate Value Theorem true? If so, prove it. Otherwise, provide a counterexample.      Let be a function such that , , and . Prove that there exists such that is not continuous at .     "
+},
+{
+  "id": "sec-6-4-2",
+  "level": "2",
+  "url": "sec-6-4.html#sec-6-4-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Prove that if is a continuous function and is a connected set, then the image is connected.      Suppose is a real function and let be a closed interval. Prove that if is continuous on such that or , then there exists such that .      Suppose is a real function and let be a closed interval. Prove that if is continuous on such that or , then there exists such that .      Is the converse of the Intermediate Value Theorem true? If so, prove it. Otherwise, provide a counterexample.      Let be a function such that , , and . Prove that there exists such that is not continuous at .    "
+},
+{
+  "id": "sec-6-5",
+  "level": "1",
+  "url": "sec-6-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 6.5\\text{:}\\)<\/span> Uniform Continuity",
+  "body": " : Uniform Continuity   Definition   Let . We say is uniformly continuous if     Problems    Let be a real function. Prove that if is uniformly continuous, then is continuous.      Define via . Prove that is uniformly continuous.      Define via . Prove that is not uniformly continuous.      Define via . Prove that is uniformly continuous.      Define via . Determine whether is uniformly continuous.      Let be a continuous real function such that is compact. Prove that is uniformly continuous.     "
+},
+{
+  "id": "sec-6-5-2",
+  "level": "2",
+  "url": "sec-6-5.html#sec-6-5-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definition.",
+  "body": " Definition   Let . We say is uniformly continuous if   "
+},
+{
+  "id": "sec-6-5-3",
+  "level": "2",
+  "url": "sec-6-5.html#sec-6-5-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Let be a real function. Prove that if is uniformly continuous, then is continuous.      Define via . Prove that is uniformly continuous.      Define via . Prove that is not uniformly continuous.      Define via . Prove that is uniformly continuous.      Define via . Determine whether is uniformly continuous.      Let be a continuous real function such that is compact. Prove that is uniformly continuous.    "
 }
 ]
 
