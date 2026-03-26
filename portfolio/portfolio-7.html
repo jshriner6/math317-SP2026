@@ -349,7 +349,89 @@ eBookConfig.enable_chatcodes =  false;
        \item[Problem 6.38] Let $f: K \to \mathbb{R}$ be a continuous real function such that $K$ is compact. Prove that $f$ is uniformly continuous.
        \item[Solution 6.38]
 
-       \textit{This is NOT the end of Chapter 6 and 7 problems.}
+       \item[Problem 7.2] Why do we require $0 \lt |x-a|$ in Definition 7.1?
+       \item[Solution 7.2]
+
+       \item[Problem 7.3] Why do you think we require $a$ to be an accumulation point of the domain of $f$? What happens if $a \in \text{Dom}(f)$ but $a$ is not an accumulation point of $\text{Dom}(f)$? Such points are called \textbf{isolated points} of the domain of $f$.
+       \item[Solution 7.3]
+
+       \item[Problem 7.6] Prove that $\displaystyle \lim_{x\to 1}(17x-42)=-25$ using Definition 7.1.
+       \item[Solution 7.6]
+
+       \item[Problem 7.7] Prove that $\displaystyle \lim_{x\to 2}x^3=8$ using Definition 7.1.
+       \item[Solution 7.7]
+
+       \item[Problem 7.8] Define $f:\mathbb{R} \to \mathbb{R}$ via
+           \[
+           f(x) = \begin{cases}
+                   x, &amp; \text{if } x \neq 0 \\
+                   17, &amp; \text{if } x =0.
+                   \end{cases}
+           \]
+       Prove that $\displaystyle \lim_{x\to 0}f(x)=0$ using Definition 7.1.
+       \item[Solution 7.8]
+
+       \item[Problem 7.9] Define $f:\mathbb{R} \to \mathbb{R}$ via
+           \[
+           f(x) = \begin{cases}
+                   1, &amp; \text{if } x \leq 0 \\
+                   -1, &amp; \text{if } x \gt 0.
+                   \end{cases}
+           \]
+       Using Definition 7.1, prove that $\displaystyle \lim_{x\to 0}f(x)$ does not exist.
+       \item[Solution 7.9]
+
+       \item[Problem 7.10] Define $f:\mathbb{R} \to \mathbb{R}$ via
+           \[
+           f(x) = \begin{cases}
+                   1, &amp; \text{if } x \in \mathbb{Q} \\
+                   0, &amp; \text{otherwise. }
+                   \end{cases}
+           \]
+       Using Definition 7.1, prove that $\displaystyle \lim_{x\to a}f(x)$ does not exist for all $a \in \mathbb{R}$.
+       \item[Solution 7.10]
+
+       \item[Problem 7.11] Let $f$ be a real function. Prove that if $\displaystyle \lim_{x\to a}f(x)$ exists, then the limit is unique.
+       \item[Solution 7.11]
+
+       \item[Problem 7.12] Let $f$ be a real function and let $a$ be an accumulation point of $\text{Dom}(f)$. Prove that $\displaystyle \lim_{x\to a}f(x)$ exists if and only if for every sequence $(p_n)$ in $\text{Dom}(f) \setminus\{a\}$ converging to $a$, the sequence $(f(p_n))$ converges, in which case, $\displaystyle \lim_{x\to a}f(x)$ equals the limit of the sequence $(f(p_n))$.
+       \item[Solution 7.12]
+
+       \item[Problem 7.13] Let $f,g:A \to \mathbb{R}$ be real functions. Prove each of the following using Definition 7.1 or Problem 7.12.
+           \begin{enumerate}
+               \item If $c \in \mathbb{R}$, then $\displaystyle \lim_{x\to a}c = c$.
+               \item If $\displaystyle \lim_{x\to a}f(x)$ and $\displaystyle \lim_{x\to a}g(x)$ both exist, then
+               \[
+               \lim_{x\to a}(f(x) \pm g(x)) = \lim_{x\to a}f(x) \pm \lim_{x\to a}g(x).
+               \]
+               \item If $\displaystyle \lim_{x\to a}f(x)$ and $\displaystyle \lim_{x\to a}g(x)$ both exist, then
+               \[
+               \lim_{x\to a}(f(x) \cdot g(x)) = \lim_{x\to a}f(x) \cdot \lim_{x\to a}g(x).
+               \]
+               \item If $c \in \mathbb{R}$ and $\displaystyle \lim_{x\to a}f(x)$ exists, then
+               \[
+               \lim_{x\to a}(c \cdot f(x)) = c \cdot\lim_{x\to a}f(x).
+               \]
+               \item If $\displaystyle \lim_{x\to a}f(x)$ and $\displaystyle \lim_{x\to a}g(x)$ both exist and $\displaystyle \lim_{x\to a}g(x) \neq 0$, then
+               \[
+               \lim_{x\to a}\frac{f(x)}{ g(x)} = \frac{\lim_{x\to a}f(x) }{ \lim_{x\to a}g(x)}.
+               \]
+               \item If $f$ is continuous at $b$ and $\displaystyle \lim_{x\to a}g(x) =b$, then
+               \[
+               \lim_{x\to a}f(g(x)) = f(\lim_{x\to a}g(x)) = f(b).
+               \]
+           \end{enumerate}
+       \item[Solution 7.13]
+
+       \item[Problem 7.14] Let $f$ and $g$ be real functions with $A = \text{Dom}(f)=\text{Dom}(g)$ and let $a$ be an accumulation point of $A$. Prove that if there exists an open interval $J$ containing $a$ such that $f(x)=g(x)$ for all $x \in (J\cap A)\setminus \{a\}$, then
+       \[
+       \lim_{x\to a}f(x) = \lim_{x\to a}g(x)
+       \]
+       provided one of the limits exists.
+       \item[Solution 7.14]
+
+       \textit{This is the end of Chapter 6 and 7 problems.}
+
 
 
 

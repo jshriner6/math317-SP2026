@@ -998,6 +998,69 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "Problems.",
   "body": " Problems    Let be a real function. Prove that if is uniformly continuous, then is continuous.      Define via . Prove that is uniformly continuous.      Define via . Prove that is not uniformly continuous.      Define via . Prove that is uniformly continuous.      Define via . Determine whether is uniformly continuous.      Let be a continuous real function such that is compact. Prove that is uniformly continuous.    "
+},
+{
+  "id": "sec-7-1",
+  "level": "1",
+  "url": "sec-7-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 7.1\\text{:}\\)<\/span> Introduction to Limits",
+  "body": " : Introduction to Limits   Definition   Let . The limit of as approaches is if     Problems    Why do we require in Definition 7.1?      Why do you think we require to be an accumulation point of the domain of ? What happens if but is not an accumulation point of ? Such points are called isolated points of the domain of .      Example: Limits By Definition   Prove .     Problems    Prove that using Definition 7.1.      Prove that using Definition 7.1.      Define via Prove that using Definition 7.1.      Define via Using Definition 7.1, prove that does not exist.      Define via Using Definition 7.1, prove that does not exist for all .      Let be a real function. Prove that if exists, then the limit is unique.     "
+},
+{
+  "id": "sec-7-1-2",
+  "level": "2",
+  "url": "sec-7-1.html#sec-7-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definition.",
+  "body": " Definition   Let . The limit of as approaches is if   "
+},
+{
+  "id": "sec-7-1-3",
+  "level": "2",
+  "url": "sec-7-1.html#sec-7-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Why do we require in Definition 7.1?      Why do you think we require to be an accumulation point of the domain of ? What happens if but is not an accumulation point of ? Such points are called isolated points of the domain of .    "
+},
+{
+  "id": "sec-7-1-4",
+  "level": "2",
+  "url": "sec-7-1.html#sec-7-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Example: Limits By Definition.",
+  "body": " Example: Limits By Definition   Prove .   "
+},
+{
+  "id": "sec-7-1-5",
+  "level": "2",
+  "url": "sec-7-1.html#sec-7-1-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Problems.",
+  "body": " Problems    Prove that using Definition 7.1.      Prove that using Definition 7.1.      Define via Prove that using Definition 7.1.      Define via Using Definition 7.1, prove that does not exist.      Define via Using Definition 7.1, prove that does not exist for all .      Let be a real function. Prove that if exists, then the limit is unique.    "
+},
+{
+  "id": "sec-7-2",
+  "level": "1",
+  "url": "sec-7-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 7.2\\text{:}\\)<\/span> Limit Laws",
+  "body": " : Limit Laws   Problems    Let be a real function and let be an accumulation point of . Prove that exists if and only if for every sequence in converging to , the sequence converges, in which case, equals the limit of the sequence .      Let be real functions. Prove each of the following using Definition 7.1 or Problem 7.12.   If , then .    If and both exist, then     If and both exist, then     If and exists, then     If and both exist and , then     If is continuous at and , then          Let and be real functions with and let be an accumulation point of . Prove that if there exists an open interval containing such that for all , then provided one of the limits exists.     "
+},
+{
+  "id": "sec-7-2-2",
+  "level": "2",
+  "url": "sec-7-2.html#sec-7-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Let be a real function and let be an accumulation point of . Prove that exists if and only if for every sequence in converging to , the sequence converges, in which case, equals the limit of the sequence .      Let be real functions. Prove each of the following using Definition 7.1 or Problem 7.12.   If , then .    If and both exist, then     If and both exist, then     If and exists, then     If and both exist and , then     If is continuous at and , then          Let and be real functions with and let be an accumulation point of . Prove that if there exists an open interval containing such that for all , then provided one of the limits exists.    "
 }
 ]
 
