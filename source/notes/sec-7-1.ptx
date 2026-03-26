@@ -1,0 +1,121 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-7-1">
+        <title><m>\S 7.1</m>: Introduction to Limits</title>
+
+
+                <exercise workspace="3in">
+                    <title>Definition</title>
+                    <statement>
+                        <p>
+                            Let <m>f: A \to \mathbb{R}</m>. The <term>limit</term> of <m>f</m> as <m>x</m> approaches
+                            <m>a</m> is <m>L</m> if 
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Why do we require <m>0 \lt |x-a|</m> in Definition 7.1?
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Why do you think we require <m>a</m> to be an accumulation point of the domain of <m>f</m>? What happens if <m>a \in \text{Dom}(f)</m> but <m>a</m> is not an accumulation point of <m>\text{Dom}(f)</m>? Such points are called <alert>isolated points</alert> of the domain of <m>f</m>.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+
+                <exercise workspace="8in">
+                    <title>Example: Limits By Definition</title>
+                    <statement>
+                        <p>
+                            Prove <m>\displaystyle \lim_{x \to 3}x^2 = 9</m>.
+                        </p>
+                    </statement>
+                    
+                </exercise>
+
+                <exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that <m>\displaystyle \lim_{x\to 1}(17x-42)=-25</m> using Definition 7.1.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                               Prove that <m>\displaystyle \lim_{x\to 2}x^{3}=8</m> using Definition 7.1.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f:\mathbb{R}\to \mathbb{R}</m> via
+<me>
+  f(x) = \begin{cases}x,&#x26;\text{if }x \neq 0 \\ 17,&#x26;\text{if }x =0.\end{cases}
+</me>
+Prove that <m>\displaystyle \lim_{x\to 0}f(x)=0</m> using Definition 7.1.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Define <m>f:\mathbb{R}\to \mathbb{R}</m> via
+<me>
+  f(x) = \begin{cases}1,&#x26;\text{if }x \leq 0 \\ -1,&#x26;\text{if }x \gt 0.\end{cases}
+</me>
+Using Definition 7.1, prove that <m>\displaystyle \lim_{x\to 0}f(x)</m> does not exist.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f:\mathbb{R}\to \mathbb{R}</m> via
+<me>
+  f(x) = \begin{cases}1, &#x26; \text{if } x \in \mathbb{Q} \\ 0, &#x26; \text{otherwise.
+  }\end{cases}
+</me>
+Using Definition 7.1, prove that <m>\displaystyle \lim_{x\to a}f(x)</m> does not exist for all <m>a \in \mathbb{R}</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Let <m>f</m> be a real function.
+Prove that if <m>\displaystyle \lim_{x\to a}f(x)</m> exists, then the limit is unique.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+
+                
+                
+                
+
+        </worksheet>
+    </article>
+</pretext>

@@ -1,0 +1,97 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-7-2">
+        <title><m>\S 7.2</m>: Limit Laws</title>
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f</m> be a real function and let <m>a</m> be an accumulation point of <m>\text{Dom}(f)</m>.
+Prove that <m>\displaystyle \lim_{x\to a}f(x)</m> exists if and only if for every sequence <m>(p_{n})</m> in <m>\text{Dom}(f) \setminus\{a\}</m> converging to <m>a</m>, the sequence <m>(f(p_{n}))</m> converges, in which case, <m>\displaystyle \lim_{x\to a}f(x)</m> equals the limit of the sequence <m>(f(p_{n}))</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Let <m>f,g:A \to \mathbb{R}</m> be real functions.
+Prove each of the following using Definition 7.1 or Problem 7.12.
+<ol>
+  <li>
+    <p>
+      If <m>c \in \mathbb{R}</m>, then <m>\displaystyle \lim_{x\to a}c = c</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>\displaystyle \lim_{x\to a}f(x)</m> and <m>\displaystyle \lim_{x\to a}g(x)</m> both exist, then
+      <me>
+        \lim_{x\to a}(f(x) \pm g(x)) = \lim_{x\to a}f(x) \pm \lim_{x\to a}g(x).
+      </me>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>\displaystyle \lim_{x\to a}f(x)</m> and <m>\displaystyle \lim_{x\to a}g(x)</m> both exist, then
+      <me>
+        \lim_{x\to a}(f(x) \cdot g(x)) = \lim_{x\to a}f(x) \cdot \lim_{x\to a}g(x).
+      </me>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>c \in \mathbb{R}</m> and <m>\displaystyle \lim_{x\to a}f(x)</m> exists, then
+      <me>
+        \lim_{x\to a}(c \cdot f(x)) = c \cdot\lim_{x\to a}f(x).
+      </me>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>\displaystyle \lim_{x\to a}f(x)</m> and <m>\displaystyle \lim_{x\to a}g(x)</m> both exist and <m>\displaystyle \lim_{x\to a}g(x) \neq 0</m>, then
+      <me>
+        \lim_{x\to a}\frac{f(x)}{ g(x)}= \frac{\lim_{x\to a}f(x) }{ \lim_{x\to a}g(x)}.
+      </me>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      If <m>f</m> is continuous at <m>b</m> and <m>\displaystyle \lim_{x\to a}g(x) =b</m>, then
+      <me>
+        \lim_{x\to a}f(g(x)) = f(\lim_{x\to a}g(x)) = f(b).
+      </me>
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                              Let <m>f</m> and <m>g</m> be real functions with <m>A = \text{Dom}(f)=\text{Dom}(g)</m> and let <m>a</m> be an accumulation point of <m>A</m>.
+Prove that if there exists an open interval <m>J</m> containing <m>a</m> such that <m>f(x)=g(x)</m> for all <m>x \in (J\cap A)\setminus \{a\}</m>, then
+<me>
+  \lim_{x\to a}f(x) = \lim_{x\to a}g(x)
+</me>
+provided one of the limits exists.
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+
+                
+
+        </worksheet>
+    </article>
+</pretext>
