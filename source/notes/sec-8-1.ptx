@@ -1,0 +1,123 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-8-1">
+        <title><m>\S 8.1</m>: Introduction to Differentiation</title>
+
+
+                <exercise workspace="3in">
+                    <title>Definition</title>
+                    <statement>
+                        <p>
+                            Let <m>f: A \to \mathbb{R}</m>, and <m>a \in A</m> such that <m>f</m> is defined
+                            on an open interval containing <m>A</m>. The <term>derivative of <m>f</m> at <m>a</m></term> is
+                        </p>
+                    </statement>
+                    
+                    
+                </exercise>
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: \mathbb{R}\to \mathbb{R}</m> via <m>f(x)=x^{2} - x +1</m>.
+Prove that <m>f</m> is differentiable on <m>\mathbb{R}</m> and find a formula for the derivative of <m>f</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: \mathbb{R}\to \mathbb{R}</m> via <m>f(x)=c</m> for some constant <m>c \in \mathbb{R}</m>.
+Prove that <m>f</m> is differentiable on <m>\mathbb{R}</m> and <m>f'(x)=0</m> for all <m>x \in \mathbb{R}</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: \mathbb{R}\to \mathbb{R}</m> via <m>f(x)=mx+b</m>, where <m>m,b \in \mathbb{R}</m>.
+Prove that <m>f</m> is differentiable on <m>\mathbb{R}</m> and find a formula for the derivative of <m>f</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Define <m>f: \mathbb{R}\to \mathbb{R}</m> via <m>f(x)=ax^{2} +bx +c</m>, where <m>a,b,c \in \mathbb{R}</m>.
+Prove that <m>f</m> is differentiable on <m>\mathbb{R}</m> and find a formula for the derivative of <m>f</m>.
+                            </p> 
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: \mathbb{R}\to \mathbb{R}</m> via <m>f(x)=x^{3}</m>.
+Prove that <m>f</m> is differentiable at <m>0</m> and <m>f'(0) = 0</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Explain why any function defined only on <m>\mathbb{Z}</m> cannot have a derivative.
+                            </p> 
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Prove that if <m>f</m> has a derivative at <m>x=a</m>, then <m>f</m> is also continuous at <m>x=a</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                                Define <m>f: \mathbb{R}\to \mathbb{R}</m> via <m>f(x)=|x|</m>.
+<ol>
+  <li>
+    <p>
+      Prove that <m>f</m> is continuous at every point in its domain.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Prove that <m>f</m> is differentiable everywhere except at <m>x=0</m>.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Define <m>f: \mathbb{R}\to \mathbb{R}</m> via
+<md>
+  f(x) = \begin{cases}x, &#x26; \text{if } x \in \mathbb{Q} \\ 0, &#x26; \text{otherwise.}\end{cases}
+</md>
+Show that <m>f</m> is continuous at <m>x=0</m>, but not differentiable at <m>x=0</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    
+                </exercise>
+
+                
+                
+
+        </worksheet>
+    </article>
+</pretext>

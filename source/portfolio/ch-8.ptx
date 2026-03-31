@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        
+        
+            <section xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Chapter 8: Differentiation</title>
+                    
+                     <program language="latex" line-numbers="yes">
+                        <code>  
+  \documentclass{article}
+  \usepackage{amssymb, amsmath}
+  \newcommand{\lt}{&lt;}
+  \newcommand{\gt}{&gt;}
+  \begin{document}
+    \title{Math 317: Chapter 8 Portfolio}
+    \author{Your name here}
+    \maketitle
+    \begin{enumerate}
+        \item[Problem 8.2] Define $f: \mathbb{R} \to \mathbb{R}$ via $f(x)=x^2 - x +1$. Prove that $f$ is differentiable on $\mathbb{R}$ and find a formula for the derivative of $f$.
+        \item[Solution 8.2]
+
+        \item[Problem 8.3] Define $f: \mathbb{R} \to \mathbb{R}$ via $f(x)=c$ for some constant $c \in \mathbb{R}$. Prove that $f$ is differentiable on $\mathbb{R}$ and $f'(x)=0$ for all $x \in \mathbb{R}$.
+        \item[Solution 8.3]
+
+        \item[Problem 8.4] Define $f: \mathbb{R} \to \mathbb{R}$ via $f(x)=mx+b$, where $m,b \in \mathbb{R}$. Prove that $f$ is differentiable on $\mathbb{R}$ and find a formula for the derivative of $f$.
+        \item[Solution 8.4]
+
+        \item[Problem 8.5] Define $f: \mathbb{R} \to \mathbb{R}$ via $f(x)=ax^2 +bx +c$, where $a,b,c \in \mathbb{R}$. Prove that $f$ is differentiable on $\mathbb{R}$ and find a formula for the derivative of $f$.
+        \item[Solution 8.5]
+
+        \item[Problem 8.6] Define $f: \mathbb{R} \to \mathbb{R}$ via $f(x)=x^3$. Prove that $f$ is differentiable at $0$ and $f'(0) = 0$.
+        \item[Solution 8.6]
+
+        \item[Problem 8.7] Explain why any function defined only on $\mathbb{Z}$ cannot have a derivative.
+        \item[Solution 8.7]
+
+        \item[Problem 8.8] Prove that if $f$ has a derivative at $x=a$, then $f$ is also continuous at $x=a$.
+        \item[Solution 8.8]
+
+        \item[Problem 8.9] Define $f: \mathbb{R} \to \mathbb{R}$ via $f(x)=|x|$. 
+            \begin{enumerate}
+                \item Prove that $f$ is continuous at every point in its domain.
+                \item Prove that $f$ is differentiable everywhere except at $x=0$.
+            \end{enumerate}
+        \item[Solution 8.9]
+
+        \item[Problem 8.10] Define $f: \mathbb{R} \to \mathbb{R}$ via 
+            \[
+            f(x) = \begin{cases}
+                    x, &amp; \text{if } x \in \mathbb{Q} \\
+                    0, &amp; \text{otherwise.}
+                    \end{cases}
+            \]
+            Show that $f$ is continuous at $x=0$, but not differentiable at $x=0$.
+        \item[Solution 8.10]
+
+        \textit{This is NOT the end of Chapter 8 problems.}
+
+
+ 
+
+    \end{enumerate}  
+  \end{document}          
+                        </code>
+                    </program>
+                
+            </section>
