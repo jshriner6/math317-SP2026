@@ -1061,6 +1061,33 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "Problems.",
   "body": " Problems    Let be a real function and let be an accumulation point of . Prove that exists if and only if for every sequence in converging to , the sequence converges, in which case, equals the limit of the sequence .      Let be real functions. Prove each of the following using Definition 7.1 or Problem 7.12.   If , then .    If and both exist, then     If and both exist, then     If and exists, then     If and both exist and , then     If is continuous at and , then          Let and be real functions with and let be an accumulation point of . Prove that if there exists an open interval containing such that for all , then provided one of the limits exists.    "
+},
+{
+  "id": "sec-8-1",
+  "level": "1",
+  "url": "sec-8-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 8.1\\text{:}\\)<\/span> Introduction to Differentiation",
+  "body": " : Introduction to Differentiation   Definition   Let , and such that is defined on an open interval containing . The derivative of at is     Problems    Define via . Prove that is differentiable on and find a formula for the derivative of .      Define via for some constant . Prove that is differentiable on and for all .      Define via , where . Prove that is differentiable on and find a formula for the derivative of .      Define via , where . Prove that is differentiable on and find a formula for the derivative of .      Define via . Prove that is differentiable at and .      Explain why any function defined only on cannot have a derivative.      Prove that if has a derivative at , then is also continuous at .      Define via .   Prove that is continuous at every point in its domain.    Prove that is differentiable everywhere except at .         Define via Show that is continuous at , but not differentiable at .     "
+},
+{
+  "id": "sec-8-1-2",
+  "level": "2",
+  "url": "sec-8-1.html#sec-8-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definition.",
+  "body": " Definition   Let , and such that is defined on an open interval containing . The derivative of at is   "
+},
+{
+  "id": "sec-8-1-3",
+  "level": "2",
+  "url": "sec-8-1.html#sec-8-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Define via . Prove that is differentiable on and find a formula for the derivative of .      Define via for some constant . Prove that is differentiable on and for all .      Define via , where . Prove that is differentiable on and find a formula for the derivative of .      Define via , where . Prove that is differentiable on and find a formula for the derivative of .      Define via . Prove that is differentiable at and .      Explain why any function defined only on cannot have a derivative.      Prove that if has a derivative at , then is also continuous at .      Define via .   Prove that is continuous at every point in its domain.    Prove that is differentiable everywhere except at .         Define via Show that is continuous at , but not differentiable at .    "
 }
 ]
 
