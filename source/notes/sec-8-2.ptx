@@ -1,0 +1,78 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-8-2">
+        <title><m>\S 8.2</m>: Derivative Rules</title>
+
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            If <m>f</m> is differentiable at <m>x</m> and <m>c \in \mathbb{R}</m>, prove that the function <m>cf</m> is also has a derivative at <m>x</m> and <m>(cf)'(x) = cf'(x)</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            If <m>f</m> and <m>g</m> are differentiable at <m>x</m>, show that the function <m>f+g</m> is also has a derivative at <m>x</m> and <m>(f+g)'(x) = f'(x) + g'(x)</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Suppose <m>f</m> and <m>g</m> are differentiable at <m>x</m>.
+Prove each of the following:
+<ol>
+  <li>
+    <p>
+      (Product Rule) The function <m>fg</m> is differentiable at <m>x</m>.
+      Moreover, its derivative function is given by
+      <md>
+        (fg)'(x) = f'(x)g(x) + f(x)g'(x).
+      </md>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      (Quotient Rule) The function <m>f/g</m> is differentiable at <m>x</m> provided <m>g(x) \neq 0</m>.
+      Moreover, its derivative function is given by
+      <md>
+        \left(\frac{f}{g}\right)'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^{2}}.
+      </md>
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                              Define <m>g: \mathbb{R}\to \mathbb{R}</m> via
+<md>
+  g(x) = \begin{cases}0, &#x26; \text{if } x \in \mathbb{Q} \\ 1, &#x26; \text{otherwise.}\end{cases}
+</md>
+Now, define <m>f: \mathbb{R}\to \mathbb{R}</m> via <m>f(x) = x^{2}g(x)</m>.
+Determine where <m>f</m> is differentiable.
+                            </p> 
+                        </statement>
+                    </task>
+
+                
+                    
+                </exercise>
+
+                
+                
+
+        </worksheet>
+    </article>
+</pretext>

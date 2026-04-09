@@ -53,7 +53,76 @@
             Show that $f$ is continuous at $x=0$, but not differentiable at $x=0$.
         \item[Solution 8.10]
 
-        \textit{This is NOT the end of Chapter 8 problems.}
+        \item[Problem 8.11] If $f$ is differentiable at $x$ and $c \in \mathbb{R}$, prove that the function $cf$ is also has a derivative at $x$ and $(cf)'(x) = cf'(x)$.
+        \item[Solution 8.11]
+
+        \item[Problem 8.12] If $f$ and $g$ are differentiable at $x$, show that the function $f+g$ is also has a derivative at $x$ and $(f+g)'(x) = f'(x) + g'(x)$.
+        \item[Solution 8.12]
+
+        \item[Problem 8.13] Suppose $f$ and $g$ are differentiable at $x$. Prove each of the following:
+            \begin{enumerate}
+                \item (Product Rule) The function $fg$ is differentiable at $x$. Moreover, its derivative function is given by
+                    \[
+                    (fg)'(x) = f'(x)g(x) + f(x)g'(x).
+                    \]
+                \item (Quotient Rule) The function $f/g$ is differentiable at $x$ provided $g(x) \neq 0$. Moreover, its derivative function is given by
+                    \[
+                    \left(\frac{f}{g}\right)'(x) = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}.
+                    \]
+            \end{enumerate} 
+        \item[Solution 8.13]
+
+        \item[Problem 8.14] Define $g: \mathbb{R} \to \mathbb{R}$ via 
+            \[
+            g(x) = \begin{cases}
+                    0, &amp; \text{if } x \in \mathbb{Q} \\
+                    1, &amp; \text{otherwise.}
+                    \end{cases}
+            \]
+            Now, define $f: \mathbb{R} \to \mathbb{R}$ via $f(x) = x^2g(x)$. Determine where $f$ is differentiable.
+        \item[Solution 8.14]
+
+        \item[Problem 8.15] Let $f: A \to \mathbb{R}$ be a real function such that $[a,b] \subseteq A$, $f'(c)$ exists for some $c\in (a,b)$, and $f(c) \geq f(x)$ for all $x \in (a,b)$. Prove that $f'(c)=0$.
+        \item[Solution 8.15]
+
+        \item[Problem 8.16] Let $f: A \to \mathbb{R}$ be a real function such $f'(c)=0$ for some $c\in A$. Does this imply that there exists an open interval $(a,b) \subseteq A$ containing $c$ such that either $f(x) \geq f(c)$ or $f(x) \leq f(c)$ for all $x \in (a,b)$? If so, prove it. Otherwise, provide a counterexample.
+        \item[Solution 8.16]
+
+        \item[Problem 8.17] Let $f: A \to \mathbb{R}$ be a real function such that $[a,b] \subseteq A$. If $f$ is continuous on $[a,b]$, differentiable on $(a,b)$, and $f(a) = f(b)$, then prove that there exists a point $c \in (a,b)$ such that $f'(c) = 0$.
+        \item[Solution 8.17]
+
+        \item[Problem 8.18] Let $f: A \to \mathbb{R}$ be a real function such that $[a,b] \subseteq A$. If $f$ is continuous on $[a,b]$, differentiable on $(a,b)$, then prove that there exists a point $c \in (a,b)$ such that 
+            \[
+            f'(c) = \frac{f(b) - f(a)}{b-a}.
+            \]
+        \item[Solution 8.18]
+
+        \item[Problem 8.19] Let $f: A \to \mathbb{R}$ be a real function such that $[a,b] \subseteq A$. If $f$ is continuous on $[a,b]$, differentiable on $(a,b)$ such that $f'(x) =0$ for all $x \in (a,b)$, then prove that $f$ is a constant over $[a,b]$.
+        \item[Solution 8.19]
+
+        \item[Problem 8.20] Let $f: A \to \mathbb{R}$ be a real function such that $(a,b) \subseteq A$ and $f$ is differentiable at every point in $(a,b)$. Prove that if $f'(x) \gt 0$ for all $x \in (a,b)$, then $f$ is strictly increasing on $(a,b)$. What if $f'(x) \lt 0$ for all $x \in (a,b)$?
+        \item[Solution 8.20]  
+
+        \item[Problem 8.21] Find an example of a function $f: \mathbb{R} \to \mathbb{R}$ such that $f$ is strictly increasing on its domain yet $f'(x)$ is not positive for all $x \in \mathbb{R}$.
+        \item[Solution 8.21]
+
+        \item[Problem 8.22] Let $f: A \to \mathbb{R}$ and $g: \mathbb{R} \to \mathbb{R}$ such that $[a,b] \subseteq A$. Prove that if $f$ and $g$ are continuous on $[a,b]$ and $f'(x) = g'(x)$ for all $x \in (a,b)$, then there exists $C \in \mathbb{R}$ such that $f(x) = g(x) + C$ for all $x \in [a,b]$.
+        \item[Solution 8.22]
+
+        \item[Problem 8.23] Is the converse of the previous problem true? If so, prove it. Otherwise, provide a counterexample. 
+        \item[Solution 8.23]
+
+        \item[Problem 8.24] Let $f: A \to \mathbb{R}$ be a real function such that $(a,b) \subseteq A$ and $f$ is differentiable at every point of $(a,b)$. Prove that if there exists a nonnegative real number $M$ such that $|f'(x)| \leq M$ for all $x \in (a,b)$ (i.e., $f$ has bounded derivative on $(a,b)$), then for $x,y \in (a,b)$, we have $|f(x) - f(y)| \leq M|x-y|$.
+        \item[Solution 8.24]
+
+        \item[Problem 8.25] Let $f: A \to \mathbb{R}$ be a real function such that $(a,b) \subseteq A$ and $f$ is differentiable at every point of $(a,b)$. Prove that if there exists a nonnegative real number $M$ such that $|f'(x)| \leq M$ for all $x \in (a,b)$ (i.e., $f$ has bounded derivative on $(a,b)$), then $f$ is uniformly continuous on $(a,b)$.
+        \item[Solution 8.25]
+
+        \item[Problem 8.26] If $f$ is a differentiable real function that is also uniformly continuous, does this imply that the derivative is bounded? Justify your assertion.
+        \item[Solution 8.26]
+
+        \textit{This is the end of Chapter 8 problems.}
+
 
 
  

@@ -1,0 +1,118 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-9-1-1">
+        <title><m>\S 9.1</m>: Introduction to Integration</title>
+
+            <exercise workspace="2in">
+                <title>Definitions: Partitions, Bounded Functions, Riemann Sums</title>
+                
+                
+                <statement>
+                    <p>
+                        
+                    </p>
+                </statement>
+                
+            </exercise>
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Give some partitions, regular and not regular, of <m>[0,1]</m>, <m>[2,4]</m>, and <m>[-1,0]</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Draw pictures that capture the concepts of upper and lower Riemann sums. 
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Give an example of an interval <m>[a,b]</m>, partition <m>P</m>, and bounded real function <m>f</m> such that <m>U_{p}(f)</m> is not a Riemann sum.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Define <m>f:[0,1] \to \mathbb{R}</m> via
+<md>
+  f(x) = \begin{cases}0,&#x26;\text{if }x \in (0,1] \\ 1,&#x26;\text{if }x=0.\end{cases}
+</md>
+
+<ol>
+  <li>
+    <p>
+      Show that <m>U_{P}(f) \gt 0</m> for all partitions of <m>[0,1]</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Show that for any positive number <m>\varepsilon</m> there is a partition <m>P_{\varepsilon}</m> such that <m>U_{P_\varepsilon}(f) \lt \varepsilon</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Fully describe all lower sums of <m>f</m> on <m>[0,1]</m>.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Define <m>f:[0,1] \to \mathbb{R}</m> via <m>f(x)=x</m>.
+For each <m>n \in \mathbb{N}</m>, let <m>P_{n}</m> be the regular partition of <m>[0,1]</m> given by <m>\{0, \frac{1}{n}, \frac{2}{n}, \dots, \frac{n-1}{n}, 1\}</m>.
+<ol>
+  <li>
+    <p>
+      Compute <m>U_{P_5}(f)</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Give a formula for <m>U_{P_n}(f)</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Compute <m>L_{P_5}(f)</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Give a formula for <m>L_{P_n}(f)</m>.
+    </p>
+  </li>
+</ol>
+                            </p>
+                        </statement>
+                    </task>
+
+                    
+                </exercise>
+
+                
+                
+
+        </worksheet>
+    </article>
+</pretext>

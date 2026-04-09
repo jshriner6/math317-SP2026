@@ -1,0 +1,129 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-8-3">
+        <title><m>\S 8.3</m>: Mean Value Theorem</title>
+
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f: A \to \mathbb{R}</m> be a real function such that <m>[a,b] \subseteq A</m>, <m>f'(c)</m> exists for some <m>c\in (a,b)</m>, and <m>f(c) \geq f(x)</m> for all <m>x \in (a,b)</m>.
+Prove that <m>f'(c)=0</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f: A \to \mathbb{R}</m> be a real function such <m>f'(c)=0</m> for some <m>c\in A</m>.
+Does this imply that there exists an open interval <m>(a,b) \subseteq A</m> containing <m>c</m> such that either <m>f(x) \geq f(c)</m> or <m>f(x) \leq f(c)</m> for all <m>x \in (a,b)</m>? If so, prove it.
+Otherwise, provide a counterexample.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f: A \to \mathbb{R}</m> be a real function such that <m>[a,b] \subseteq A</m>.
+If <m>f</m> is continuous on <m>[a,b]</m>, differentiable on <m>(a,b)</m>, and <m>f(a) = f(b)</m>, then prove that there exists a point <m>c \in (a,b)</m> such that <m>f'(c) = 0</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                               Let <m>f: A \to \mathbb{R}</m> be a real function such that <m>[a,b] \subseteq A</m>.
+If <m>f</m> is continuous on <m>[a,b]</m>, differentiable on <m>(a,b)</m>, then prove that there exists a point <m>c \in (a,b)</m> such that
+<md>
+  f'(c) = \frac{f(b) - f(a)}{b-a}.
+</md>
+                            </p> 
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f: A \to \mathbb{R}</m> be a real function such that <m>[a,b] \subseteq A</m>.
+If <m>f</m> is continuous on <m>[a,b]</m>, differentiable on <m>(a,b)</m> such that <m>f'(x) =0</m> for all <m>x \in (a,b)</m>, then prove that <m>f</m> is a constant over <m>[a,b]</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f: A \to \mathbb{R}</m> be a real function such that <m>(a,b) \subseteq A</m> and <m>f</m> is differentiable at every point in <m>(a,b)</m>.
+Prove that if <m>f'(x) \gt 0</m> for all <m>x \in (a,b)</m>, then <m>f</m> is strictly increasing on <m>(a,b)</m>.
+What if <m>f'(x) \lt 0</m> for all <m>x \in (a,b)</m>?
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Find an example of a function <m>f: \mathbb{R}\to \mathbb{R}</m> such that <m>f</m> is strictly increasing on its domain yet <m>f'(x)</m> is not positive for all <m>x \in \mathbb{R}</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                               Let <m>f: A \to \mathbb{R}</m> and <m>g: \mathbb{R}\to \mathbb{R}</m> such that <m>[a,b] \subseteq A</m>.
+Prove that if <m>f</m> and <m>g</m> are continuous on <m>[a,b]</m> and <m>f'(x) = g'(x)</m> for all <m>x \in (a,b)</m>, then there exists <m>C \in \mathbb{R}</m> such that <m>f(x) = g(x) + C</m> for all <m>x \in [a,b]</m>.
+                            </p> 
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Is the converse of the previous problem true? If so, prove it. Otherwise, provide a counterexample. 
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f: A \to \mathbb{R}</m> be a real function such that <m>(a,b) \subseteq A</m> and <m>f</m> is differentiable at every point of <m>(a,b)</m>.
+Prove that if there exists a nonnegative real number <m>M</m> such that <m>|f'(x)| \leq M</m> for all <m>x \in (a,b)</m> (i.e., <m>f</m> has bounded derivative on <m>(a,b)</m>), then for <m>x,y \in (a,b)</m>, we have <m>|f(x) - f(y)| \leq M|x-y|</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                            Let <m>f: A \to \mathbb{R}</m> be a real function such that <m>(a,b) \subseteq A</m> and <m>f</m> is differentiable at every point of <m>(a,b)</m>.
+Prove that if there exists a nonnegative real number <m>M</m> such that <m>|f'(x)| \leq M</m> for all <m>x \in (a,b)</m> (i.e., <m>f</m> has bounded derivative on <m>(a,b)</m>), then <m>f</m> is uniformly continuous on <m>(a,b)</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="2in">
+                        <statement>
+                            <p>
+                               If <m>f</m> is a differentiable real function that is also uniformly continuous, does this imply that the derivative is bounded? Justify your assertion.
+                            </p> 
+                        </statement>
+                    </task>
+
+                
+                    
+                </exercise>
+
+                
+                
+
+        </worksheet>
+    </article>
+</pretext>

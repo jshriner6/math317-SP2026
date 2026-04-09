@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        
+        
+            <section xmlns:xi="http://www.w3.org/2001/XInclude">
+                <title>Chapter 9: Integration</title>
+                    
+                     <program language="latex" line-numbers="yes">
+                        <code>  
+  \documentclass{article}
+  \usepackage{amssymb, amsmath}
+  \newcommand{\lt}{&lt;}
+  \newcommand{\gt}{&gt;}
+  \begin{document}
+    \title{Math 317: Chapter 9 Portfolio}
+    \author{Your name here}
+    \maketitle
+    \begin{enumerate}
+
+        \item[Problem 9.2] Give some partitions, regular and not regular, of $[0,1]$, $[2,4]$, and $[-1,0]$. 
+        \item[Solution 9.2]
+
+        \item[Problem 9.7] Draw pictures that capture the concepts of upper and lower Riemann sums. 
+        \item[Solution 9.7]
+
+        \item[Problem 9.8] Give an example of an interval $[a,b]$, partition $P$, and bounded real function $f$ such that $U_p(f)$ is not a Riemann sum. 
+        \item[Solution 9.8]
+
+        \item[Problem 9.9] Define $f:[0,1] \to \mathbb{R}$ via 
+            \[
+            f(x) = \begin{cases}
+                    0, &amp; \text{if } x \in (0,1] \\
+                    1, &amp; \text{if } x=0.
+                    \end{cases}
+            \]
+            \begin{enumerate}
+                \item Show that $U_P(f) \gt 0$ for all partitions of $[0,1]$.
+                \item Show that for any positive number $\varepsilon$ there is a partition $P_\varepsilon$ such that $U_{P_\varepsilon}(f) \lt \varepsilon$.
+                \item Fully describe all lower sums of $f$ on $[0,1]$.
+            \end{enumerate}
+        \item[Solution 9.9]
+
+        \item[Problem 9.10] Define $f:[0,1] \to \mathbb{R}$ via $f(x)=x$. For each $n \in \mathbb{N}$, let $P_n$ be the regular partition of $[0,1]$ given by $\{0, \frac{1}{n}, \frac{2}{n}, \dots, \frac{n-1}{n}, 1\}$.
+            \begin{enumerate}
+                \item Compute $U_{P_5}(f)$.
+                \item Give a formula for $U_{P_n}(f)$.
+                \item Compute $L_{P_5}(f)$.
+                \item Give a formula for $L_{P_n}(f)$.
+            \end{enumerate}
+        \item[Solution 9.10]
+
+        \textit{This is NOT the end of Chapter 9 problems.}
+
+    \end{enumerate}  
+  \end{document}          
+                        </code>
+                    </program>
+                
+            </section>
