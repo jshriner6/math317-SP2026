@@ -1088,6 +1088,69 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "Problems.",
   "body": " Problems    Define via . Prove that is differentiable on and find a formula for the derivative of .      Define via for some constant . Prove that is differentiable on and for all .      Define via , where . Prove that is differentiable on and find a formula for the derivative of .      Define via , where . Prove that is differentiable on and find a formula for the derivative of .      Define via . Prove that is differentiable at and .      Explain why any function defined only on cannot have a derivative.      Prove that if has a derivative at , then is also continuous at .      Define via .   Prove that is continuous at every point in its domain.    Prove that is differentiable everywhere except at .         Define via Show that is continuous at , but not differentiable at .    "
+},
+{
+  "id": "sec-8-2",
+  "level": "1",
+  "url": "sec-8-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 8.2\\text{:}\\)<\/span> Derivative Rules",
+  "body": " : Derivative Rules   Problems    If is differentiable at and , prove that the function is also has a derivative at and .      If and are differentiable at , show that the function is also has a derivative at and .      Suppose and are differentiable at . Prove each of the following:   (Product Rule) The function is differentiable at . Moreover, its derivative function is given by     (Quotient Rule) The function is differentiable at provided . Moreover, its derivative function is given by          Define via Now, define via . Determine where is differentiable.     "
+},
+{
+  "id": "sec-8-2-2",
+  "level": "2",
+  "url": "sec-8-2.html#sec-8-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    If is differentiable at and , prove that the function is also has a derivative at and .      If and are differentiable at , show that the function is also has a derivative at and .      Suppose and are differentiable at . Prove each of the following:   (Product Rule) The function is differentiable at . Moreover, its derivative function is given by     (Quotient Rule) The function is differentiable at provided . Moreover, its derivative function is given by          Define via Now, define via . Determine where is differentiable.    "
+},
+{
+  "id": "sec-8-3",
+  "level": "1",
+  "url": "sec-8-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 8.3\\text{:}\\)<\/span> Mean Value Theorem",
+  "body": " : Mean Value Theorem   Problems    Let be a real function such that , exists for some , and for all . Prove that .      Let be a real function such for some . Does this imply that there exists an open interval containing such that either or for all ? If so, prove it. Otherwise, provide a counterexample.      Let be a real function such that . If is continuous on , differentiable on , and , then prove that there exists a point such that .      Let be a real function such that . If is continuous on , differentiable on , then prove that there exists a point such that       Let be a real function such that . If is continuous on , differentiable on such that for all , then prove that is a constant over .      Let be a real function such that and is differentiable at every point in . Prove that if for all , then is strictly increasing on . What if for all ?      Find an example of a function such that is strictly increasing on its domain yet is not positive for all .      Let and such that . Prove that if and are continuous on and for all , then there exists such that for all .      Is the converse of the previous problem true? If so, prove it. Otherwise, provide a counterexample.      Let be a real function such that and is differentiable at every point of . Prove that if there exists a nonnegative real number such that for all (i.e., has bounded derivative on ), then for , we have .      Let be a real function such that and is differentiable at every point of . Prove that if there exists a nonnegative real number such that for all (i.e., has bounded derivative on ), then is uniformly continuous on .      If is a differentiable real function that is also uniformly continuous, does this imply that the derivative is bounded? Justify your assertion.     "
+},
+{
+  "id": "sec-8-3-2",
+  "level": "2",
+  "url": "sec-8-3.html#sec-8-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Let be a real function such that , exists for some , and for all . Prove that .      Let be a real function such for some . Does this imply that there exists an open interval containing such that either or for all ? If so, prove it. Otherwise, provide a counterexample.      Let be a real function such that . If is continuous on , differentiable on , and , then prove that there exists a point such that .      Let be a real function such that . If is continuous on , differentiable on , then prove that there exists a point such that       Let be a real function such that . If is continuous on , differentiable on such that for all , then prove that is a constant over .      Let be a real function such that and is differentiable at every point in . Prove that if for all , then is strictly increasing on . What if for all ?      Find an example of a function such that is strictly increasing on its domain yet is not positive for all .      Let and such that . Prove that if and are continuous on and for all , then there exists such that for all .      Is the converse of the previous problem true? If so, prove it. Otherwise, provide a counterexample.      Let be a real function such that and is differentiable at every point of . Prove that if there exists a nonnegative real number such that for all (i.e., has bounded derivative on ), then for , we have .      Let be a real function such that and is differentiable at every point of . Prove that if there exists a nonnegative real number such that for all (i.e., has bounded derivative on ), then is uniformly continuous on .      If is a differentiable real function that is also uniformly continuous, does this imply that the derivative is bounded? Justify your assertion.    "
+},
+{
+  "id": "sec-9-1-1",
+  "level": "1",
+  "url": "sec-9-1-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 9.1\\text{:}\\)<\/span> Introduction to Integration",
+  "body": " : Introduction to Integration   Definitions: Partitions, Bounded Functions, Riemann Sums        Problems    Give some partitions, regular and not regular, of , , and .      Draw pictures that capture the concepts of upper and lower Riemann sums.      Give an example of an interval , partition , and bounded real function such that is not a Riemann sum.      Define via    Show that for all partitions of .    Show that for any positive number there is a partition such that .    Fully describe all lower sums of on .         Define via . For each , let be the regular partition of given by .   Compute .    Give a formula for .    Compute .    Give a formula for .        "
+},
+{
+  "id": "sec-9-1-1-2",
+  "level": "2",
+  "url": "sec-9-1-1.html#sec-9-1-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Definitions: Partitions, Bounded Functions, Riemann Sums.",
+  "body": " Definitions: Partitions, Bounded Functions, Riemann Sums      "
+},
+{
+  "id": "sec-9-1-1-3",
+  "level": "2",
+  "url": "sec-9-1-1.html#sec-9-1-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Problems.",
+  "body": " Problems    Give some partitions, regular and not regular, of , , and .      Draw pictures that capture the concepts of upper and lower Riemann sums.      Give an example of an interval , partition , and bounded real function such that is not a Riemann sum.      Define via    Show that for all partitions of .    Show that for any positive number there is a partition such that .    Fully describe all lower sums of on .         Define via . For each , let be the regular partition of given by .   Compute .    Give a formula for .    Compute .    Give a formula for .       "
 }
 ]
 
