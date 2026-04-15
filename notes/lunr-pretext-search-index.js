@@ -1151,6 +1151,150 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "Problems.",
   "body": " Problems    Give some partitions, regular and not regular, of , , and .      Draw pictures that capture the concepts of upper and lower Riemann sums.      Give an example of an interval , partition , and bounded real function such that is not a Riemann sum.      Define via    Show that for all partitions of .    Show that for any positive number there is a partition such that .    Fully describe all lower sums of on .         Define via . For each , let be the regular partition of given by .   Compute .    Give a formula for .    Compute .    Give a formula for .       "
+},
+{
+  "id": "sec-9-1-2",
+  "level": "1",
+  "url": "sec-9-1-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 9.1\\text{:}\\)<\/span> Introduction to Integration (Part 2)",
+  "body": " : Introduction to Integration (Part 2)   Problems    Suppose that is a bounded real function on with lower bound and upper bound . Show that for any partition of , and .      Suppose that is a bounded real function on and is a partition of . Show that .      Definitions   Let be bounded. Then we define the upper integral and lower integral of from to , respectively, as     Problems    Compute the upper and lower integrals for the function in Problem 9.9.      Define via Show that .      Definitions   If and are partitions of , such that     Problems    Let be a bounded real function with domain . Prove that if and are partitions of such that is a refinement of , then and .      Suppose is a bounded real function on . Use the previous problem to prove that       Suppose is continuous on such that for all and that for some , . Explain why exists and then show that .      Definitions   Let be bounded. Then is integrable on if     Problems    Give an example of a function and an interval for which we know does not exist.      Is the function in Problem 9.9 integrable over ? If so, determine the value of the corresponding integral. If not, explain why.     "
+},
+{
+  "id": "sec-9-1-2-2",
+  "level": "2",
+  "url": "sec-9-1-2.html#sec-9-1-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Suppose that is a bounded real function on with lower bound and upper bound . Show that for any partition of , and .      Suppose that is a bounded real function on and is a partition of . Show that .    "
+},
+{
+  "id": "sec-9-1-2-3",
+  "level": "2",
+  "url": "sec-9-1-2.html#sec-9-1-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definitions.",
+  "body": " Definitions   Let be bounded. Then we define the upper integral and lower integral of from to , respectively, as   "
+},
+{
+  "id": "sec-9-1-2-4",
+  "level": "2",
+  "url": "sec-9-1-2.html#sec-9-1-2-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Problems.",
+  "body": " Problems    Compute the upper and lower integrals for the function in Problem 9.9.      Define via Show that .    "
+},
+{
+  "id": "sec-9-1-2-5",
+  "level": "2",
+  "url": "sec-9-1-2.html#sec-9-1-2-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "Definitions.",
+  "body": " Definitions   If and are partitions of , such that   "
+},
+{
+  "id": "sec-9-1-2-6",
+  "level": "2",
+  "url": "sec-9-1-2.html#sec-9-1-2-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "Problems.",
+  "body": " Problems    Let be a bounded real function with domain . Prove that if and are partitions of such that is a refinement of , then and .      Suppose is a bounded real function on . Use the previous problem to prove that       Suppose is continuous on such that for all and that for some , . Explain why exists and then show that .    "
+},
+{
+  "id": "sec-9-1-2-7",
+  "level": "2",
+  "url": "sec-9-1-2.html#sec-9-1-2-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "Definitions.",
+  "body": " Definitions   Let be bounded. Then is integrable on if   "
+},
+{
+  "id": "sec-9-1-2-8",
+  "level": "2",
+  "url": "sec-9-1-2.html#sec-9-1-2-8",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "Problems.",
+  "body": " Problems    Give an example of a function and an interval for which we know does not exist.      Is the function in Problem 9.9 integrable over ? If so, determine the value of the corresponding integral. If not, explain why.    "
+},
+{
+  "id": "sec-9-2-1",
+  "level": "1",
+  "url": "sec-9-2-1.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 9.2\\text{:}\\)<\/span> Properties of Integration",
+  "body": " : Properties of Integration   Problems    Prove that every constant real function is integrable over every interval .      Suppose is a bounded real function on . Then is (Riemann) integrable if and only if for every , there exists a partition of such that .      Define defined via . Using the tools we currently have at our disposal, prove that is integrable on and compute the value of the integral.      Definitions   A function is increasing if for each pair such that ,     Problems    Prove that if is a bounded monotonic real function on , then is integrable on .      Prove that each of the following exist. Do you know the value of any of these integrals knowing what we know now and perhaps some well-known area formulas?                            Suppose and are integrable real functions on and let . Prove each of the following:   The function is integrable on and .    The function is integrable on and .    The function is integrable on and .         Find two real function and that are integrable on such that is also integrable on but      "
+},
+{
+  "id": "sec-9-2-1-2",
+  "level": "2",
+  "url": "sec-9-2-1.html#sec-9-2-1-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Prove that every constant real function is integrable over every interval .      Suppose is a bounded real function on . Then is (Riemann) integrable if and only if for every , there exists a partition of such that .      Define defined via . Using the tools we currently have at our disposal, prove that is integrable on and compute the value of the integral.    "
+},
+{
+  "id": "sec-9-2-1-3",
+  "level": "2",
+  "url": "sec-9-2-1.html#sec-9-2-1-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definitions.",
+  "body": " Definitions   A function is increasing if for each pair such that ,   "
+},
+{
+  "id": "sec-9-2-1-4",
+  "level": "2",
+  "url": "sec-9-2-1.html#sec-9-2-1-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Problems.",
+  "body": " Problems    Prove that if is a bounded monotonic real function on , then is integrable on .      Prove that each of the following exist. Do you know the value of any of these integrals knowing what we know now and perhaps some well-known area formulas?                            Suppose and are integrable real functions on and let . Prove each of the following:   The function is integrable on and .    The function is integrable on and .    The function is integrable on and .         Find two real function and that are integrable on such that is also integrable on but     "
+},
+{
+  "id": "sec-9-2-2",
+  "level": "1",
+  "url": "sec-9-2-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 9.2\\text{:}\\)<\/span> Properties of Integration (Part 2)",
+  "body": " : Properties of Integration (Part 2)   Problems    Prove that if is integrable on , then there exists such that       Assume that is a closed interval and suppose is integrable on and for . Show that is integrable on and that       Suppose is integrable on . Prove that for every , the function defined via is integrable on and       Suppose is continuous on . Prove that for every , there exists a partition of such that for each , if , then .      Prove that if is continuous on , then is integrable on .      Is the converse of the previous problem true? If so, prove it. Otherwise, provide a counterexample.      Suppose is continuous on . Prove that       Suppose is continuous on . Prove that there exists such that       Definitions   If is integrable on , define     Problems    Suppose is integrable on and define via Prove that is uniformly continuous on .     "
+},
+{
+  "id": "sec-9-2-2-2",
+  "level": "2",
+  "url": "sec-9-2-2.html#sec-9-2-2-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Prove that if is integrable on , then there exists such that       Assume that is a closed interval and suppose is integrable on and for . Show that is integrable on and that       Suppose is integrable on . Prove that for every , the function defined via is integrable on and       Suppose is continuous on . Prove that for every , there exists a partition of such that for each , if , then .      Prove that if is continuous on , then is integrable on .      Is the converse of the previous problem true? If so, prove it. Otherwise, provide a counterexample.      Suppose is continuous on . Prove that       Suppose is continuous on . Prove that there exists such that     "
+},
+{
+  "id": "sec-9-2-2-3",
+  "level": "2",
+  "url": "sec-9-2-2.html#sec-9-2-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "Definitions.",
+  "body": " Definitions   If is integrable on , define   "
+},
+{
+  "id": "sec-9-2-2-4",
+  "level": "2",
+  "url": "sec-9-2-2.html#sec-9-2-2-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "Problems.",
+  "body": " Problems    Suppose is integrable on and define via Prove that is uniformly continuous on .    "
 }
 ]
 
