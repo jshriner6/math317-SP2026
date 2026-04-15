@@ -1,0 +1,129 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-9-2-2">
+        <title><m>\S 9.2</m>: Properties of Integration (Part 2)</title>
+
+        <exercise>
+                    <title>Problems</title>
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Prove that if <m>f</m> is integrable on <m>[a,b]</m>, then there exists <m>m,M \in \mathbb{R}</m> such that
+<md>
+  m(b-a) \leq \int_{a}^{b} f \leq M(b-a).
+</md>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Assume that <m>[a,b]</m> is a closed interval and suppose <m>f</m> is integrable on <m>[a,c]</m> and <m>[c,b]</m> for <m>c \in (a,b)</m>.
+Show that <m>f</m> is integrable on <m>[a,b]</m> and that
+<md>
+  \int_{a}^{b} f = \int_{a}^{c} f + \int_{c}^{b} f.
+</md>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Suppose <m>f</m> is integrable on <m>[a,b]</m>.
+Prove that for every <m>c \in \mathbb{R}</m>, the function <m>g</m> defined via <m>g(x) = f(x-c)</m> is integrable on <m>[a+c,b+c]</m> and
+<md>
+  \int_{a}^{b} f(x) dx = \int_{a+c}^{b+c}f(x-c) dx.
+</md>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Suppose <m>f</m> is continuous on <m>[a,b]</m>.
+Prove that for every <m>\varepsilon \gt 0</m>, there exists a partition <m>P=\{t_{0}=a,t_{1}, \dots, t_{n-1},t_{n}=b\}</m> of <m>[a,b]</m> such that for each <m>1 \leq i \leq n</m>, if <m>u,v \in [t_{i-1},t_{i}]</m>, then <m>|f(u)-f(v)| \lt \varepsilon</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                           Prove that if <m>f</m> is continuous on <m>[a,b]</m>, then <m>f</m> is integrable on <m>[a,b]</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Is the converse of the previous problem true? If so, prove it. Otherwise, provide a counterexample.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Suppose <m>f</m> is continuous on <m>[a,b]</m>.
+Prove that
+<md>
+  \left| \int_{a}^{b} f \right| \leq \int_{a}^{b} |f|.
+</md>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Suppose <m>f</m> is continuous on <m>[a,b]</m>.
+Prove that there exists <m>c \in [a,b]</m> such that
+<md>
+  \int_{a}^{b} f = f(c) (b-a).
+</md>
+                            </p>
+                        </statement>
+                    </task>
+
+
+                    
+                </exercise>
+
+            <exercise workspace="2in">
+                <title>Definitions</title>
+                
+                <statement>
+                    <p>
+                        If <m>f</m> is integrable on <m>[a,b]</m>, define
+                    </p> 
+                </statement>
+                
+            </exercise>
+
+
+				<exercise>
+                    <title>Problems</title>
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                           Suppose <m>f</m> is integrable on <m>[a,b]</m> and define <m>g:[a,b] \to \mathbb{R}</m> via
+<md>
+  g(x) = \int_{a}^{x} f.
+</md>
+Prove that <m>g</m> is uniformly continuous on <m>[a,b]</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+        
+                    
+                </exercise>
+                
+
+        </worksheet>
+    </article>
+</pretext>

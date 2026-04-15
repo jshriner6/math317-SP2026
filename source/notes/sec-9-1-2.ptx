@@ -8,7 +8,8 @@
                     <task workspace="8in">
                         <statement>
                             <p>
-                            
+                            Suppose that <m>f</m> is a bounded real function on <m>[a,b]</m> with lower bound <m>m</m> and upper bound <m>M</m>.
+Show that for any partition <m>P</m> of <m>[a,b]</m>, <m>U_{P}(f) \leq M(b-a)</m> and <m>L_{P}(f) \geq m(b-a)</m>.
                             </p>
                         </statement>
                     </task>
@@ -16,7 +17,8 @@
                     <task workspace="8in">
                         <statement>
                             <p>
-                            
+                            Suppose that <m>f</m> is a bounded real function on <m>[a,b]</m> and <m>P</m> is a partition of <m>[a,b]</m>.
+Show that <m>L_{P}(f) \leq U_{P}(f)</m>.
                             </p>
                         </statement>
                     </task>
@@ -29,7 +31,8 @@
                 
                 <statement>
                     <p>
-                        
+                        Let <m>f:[a,b] \to \mathbb{R}</m> be bounded. Then we define the <term>upper integral</term> and <term>lower integral</term>
+                        of <m>f</m> from <m>a</m> to <m>b</m>, respectively, as
                     </p>
                 </statement>
                 
@@ -41,7 +44,7 @@
                     <task workspace="8in">
                         <statement>
                             <p>
-                            
+                            Compute the upper and lower integrals for the function in Problem 9.9.
                             </p>
                         </statement>
                     </task>
@@ -49,7 +52,11 @@
                     <task workspace="8in">
                         <statement>
                             <p>
-                            
+                           Define <m>f: \mathbb{R}\to \mathbb{R}</m> via
+<md>
+  f(x) = \begin{cases}1, &#x26; \text{if } x \in \mathbb{Q} \\ 0, &#x26; \text{if } x \in \mathbb{R} \setminus \mathbb{Q}.\end{cases}
+</md>
+Show that <m>\underline{\int_0^1 f}\lt \overline{\int_0^1 f}</m>.
                             </p>
                         </statement>
                     </task>
@@ -62,7 +69,7 @@
                 
                 <statement>
                     <p>
-                        
+                        If <m>P</m> and <m>Q</m> are partitions of <m>[a,b]</m>, such that
                     </p>
                 </statement>
                 
@@ -73,7 +80,8 @@
                     <task workspace="8in">
                         <statement>
                             <p>
-                            
+                            Let <m>f</m> be a bounded real function with domain <m>[a,b]</m>.
+Prove that if <m>P</m> and <m>Q</m> are partitions of <m>[a,b]</m> such that <m>Q</m> is a refinement of <m>P</m>, then <m>L_{P}(f) \leq L_{Q}(f)</m> and <m>U_{P}(f) \geq U_{Q}(f)</m>.
                             </p>
                         </statement>
                     </task>
@@ -81,7 +89,11 @@
                     <task workspace="8in">
                         <statement>
                             <p>
-                            
+                            Suppose <m>f</m> is a bounded real function on <m>[a,b]</m>.
+Use the previous problem to prove that
+<md>
+  \underline{\int_a^b f}\leq \overline{\int_a^b f}.
+</md>
                             </p>
                         </statement>
                     </task>
@@ -89,7 +101,8 @@
                     <task workspace="8in">
                         <statement>
                             <p>
-                            
+                            Suppose <m>f</m> is continuous on <m>[a,b]</m> such that <m>f(x) \geq 0</m> for all <m>x \in [a,b]</m> and that for some <m>z \in [a,b]</m>, <m>f(z) \gt 0</m>.
+Explain why <m>\overline{\int_a^b f}</m> exists and then show that <m>\overline{\int_a^b f}\gt 0</m>.
                             </p>
                         </statement>
                     </task>
@@ -103,7 +116,8 @@
                 
                 <statement>
                     <p>
-                        
+                        Let <m>f: [a,b] \to \mathbb{R}</m> be bounded. Then <m>f</m> is <term>integrable</term>
+                        on <m>[a,b]</m> if
                     </p>
                 </statement>
                 
@@ -115,7 +129,7 @@
                     <task workspace="8in">
                         <statement>
                             <p>
-                            
+                            Give an example of a function <m>f</m> and an interval <m>[a,b]</m> for which we know <m>\int_{a}^{b}f</m> does not exist.
                             </p>
                         </statement>
                     </task>
@@ -123,7 +137,8 @@
                     <task workspace="8in">
                         <statement>
                             <p>
-                            
+                            Is the function in Problem 9.9 integrable over <m>[0,1]</m>? If so, determine the value of the corresponding integral.
+If not, explain why.
                             </p>
                         </statement>
                     </task>
