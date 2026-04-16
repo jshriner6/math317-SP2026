@@ -1295,6 +1295,24 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "Problems.",
   "body": " Problems    Suppose is integrable on and define via Prove that is uniformly continuous on .    "
+},
+{
+  "id": "sec-9-3",
+  "level": "1",
+  "url": "sec-9-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "<span class=\"process-math\">\\(\\S 9.3\\text{:}\\)<\/span> Fundamental Theorem of Calculus",
+  "body": " : Fundamental Theorem of Calculus   Problems    Suppose is continuous on and define via Prove that for each , is differentiable at and .      Suppose is a real function whose domain includes such that is differentiable at each point of , and the function is continuous at each point in . Prove that       Using Problem 9.42 and your knowledge of antiderivatives from first semester calculus, compute the integrals in parts (a) and (b) of Problem 9.28.      According to WolframAlpha, Explain why the techniques of this chapter cannot be used to verify this. How might one go about computing this integral? What definitions are needed?     "
+},
+{
+  "id": "sec-9-3-2",
+  "level": "2",
+  "url": "sec-9-3.html#sec-9-3-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "Problems.",
+  "body": " Problems    Suppose is continuous on and define via Prove that for each , is differentiable at and .      Suppose is a real function whose domain includes such that is differentiable at each point of , and the function is continuous at each point in . Prove that       Using Problem 9.42 and your knowledge of antiderivatives from first semester calculus, compute the integrals in parts (a) and (b) of Problem 9.28.      According to WolframAlpha, Explain why the techniques of this chapter cannot be used to verify this. How might one go about computing this integral? What definitions are needed?    "
 }
 ]
 
