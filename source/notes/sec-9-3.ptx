@@ -1,0 +1,58 @@
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-9-3">
+        <title><m>\S 9.3</m>: Fundamental Theorem of Calculus</title>
+
+        <exercise>
+                    <title>Problems</title>
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                           Suppose <m>f</m> is continuous on <m>[a,b]</m> and define <m>F: [a,b] \to \mathbb{R}</m> via
+<md>
+  F(x) = \int_{a}^{x} f.
+</md>
+Prove that for each <m>c \in (a,b)</m>, <m>F</m> is differentiable at <m>c</m> and <m>F'(c) = f(c)</m>.
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Suppose <m>f</m> is a real function whose domain includes <m>[a,b]</m> such that <m>f</m> is differentiable at each point of <m>[a,b]</m>, and the function <m>f'</m> is continuous at each point in <m>[a,b]</m>.
+Prove that
+<md>
+  \int_{a}^{b} f' = f(b) - f(a).
+</md>
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            Using Problem 9.42 and your knowledge of antiderivatives from first semester calculus, compute the integrals in parts (a) and (b) of Problem 9.28. 
+                            </p>
+                        </statement>
+                    </task>
+
+                    <task workspace="8in">
+                        <statement>
+                            <p>
+                            According to WolframAlpha,
+<md>
+  \int_{0}^{1} \frac{1}{\sqrt{x}}dx = 2.
+</md>
+Explain why the techniques of this chapter cannot be used to verify this.
+How might one go about computing this integral? What definitions are needed?
+                            </p>
+                        </statement>
+                    </task>
+                    
+                </exercise>
+
+
+        </worksheet>
+    </article>
+</pretext>
