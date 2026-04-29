@@ -93,6 +93,8 @@
 
   <xi:include href="./notes/sec-9-3.ptx" xpointer="sec-9-3" />
 
+  <xi:include href="./notes/sec-fin-rev.ptx" xpointer="sec-fin-rev" />
+
   <!--  <xi:include href="./notes/sec-2-4-1.ptx" xpointer="sec-2-4-1" /> 
     <xi:include href="./notes/sec-2-4-1-sols.ptx" xpointer="sec-2-4-1-sols" /> 
 

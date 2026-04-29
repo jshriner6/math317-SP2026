@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <worksheet xml:id="sec-fin-rev">
+        <title>Final Review Information</title>
+        <exercise workspace="8in">
+            <title>Final Review</title>
+            <statement>
+                <p>
+                    The following comments and conceptual questions are intended to help you review important ideas covered on the final.
+                    You should use them, along with portfolio questions and the midterms to guide your studying and creation
+                    of a single note sheet that can be used during the in-class final. I consider the creation of a note sheet for a 
+                    cumulative final like this a very important part of your studying. Focus on the quality of what will actually help you,
+                    not on the quantity. What concepts were emphasized on the midterms? What did you struggle with most?  
+                </p>
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                              Midterm 1 material: the midterm itself is the best resource to guide your review. The topics from the midterm
+                              that were either the most widely missed or the most widely used in our course (and thus the most important for
+                              assessing) are
+                              <ul>
+                                <li>
+                                    <p>
+                                        Proofs regarding injectivity/surjectivity of functions (particularly under composition). See problem 4 
+                                        of midterm 1.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Set arguments to show one set is contained in another. See problems 2 and 5 of midterm 1.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Understanding the Completeness Axiom, and proving properties and uniqueness of supremums/infimums. See 
+                                        problems 6, 7, and 8 of midterm 1.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Understanding basic properties of the real numbers. See problem 9 of midterm 1.
+                                    </p>
+                                </li>
+                              </ul>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                              Midterm 2 material: the midterm itself is the best resource to guide your review. The topics from the midterm
+                              that were either the most widely missed or the most widely used in our course (and thus the most important for
+                              assessing) are
+                              <ul>
+                                <li>
+                                    <p>
+                                        Identifying open, closed, compact, and connected sets, and identifying accumulation points
+                                        of sets. See problem 1 of midterm 2.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Proving the monotone convergence theorem. See problems 3 of midterm 2.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                       Justifying that a function is discontinuous using various characterizations of 
+                                       continuity (particularly the epsilon-delta characterization and the characterization
+                                       using preimages). See problem 5 of midterm 2.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Using the extreme value theorem and the intermediate value theorem. See problem 6 of 
+                                        midterm 2.
+                                    </p>
+                                </li>
+                              </ul>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                New Material: topics from chapters 8 and 9 to focus on are 
+                                <ul>
+                                    <li>
+                                        <p>
+                                            Knowing and using the limit definition of derivative to determine if a function
+                                            is differentiable at a point.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Understanding the relationship between differentiability and continuity.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Using the mean value theorem.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Computing upper and lower sums for a function for a given partition (both regular 
+                                            and not regular).
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Determining whether a function is integrable on a given interval by thinking 
+                                            about upper and lower integrals.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Knowing particular classes of functions that we have proven are always integrable 
+                                            on a closed bounded interval.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Knowing and using the fundamental theorem of calculus (recall there are 2 statements!).
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+
+            </statement>
+            
+        </exercise>
+      
+
+        </worksheet>
+    </article>
+</pretext>
