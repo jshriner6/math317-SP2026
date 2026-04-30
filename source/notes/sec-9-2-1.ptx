@@ -17,7 +17,7 @@
                         <statement>
                             <p>
                             Suppose <m>f</m> is a bounded real function on <m>[a,b]</m>.
-Then <m>f</m> is (Riemann) integrable if and only if for every <m>\varepsilon \gt 0</m>, there exists a partition <m>P</m> of <m>[a,b]</m> such that <m>L_{P}(f) - U_{P}(f) \lt \varepsilon</m>.
+Then <m>f</m> is (Riemann) integrable if and only if for every <m>\varepsilon \gt 0</m>, there exists a partition <m>P</m> of <m>[a,b]</m> such that <m>U_{P}(f) - L3_{P}(f) \lt \varepsilon</m>.
                             </p>
                         </statement>
                     </task>

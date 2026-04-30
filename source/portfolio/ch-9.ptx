@@ -88,7 +88,7 @@
         \item[Problem 9.23] Prove that every constant real function is integrable over every interval $[a,b]$.
         \item[Solution 9.23]
 
-        \item[Problem 9.24] Suppose $f$ is a bounded real function on $[a,b]$. Then $f$ is (Riemann) integrable if and only if for every $\varepsilon \gt 0$, there exists a partition $P$ of $[a,b]$ such that $L_P(f) - U_P(f) \lt \varepsilon$. 
+        \item[Problem 9.24] Suppose $f$ is a bounded real function on $[a,b]$. Then $f$ is (Riemann) integrable if and only if for every $\varepsilon \gt 0$, there exists a partition $P$ of $[a,b]$ such that $U_P(f) - L_P(f) \lt \varepsilon$. 
         \item[Solution 9.24]
 
         \item[Problem 9.25] Define $f: \mathbb{R} \to \mathbb{R}$ defined via $f(x) =x$. Using the tools we currently have at our disposal, prove that $f$ is integrable on $[0,1]$ and compute the value of the integral. 
